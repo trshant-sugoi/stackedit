@@ -1,6 +1,7 @@
 
 
-This post is about the Nodejs chatbot. 
+This post is about the Nodejs chatbot.  
+Microsoft has  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQxMDA5MjI4LDE1NjkzNjA1NDVdfQ==
+eyJoaXN0b3J5IjpbLTEyMTU4MTI1OCwxNTY5MzYwNTQ1XX0=
 -->
