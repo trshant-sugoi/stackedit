@@ -8,7 +8,7 @@ I have moved my entire blogging to github pages. I am using Hugo, a delightfully
 
 I plan on using a small cron on the raspberry pi to post stuff to my trshant.github.io site......atleast thats what i think. 
 
-Figuring this bit out on fasthub for my editing.
+On let me see if this saves
 ---
 This is also a test filewhere i will be trying out `newer` things i want to do.  
 
