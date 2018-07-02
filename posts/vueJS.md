@@ -2,7 +2,7 @@
 title: "A dive into UI javascript frameworks"
 date: 2018-07-01T07:51:43+05:30
 draft: false
-tags : [Javascript,JavscriptFrameoworks]
+tags : [Javascript,JavscriptFrameworks]
 Description : "I tried learning angularjs and reactjs. but i cannot understand those frameworks on a deeper level, which make me an inneficient programmer. My aim in writing this set of posts is to have an idea what's going on under the hood."
 ---
 I tried learning angularjs and reactjs. but i cannot understand those frameworks on a deeper level, which make me an inneficient programmer. I need to understand these on a much more deeper level so i have an idea whats going on under the hood.   
@@ -17,5 +17,14 @@ This can be thought of as a collection of visually separate elements. these can 
 the logic flow of the data is managed by directives. I will deal with this in the next post where i will be looking at code.  
  
 ## An example 
-I am going to look at my blog and see if i can make this into a VueJS application. Visually this can be separated into components. 
+I am going to look at a blog's front page layout and see if i can make this into a VueJS application. Visually this can be separated into components. 
 
+*TODO: Add image with blocks of components*
+
+Now we can see 1 instance, 3 different components, one of which is used 2 times with different data. Just so that we get this right avoiding too much confusion about what goes where, i will concentrate on the components:
+
+**header** - This is just the header, with a list of links and a banner image.  
+**list_posts_with_description** - This component gives a list of post titles, with a date and description. 
+**list_post_titles** - This component gives a list of post titles. it is reused twice. once to show the list using date as the grouping  and the second time using a tag as the grouping. 
+
+In the next post, i will write the code for each of the components.
