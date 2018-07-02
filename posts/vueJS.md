@@ -5,7 +5,7 @@ draft: false
 tags : [Javascript,JavscriptFrameworks]
 Description : "I tried learning angularjs and reactjs. but i cannot understand those frameworks on a deeper level, which make me an inneficient programmer. My aim in writing this set of posts is to have an idea what's going on under the hood."
 ---
-My motive in writng this is to understand how a client facing javascript framework works at a deeper level. This, i believe, will help me understand the underlying system so i can debug errors faster. Such kind of frameworks are evolved, so the nomenclature and the way of functioning, is almost the same on a superficial level. i will not be going into any code here. i will only be writing it from a 20ft view.  
+My motive in writing this is to understand how a client facing JavaScript framework works at a deeper level. This, i believe, will help me understand the underlying system so i can architect the system correctly. Such kind of frameworks are evolved, so the nomenclature and the way of functioning, is almost the same on a superficial level. i will not be going into any code here. i will only be writing it from a 200ft view.  
 Recently, i started reading through VueJS and somehow it seems to resonate with me, so i decided to read only the documentation and understand how everything comes together. Below are what i learned. 
 ## Terms i should know about.
 ### Instance
