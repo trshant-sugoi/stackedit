@@ -19,12 +19,12 @@ the logic flow of the data is managed by directives. I will deal with this in th
 ## An example 
 I am going to look at a blog's front page layout and see if i can make this into a VueJS application. Visually this can be separated into components. 
 
-*TODO: Add image with blocks of components*
+![Layout of components](https://i.imgur.com/HlMWRaK.jpg)
 
 Now we can see 1 instance, 3 different components, one of which is used 2 times with different data. Just so that we get this right avoiding too much confusion about what goes where, i will concentrate on the components:
 
 **header** - This is just the header, with a list of links and a banner image.  
-**list_posts_with_description** - This component gives a list of post titles, with a date and description. 
-**list_post_titles** - This component gives a list of post titles. it is reused twice. once to show the list using date as the grouping  and the second time using a tag as the grouping. 
+**list_posts_with_description** - This component gives a list of post titles, with a date and description.   
+**list_of_post_titles** - This component gives a list of post titles. it is reused twice. once to show the list using date as the grouping  and the second time using a tag as the grouping. 
 
 In the next post, i will write the code for each of the components.
