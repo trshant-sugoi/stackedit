@@ -67,10 +67,10 @@ Since we have some clarity n what we need, we move on to the code. Do have a loo
 
 **The main input with button** : look at the contents of the `<section class="panel">` element. So we have a checkbox (which is additional to the brief above the code), a input and a button. All this is in html..but whats the v-on and v-bind and v-model?  
 These are called directives. They are very very important and so, we should understand what they do. These are event listeners and provide binding with the data source or functions that we will build.  
-Here, we have a few directives. I will list them and provide an explanation: 
-  1. **v-bind** : This binds an attribute of the element with the output of a function, which is constantly evaluated, or some data element. here we see `v-bind:checked="areAllSelected"` - this binds the output of a _constantly evaluated function_ areAllSelected to the _checked_ property of the checkbox.
-  2. **v-on** : This is an event listener. This executes a function on the occurence of that event. `v-on:click="selectAll"` - here the function selectAll is executed when the click event executes on this element. Another instance of the v-on is the `v-on:keyup.enter="addTask"`. Intuitively, you can say that this is supposed to execute addTask on the event of enter button being released. 
-  3. **v-model** : This binds the data to the elements value, when that value is an attribute. 
+Here, we have a few directives. I will list them and provide an explanation:  
+  - **v-bind** : This binds an attribute of the element with the output of a function, which is constantly evaluated, or some data element. here we see `v-bind:checked="areAllSelected"` - this binds the output of a _constantly evaluated function_ areAllSelected to the _checked_ property of the checkbox.  
+  - **v-on** : This is an event listener. This executes a function on the occurence of that event. `v-on:click="selectAll"` - here the function selectAll is executed when the click event executes on this element. Another instance of the v-on is the `v-on:keyup.enter="addTask"`. Intuitively, you can say that this is supposed to execute addTask on the event of enter button being released.  
+  - **v-model** : This binds the data to the elements value, when that value is an attribute. 
 
 We will now go through the rest of the code - the `ul` element. We encounter something different here - the `v-for="task in taskList"` bit. This is a for loop. it loops though each element ( called _task_ ) in the data _taskList_. 
 
