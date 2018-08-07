@@ -5,8 +5,9 @@ Map reduce comprises of 2 steps:
   2  - Reduce
 What do these terms mean, though? why is it so popular? is this worth the pain? For answering these questions and raising a few more, please read on.
 The process of mapReduce is from functional programming, where any function does not have side effects, an unintended consequence of . 
-Map is a process where, essentially, we process each bit of data and put up our findings as a value to the 
+Map is a process where, essentially, we process each bit of data ( calling it a key ) and put up our findings against it ( And call it a value ).  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NjEzODA0NSwtMTc0MjYwOTIyOSwtMT
+eyJoaXN0b3J5IjpbLTgzMDM3Mjk4MCwtMTc0MjYwOTIyOSwtMT
 I0Mjk5MDE2Nl19
 -->
