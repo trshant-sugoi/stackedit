@@ -3,8 +3,9 @@ This is really great to use to do some massive computations using some primitive
 Map reduce comprises of 2 steps:
   1  - Map 
   2  - Reduce
-What do these terms mean, though? why is it so popular? is this worth the pain? For answering these questions and raising 
+What do these terms mean, though? why is it so popular? is this worth the pain? For answering these questions and raising a few more, please read on.
+Map is a process where essentially, we pull out the data we want and 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE0MzI1NTM4LC0xNzQyNjA5MjI5LC0xMj
-QyOTkwMTY2XX0=
+eyJoaXN0b3J5IjpbLTE4OTI5MjA3NjgsLTE3NDI2MDkyMjksLT
+EyNDI5OTAxNjZdfQ==
 -->
