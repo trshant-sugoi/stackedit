@@ -8,8 +8,8 @@ The process of mapReduce is from functional programming, where any function does
 **Map** is a process where, essentially, we process each data element ( calling it a **key** ) and put up our findings against it ( And call it a **value** ). 
 We then perform the **reduce** operation on it, running a operation of aggregation, 
 
-[](https://webofdata.wordpress.com/2012/11/05/mapreduce-for-kids/)
+[Mapreduce for the family](https://webofdata.wordpress.com/2012/11/05/mapreduce-for-kids/) , [mapred](https://www.joelonsoftware.com/2006/08/01/can-your-programming-language-do-this/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzI3NjM5MDgsLTE3NDI2MDkyMjksLT
-EyNDI5OTAxNjZdfQ==
+eyJoaXN0b3J5IjpbLTk0Mzc4MTY0OSwtMTc0MjYwOTIyOSwtMT
+I0Mjk5MDE2Nl19
 -->
