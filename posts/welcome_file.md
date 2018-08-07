@@ -1,8 +1,8 @@
 Today i shall write of map reduce, specially for mongodb.
 This is really great to use to do some massive computations using some primitive building blocks.
 Map reduce comprises of 2 steps:
-  1  - Map 
-  2  - Reduce
+  1. Map  
+  2. Reduce  
 What do these terms mean, though? why is it so popular? is this worth the pain? For answering these questions and raising a few more, please read on.
 The process of mapReduce is from functional programming, where any function does not have side effects, an unintended consequence of . 
 **Map** is a process where, essentially, we process each data element ( calling it a **key** ) and put up our findings against it ( And call it a **value** ). 
@@ -10,8 +10,10 @@ We then perform the **reduce** operation on it, running a operation of aggregati
 
 References:
 1. [Mapreduce for the family](https://webofdata.wordpress.com/2012/11/05/mapreduce-for-kids/)  
-2. [Can your programming language do this?](https://www.joelonsoftware.com/2006/08/01/can-your-programming-language-do-this/) , [MapReduce, a really simple intro](http://ksat.me/map-reduce-a-really-simple-introduction-kloudo/) , [Wikipedia article on mapreduce](https://en.wikipedia.org/wiki/MapReduce).
+2. [Can your programming language do this?](https://www.joelonsoftware.com/2006/08/01/can-your-programming-language-do-this/)  
+3. [MapReduce, a really simple intro](http://ksat.me/map-reduce-a-really-simple-introduction-kloudo/)  
+4. [Wikipedia article on mapreduce](https://en.wikipedia.org/wiki/MapReduce).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTk2ODI1MSwtMTc0MjYwOTIyOSwtMT
-I0Mjk5MDE2Nl19
+eyJoaXN0b3J5IjpbLTE5MDY1ODAyMDQsLTE3NDI2MDkyMjksLT
+EyNDI5OTAxNjZdfQ==
 -->
