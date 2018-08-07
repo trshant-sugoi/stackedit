@@ -1,20 +1,32 @@
-Today i shall write of map reduce, specially for mongodb.
-This is really great to use to do some massive computations using some primitive building blocks.
-Map reduce comprises of 2 steps:
-  1. Map  
-  2. Reduce  
+---
+layout: post
+title: "Hello World"
+date: 2018-06-23T06:59:43+05:30
+draft: false
+---
 
-What do these terms mean, though? why is it so popular? is this worth the pain? For answering these questions and raising a few more, please read on.
-The process of mapReduce is from functional programming, where any function does not have side effects, an unintended consequence of . 
-**Map** is a process where, essentially, we process each data element ( calling it a **key** ) and put up our findings against it ( And call it a **value** ). 
-We then perform the **reduce** operation on it, running a operation of aggregation,  
+I have moved my entire blogging to github pages. I am using Hugo, a delightfully simple static file generator.
 
-References:
-1. [Mapreduce for the family](https://webofdata.wordpress.com/2012/11/05/mapreduce-for-kids/)  
-2. [Can your programming language do this?](https://www.joelonsoftware.com/2006/08/01/can-your-programming-language-do-this/)  
-3. [MapReduce, a really simple intro](http://ksat.me/map-reduce-a-really-simple-introduction-kloudo/)  
-4. [Wikipedia article on mapreduce](https://en.wikipedia.org/wiki/MapReduce).
+I plan on using a small cron on the raspberry pi to post stuff to my trshant.github.io site......atleast thats what i think. 
+
+On let me see if this saves
+---
+This is also a test filewhere i will be trying out `newer` things i want to do.  
+
+    function hello(){
+        console.log("hello world!");
+    }
+
+> i ❤ this. 
+
+{% mermaid %}
+graph LR
+        A[AWS Kinesis] --> B[Spark Streaming Application]
+        B --> C[AWS S3]
+        B --> D[AWS Redshift]
+        C -.-> D
+{% endmermaid %}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3NzU3NDA2LC0xNzQyNjA5MjI5LC0xMj
-QyOTkwMTY2XX0=
+eyJoaXN0b3J5IjpbLTkyNDM2NTUwOCw2Nzc3NTc0MDYsLTE3ND
+I2MDkyMjksLTEyNDI5OTAxNjZdfQ==
 -->
