@@ -14,10 +14,10 @@ References:
 1. [Mapreduce for the family](https://webofdata.wordpress.com/2012/11/05/mapreduce-for-kids/)  
 2. [Can your programming language do this?](https://www.joelonsoftware.com/2006/08/01/can-your-programming-language-do-this/)  
 3. [MapReduce, a really simple intro](http://ksat.me/map-reduce-a-really-simple-introduction-kloudo/)  
-4. [Wikipedia article on mapreduce](https://en.wikipedia.org/wiki/MapReduce).
+4. [Wikipedia article on mapreduce](https://en.wikipedia.org/wiki/MapReduce). 
 
 
 Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzMxOTQwMzddfQ==
+eyJoaXN0b3J5IjpbLTI1NzUzMjkzMSwtMTAzMzE5NDAzN119
 -->
