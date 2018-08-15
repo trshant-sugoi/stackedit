@@ -10,7 +10,8 @@ The process of mapReduce is from functional programming, where any function does
 **Map** is a process where, essentially, we process each data element ( calling it a **key** ) and put up our findings against it ( And call it a **value** ). 
 We then perform the **reduce** operation on it, running a operation of aggregation on this emitted value, so that we can get the required result.
 
-Since this is a tutorial for using mapreduce for mongodb, we w  
+Since this is a tutorial for using mapreduce for mongodb, we will start with creating a database to use on this.
+  
 
 References:
 1. [Mapreduce for the family](https://webofdata.wordpress.com/2012/11/05/mapreduce-for-kids/)  
@@ -22,6 +23,6 @@ References:
 
 Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTk1NzU3MywtMTk4MzM3MTk2OSwtMT
+eyJoaXN0b3J5IjpbMTA1Njc2OTYwMCwtMTk4MzM3MTk2OSwtMT
 AzMzE5NDAzN119
 -->
