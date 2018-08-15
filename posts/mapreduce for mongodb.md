@@ -8,7 +8,9 @@ Map reduce comprises of 2 steps:
 What do these terms mean, though? why is it so popular? is this worth the pain? For answering these questions and raising a few more, please read on.
 The process of mapReduce is from functional programming, where any function does not have side effects, an unintended consequence of . 
 **Map** is a process where, essentially, we process each data element ( calling it a **key** ) and put up our findings against it ( And call it a **value** ). 
-We then perform the **reduce** operation on it, running a operation of aggregation or  
+We then perform the **reduce** operation on it, running a operation of aggregation on this emitted value, so that we can get the required result.
+
+  
 
 References:
 1. [Mapreduce for the family](https://webofdata.wordpress.com/2012/11/05/mapreduce-for-kids/)  
@@ -20,6 +22,6 @@ References:
 
 Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjIwNzU2MCwtMTk4MzM3MTk2OSwtMT
+eyJoaXN0b3J5IjpbLTk1MjQwODQ1OSwtMTk4MzM3MTk2OSwtMT
 AzMzE5NDAzN119
 -->
