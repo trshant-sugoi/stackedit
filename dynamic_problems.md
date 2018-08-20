@@ -1,7 +1,5 @@
 
-##Problems  
-
-
+**Problems**
 1.  [Longest Common Subsequence | Introduction & LCS Length](http://www.techiedelight.com/longest-common-subsequence/)
     
 2.  [Longest Common Subsequence | Finding all LCS — Techie Delight](http://www.techiedelight.com/longest-common-subsequence-finding-lcs/)
@@ -109,5 +107,5 @@
   
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MzU0MzYwNl19
+eyJoaXN0b3J5IjpbLTcwOTM4OTg5NCwyMDUzNTQzNjA2XX0=
 -->
