@@ -13,18 +13,18 @@ This is a dynamic problem. The conditions of optimal substructure and overlappin
 2. Overlapping sub-problems: The recurring problem is to return the the length of sequence when both the strings are identical.     
 ```
     function lcs_length( sequence1 , sequence2 , sequence_1_pointer , sequence_2_pointer ){  
-	    if any of the lengths are 0
+	    if sequence_1_pointer==0 OR sequence_2_pointer==0
 		    return 0
-	    if the characters pointed in the sequences are the same
+	    if the characters pointed to in the sequences are the same
 		    return lcs_length( sequence1 , sequence2 , sequence_1_pointer -1 , sequence_2_pointer -1 ) + 1
 	    else 
-		    return max length of the 2 options of the lcs length with the pointers decremented in turn.
+		    return maximum( lcs_length( sequence1 , sequence2 ,  ) )
     }  
 
-    print lcs_length( string1 , string2 , length_of_string_1 , length_of_string_2 )
+    print lcs_length( string1 , string2 , length_of_string_1 , length_of_string_2 , sequence_1_pointer , sequence_2_pointer )
  ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5OTczMTAwLC05OTAxOTg4MTUsMjkzND
+eyJoaXN0b3J5IjpbNzQ2OTQzMzcwLC05OTAxOTg4MTUsMjkzND
 E4ODI3XX0=
 -->
