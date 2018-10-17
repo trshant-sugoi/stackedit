@@ -18,11 +18,13 @@ This is a dynamic problem. The conditions of optimal substructure and overlappin
 	    if the characters pointed in the sequences are the same
 		    return lcs_length( sequence1 , sequence2 , sequence 1 pointer -1 , sequence 2 pointer -1 ) + 1
 	    else 
-		    return max length of the 2 options of the lcs length with the pointers de in turn.
+		    return max length of the 2 options of the lcs length with the pointers decremented in turn.
     }  
+
+    print lcs_length( string1 , string2 , length of string 1 , length of string 2 )
  ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMjA2ODE3MCwtOTkwMTk4ODE1LDI5Mz
-QxODgyN119
+eyJoaXN0b3J5IjpbLTIwMjc1OTMyNzIsLTk5MDE5ODgxNSwyOT
+M0MTg4MjddfQ==
 -->
