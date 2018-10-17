@@ -12,8 +12,9 @@ This is a dynamic problem. The conditions of optimal substructure and overlappin
 1. Optimal substructure: This can be thought of as a graph with problems being broken down into finding the longest common strings by shortening the string length.
 2. Overlapping sub-problems: The recurring problem is to return the the length of sequence when both the strings are identical. 
 
+    function lcs_length()
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkzNDE4ODI3XX0=
+eyJoaXN0b3J5IjpbMTQyMDQzNTkzMywyOTM0MTg4MjddfQ==
 -->
