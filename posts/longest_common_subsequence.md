@@ -15,16 +15,16 @@ This is a dynamic problem. The conditions of optimal substructure and overlappin
     function lcs_length( sequence1 , sequence2 , sequence_1_pointer , sequence_2_pointer ){  
 	    if sequence_1_pointer==0 OR sequence_2_pointer==0
 		    return 0
-	    if the characters pointed to in the sequences are the same
+	    if 
 		    return lcs_length( sequence1 , sequence2 , sequence_1_pointer -1 , sequence_2_pointer -1 ) + 1
 	    else 
-		    return maximum( lcs_length( sequence1 , sequence2 ,  ) )
+		    return maximum( lcs_length( sequence1 , sequence2 ,  , sequence_1_pointer , sequence_2_pointer -1 ) ,  lcs_length( sequence1 , sequence2 ,  , sequence_1_pointer-1 , sequence_2_pointer ) )
     }  
 
-    print lcs_length( string1 , string2 , length_of_string_1 , length_of_string_2 , sequence_1_pointer , sequence_2_pointer )
+    print lcs_length( string1 , string2 , length_string_1 , length_string_2 )
  ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ2OTQzMzcwLC05OTAxOTg4MTUsMjkzND
-E4ODI3XX0=
+eyJoaXN0b3J5IjpbLTE0ODA0MTc4NDAsLTk5MDE5ODgxNSwyOT
+M0MTg4MjddfQ==
 -->
