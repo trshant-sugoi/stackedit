@@ -26,9 +26,13 @@ The Pseudocode follows:
     print lcs_length( string1 , string2 , length_string_1 , length_string_2 )
  ```
 
-Do pleas
+Do please have a look at the solutions in code:
+[Python](https://github.com/Trshant/dynamic_problems/blob/master/longest_common_subsequence/longest_common_subsequence.py)  
+[PHP]()
+[JavaScript]()
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDAwNTgxMjIsLTk5MDE5ODgxNSwyOT
-M0MTg4MjddfQ==
+eyJoaXN0b3J5IjpbLTE5MTU3MDUzMiwtOTkwMTk4ODE1LDI5Mz
+QxODgyN119
 -->
