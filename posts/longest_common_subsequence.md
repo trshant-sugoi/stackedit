@@ -13,10 +13,13 @@ This is a dynamic problem. The conditions of optimal substructure and overlappin
 2. Overlapping sub-problems: The recurring problem is to return the the length of sequence when both the strings are identical.     
 
     function lcs_length( sequence1 , sequence2 , length of sequence 1 , length of sequence 2 ){
-	    if any of the lengths are 0 - th
+	    if any of the lengths are 0
+		    return 0
+	    if the characters pointed in the sequences are the same
+		    return lcs_length(  )
     }  
     
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk3NzQ0OTg4LDI5MzQxODgyN119
+eyJoaXN0b3J5IjpbLTE5NDMyNzQ0NjcsMjkzNDE4ODI3XX0=
 -->
