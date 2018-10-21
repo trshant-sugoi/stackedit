@@ -14,12 +14,15 @@ logreg.fit(X_train, y_train)
 ```
 Post this, we can do a predict and see how the model behaves.
 
-Have a look at this repo to see what i did using the above data.
-https://github.com/pankymathur/simple-linear-regression-using-python-only this uses the diabetics set but only the BMI to calculate the blood sugar level.
+Have a look at this repo to see what i did using the above code.
+
+https://github.com/pankymathur/simple-linear-regression-using-python-only this uses the diabetics set but only the BMI to calculate the blood sugar level. 
 https://www.kaggle.com/pmarcelino/data-analysis-and-feature-extraction-with-python/notebook - this uses the titanic dataset.
+I have taken code from both these sources to learn linear and logistic regression. 
+Please do have a look.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTA5OTM0MzAsLTE5NjUxMzY3ODksNj
+eyJoaXN0b3J5IjpbLTE1ODYzNDI5NTMsLTE5NjUxMzY3ODksNj
 U3OTgzODc0XX0=
 -->
