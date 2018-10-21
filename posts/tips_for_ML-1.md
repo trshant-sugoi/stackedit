@@ -16,14 +16,14 @@ Post this, we can do a predict and see how the model behaves.
 
 Have a look at this repo's 2 pages to see what i did using the above code.
 
-[Source](https://github.com/pankymathur/simple-linear-regression-using-python-only) this uses the diabetics set but only the BMI to calculate the blood sugar level. 
-https://www.kaggle.com/pmarcelino/data-analysis-and-feature-extraction-with-python/notebook - this uses the titanic dataset.
+[Source](https://github.com/pankymathur/simple-linear-regression-using-python-only) - This uses the diabetics set but only the BMI to calculate the blood sugar level. 
+[Source](https://www.kaggle.com/pmarcelino/data-analysis-and-feature-extraction-with-python/notebook) - This uses the titanic dataset.
 
 I have taken code from both these sources to learn linear and logistic regression. 
 Please do have a look.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTU4NjA0MjcsLTExNTYxOTk5OTMsLT
+eyJoaXN0b3J5IjpbLTE3MTM1Njk0NjQsLTExNTYxOTk5OTMsLT
 E5NjUxMzY3ODksNjU3OTgzODc0XX0=
 -->
