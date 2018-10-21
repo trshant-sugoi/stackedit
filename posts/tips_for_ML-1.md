@@ -14,9 +14,8 @@ logreg.fit(X_train, y_train)
 ```
 Post this, we can do a predict and see how the model behaves.
 
-I learned this copying and changing this fabulous kaggle kernel and this github repo. 
-
+Have a look at this repo to see what i did using the above data.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1OTEzNjQ2MCw2NTc5ODM4NzRdfQ==
+eyJoaXN0b3J5IjpbLTE5NjUxMzY3ODksNjU3OTgzODc0XX0=
 -->
