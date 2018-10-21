@@ -15,7 +15,10 @@ logreg.fit(X_train, y_train)
 Post this, we can do a predict and see how the model behaves.
 
 Have a look at this repo to see what i did using the above data.
+https://github.com/pankymathur/simple-linear-regression-using-python-only
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjUxMzY3ODksNjU3OTgzODc0XX0=
+eyJoaXN0b3J5IjpbMjA5ODc2NDY3NSwtMTk2NTEzNjc4OSw2NT
+c5ODM4NzRdfQ==
 -->
