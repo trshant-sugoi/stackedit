@@ -24,8 +24,10 @@ Language:
 Whichever language I learn or use, I need to read up specifically on it, for 10 minutes a day, so that I know what is going on in that world/ecosystem.
  
  update ( 30th October 2018 ) :
- I am going to relearn ML. not ML as a subject, but to learn how to use ML as a 
+ I am going to relearn ML. not ML as a subject, but to learn how to use ML as a engineer who can take things to production.
+
+My wife picked up this book on  
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1Nzc3MDkyOF19
+eyJoaXN0b3J5IjpbLTE0NTQwMDExMzldfQ==
 -->
