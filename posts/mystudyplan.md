@@ -26,8 +26,12 @@ Whichever language I learn or use, I need to read up specifically on it, for 10 
  update ( 30th October 2018 ) :
  I am going to relearn ML. not ML as a subject, but to learn how to use ML as a engineer who can take things to production.
 
-My wife picked up this book on  
+My wife picked up this book on  Data Science. David Natingga's Data Science Algorithms in a week. I am going to write down the few algorithms it showcases:
+1. K Nearest Neighbour
+2. Naive Bayes
+3. Decision Trees
+4. 
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTQwMDExMzldfQ==
+eyJoaXN0b3J5IjpbOTkzODE0NzEzLC0xNDU0MDAxMTM5XX0=
 -->
