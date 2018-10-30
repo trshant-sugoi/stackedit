@@ -30,8 +30,13 @@ My wife picked up this book on  Data Science. David Natingga's Data Science Algo
 1. K Nearest Neighbour
 2. Naive Bayes
 3. Decision Trees
-4. 
+4. Random Forest
+5. Clustering into K clusters
+6. Regression
+7. Time Series Analysis
+
+Lets me see if i can do some thing alone these lines. The sobjective of my study is to understand these topic atleast roughly to see how these a
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkzODE0NzEzLC0xNDU0MDAxMTM5XX0=
+eyJoaXN0b3J5IjpbMTQyNTM1OTA3LC0xNDU0MDAxMTM5XX0=
 -->
