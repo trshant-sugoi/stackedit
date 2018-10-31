@@ -29,7 +29,7 @@ Whichever language I learn or use, I need to read up specifically on it, for 10 
 My wife picked up this book on  Data Science. David Natingga's Data Science Algorithms in a week. I am going to write down the few algorithms it showcases:
 1. K Nearest Neighbour
 2. Naive Bayes
-3. Decision Trees
+3. Decision Trees { reading list : [ [Ch.3 Decision trees](https://web.archive.org/web/20181031051556/https://medium.com/machine-learning-101/chapter-3-decision-trees-theory-e7398adac567) , [Decision tr](https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052) ] }
 4. Random Forest
 5. Clustering into K clusters
 6. Regression
@@ -40,6 +40,6 @@ Lets me see if i can do some thing alone these lines. The objective of my study 
 
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0MTAwODg5LDM1NTM0MzUyNiwtMTQ1ND
-AwMTEzOV19
+eyJoaXN0b3J5IjpbMTY3NDIxNjM4NiwzNTUzNDM1MjYsLTE0NT
+QwMDExMzldfQ==
 -->
