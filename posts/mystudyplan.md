@@ -52,10 +52,13 @@ Node
     Use Yarn
     fs , path
 Express
- 
+MongoDB / Mongoose
+ReactJS
+
+The idea here is to start coding in functional programming - this will be a great intro to starting off with Python and also position me as a full stack MEAN developer.
     
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NzczNzMyNCw0NDQ0MTQ0MjksMzU1Mz
-QzNTI2LC0xNDU0MDAxMTM5XX0=
+eyJoaXN0b3J5IjpbOTY5OTAxMDI2LDQ0NDQxNDQyOSwzNTUzND
+M1MjYsLTE0NTQwMDExMzldfQ==
 -->
