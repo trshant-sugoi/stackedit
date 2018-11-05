@@ -11,7 +11,7 @@ For the next 6 months, i am planning only career progression. This means even th
   
 Let me details things out a bit now. Lets get the communication bits out of the way:
 1. I want to become better at negotiation. This involves getting a thick skin and also being calm and rational. This also needs me to switch perspectives to see what the othe person wants and then, to evaluate the situation completely.
-2. I want to get better at listening to people, so that i am actually listening, not .
+2. I want to get better at listening to people, so that i am actually listening, not assuming things.
 3. I need to learn to network. This is something which involves being likeable, genuine and interested. 
 
 Now i will look at the surrounding tools I need to learn:
@@ -61,6 +61,6 @@ Along with this, i want to get into the AWS ecosystem, starting off with the [es
     
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjgzMzQyNiw0NDQ0MTQ0MjksMzU1Mz
-QzNTI2LC0xNDU0MDAxMTM5XX0=
+eyJoaXN0b3J5IjpbLTcyOTg4NTA4OCwxMjcyODMzNDI2LDQ0ND
+QxNDQyOSwzNTUzNDM1MjYsLTE0NTQwMDExMzldfQ==
 -->
