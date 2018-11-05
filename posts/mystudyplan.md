@@ -36,10 +36,10 @@ My wife picked up this book on  Data Science. David Natingga's Data Science Algo
 7. Time Series Analysis
 
 Lets me see if i can do some thing alone these lines. The objective of my study is to understand these topic atleast roughly to see how these can be built to scale.
-
-
+ Plan Change! 
+ I spoke to my boss and he laid a plan out for me. This covers a lot of ends so it should open a lot of doors open for me. Plan foll
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0NDE0NDI5LDM1NTM0MzUyNiwtMTQ1ND
-AwMTEzOV19
+eyJoaXN0b3J5IjpbNDExNTk2NSw0NDQ0MTQ0MjksMzU1MzQzNT
+I2LC0xNDU0MDAxMTM5XX0=
 -->
