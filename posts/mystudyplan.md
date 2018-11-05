@@ -56,10 +56,11 @@ MongoDB / Mongoose
 ReactJS
 
 The idea here is to start coding in functional programming - After this i can start coding ML in python and ( hopefully! ) position myself as a ML production engineer as well as as a full stack MEAN developer.
-Along with this, i want to get the AWS ecosystem, starting off with the [essentials](https://aws.amazon.com/training/course-descriptions/essentials/) thru to 
+Along with this, i want to get into the AWS ecosystem, starting off with the [essentials](https://aws.amazon.com/training/course-descriptions/essentials/) thru to [DevOps](https://aws.amazon.com/training/course-descriptions/devops-engineering/).
+
     
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyODk4MDY4OSw0NDQ0MTQ0MjksMzU1Mz
+eyJoaXN0b3J5IjpbMTI3MjgzMzQyNiw0NDQ0MTQ0MjksMzU1Mz
 QzNTI2LC0xNDU0MDAxMTM5XX0=
 -->
