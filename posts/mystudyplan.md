@@ -55,10 +55,11 @@ Express
 MongoDB / Mongoose
 ReactJS
 
-The idea here is to start coding in functional programming - After this i can start coding ML in python and ( hopefully! ) position myself as a ML production engineer
+The idea here is to start coding in functional programming - After this i can start coding ML in python and ( hopefully! ) position myself as a ML production engineer as well as as a full stack MEAN developer.
+Along with this, i want to get the AWS 
     
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTE4MjgwLDQ0NDQxNDQyOSwzNTUzND
+eyJoaXN0b3J5IjpbNTg1Mzg5NTAyLDQ0NDQxNDQyOSwzNTUzND
 M1MjYsLTE0NTQwMDExMzldfQ==
 -->
