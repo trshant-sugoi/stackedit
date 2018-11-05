@@ -43,10 +43,19 @@ Lets me see if i can do some thing alone these lines. The objective of my study 
     Closures
     Prototype
 ES6
-    Classes
+    Classes, modules, const, let
+    promises
+    async, await
+    arrow functions
+    imports / exports
+Node
+    Use Yarn
+    fs , path
+Express
+ 
     
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTY4MDE4LDQ0NDQxNDQyOSwzNTUzND
-M1MjYsLTE0NTQwMDExMzldfQ==
+eyJoaXN0b3J5IjpbLTc1NzczNzMyNCw0NDQ0MTQ0MjksMzU1Mz
+QzNTI2LC0xNDU0MDAxMTM5XX0=
 -->
