@@ -38,30 +38,30 @@ My wife picked up this book on  Data Science. David Natingga's Data Science Algo
 Lets me see if i can do some thing alone these lines. The objective of my study is to understand these topic atleast roughly to see how these can be built to scale.
  Plan Change! 
  I spoke to my boss and he laid a plan out for me. This covers a lot of ends so it should open a lot of doors open for me. Plan follows...
- Javascript
-    > [A small recap/study](https://www.w3schools.com/js/) and [something advanced (and some fun!) ](https://johnresig.com/apps/learn/)
-    > Closures
-    > Prototype
-[ES6](https://www.tutorialspoint.com/es6/index.htm)
-    > Classes, modules, const, let
-    > promises
-    > async, await
-    > arrow functions
-    >imports / exports
-Node
-    > Use Yarn
-    > fs , path
-Express
-MongoDB / Mongoose
-ReactJS
-
+ Javascript  
+    > [A small recap/study](https://www.w3schools.com/js/) and [something advanced (and some fun!) ](https://johnresig.com/apps/learn/)  
+    > Closures  
+    > Prototype  
+[ES6](https://www.tutorialspoint.com/es6/index.htm)  
+    > Classes, modules, const, let  
+    > promises  
+    > async, await  
+    > arrow functions  
+    >imports / exports  
+Node  
+    > Use Yarn  
+    > fs , path  
+Express  
+MongoDB / Mongoose  
+ReactJS  
+  
 The idea here is to start coding in functional programming - After this i can start coding ML in python and ( hopefully! ) position myself as a ML production engineer as well as as a full stack MEAN developer.
 Along with this, i want to get into the AWS ecosystem, starting off with the [essentials](https://aws.amazon.com/training/course-descriptions/essentials/) thru to [DevOps](https://aws.amazon.com/training/course-descriptions/devops-engineering/).
 
     
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTkxMzEyNiwtNzI5ODg1MDg4LDEyNz
+eyJoaXN0b3J5IjpbMTU2OTEyODM0NiwtNzI5ODg1MDg4LDEyNz
 I4MzM0MjYsNDQ0NDE0NDI5LDM1NTM0MzUyNiwtMTQ1NDAwMTEz
 OV19
 -->
