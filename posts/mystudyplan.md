@@ -39,18 +39,18 @@ Lets me see if i can do some thing alone these lines. The objective of my study 
  Plan Change! 
  I spoke to my boss and he laid a plan out for me. This covers a lot of ends so it should open a lot of doors open for me. Plan follows...
  Javascript
-    [A small recap/study](https://www.w3schools.com/js/)
-    Closures
-    Prototype
-[ES6](
-    Classes, modules, const, let
-    promises
-    async, await
-    arrow functions
-    imports / exports
+    > [A small recap/study](https://www.w3schools.com/js/) and [something advanced]()
+    > Closures
+    > Prototype
+[ES6](https://www.tutorialspoint.com/es6/index.htm)
+    > Classes, modules, const, let
+    > promises
+    > async, await
+    > arrow functions
+    >imports / exports
 Node
-    Use Yarn
-    fs , path
+    > Use Yarn
+    > fs , path
 Express
 MongoDB / Mongoose
 ReactJS
@@ -61,7 +61,7 @@ Along with this, i want to get into the AWS ecosystem, starting off with the [es
     
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2NDM3ODc2LC03Mjk4ODUwODgsMTI3Mj
+eyJoaXN0b3J5IjpbNzgzMDg5OTIwLC03Mjk4ODUwODgsMTI3Mj
 gzMzQyNiw0NDQ0MTQ0MjksMzU1MzQzNTI2LC0xNDU0MDAxMTM5
 XX0=
 -->
