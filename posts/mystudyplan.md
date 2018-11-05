@@ -37,9 +37,16 @@ My wife picked up this book on  Data Science. David Natingga's Data Science Algo
 
 Lets me see if i can do some thing alone these lines. The objective of my study is to understand these topic atleast roughly to see how these can be built to scale.
  Plan Change! 
- I spoke to my boss and he laid a plan out for me. This covers a lot of ends so it should open a lot of doors open for me. Plan foll
+ I spoke to my boss and he laid a plan out for me. This covers a lot of ends so it should open a lot of doors open for me. Plan follows...
+ Javascript
+    A small recap/study
+    Closures
+    Prototype
+ES6
+    Classes
+    
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDExNTk2NSw0NDQ0MTQ0MjksMzU1MzQzNT
-I2LC0xNDU0MDAxMTM5XX0=
+eyJoaXN0b3J5IjpbMjAyNTY4MDE4LDQ0NDQxNDQyOSwzNTUzND
+M1MjYsLTE0NTQwMDExMzldfQ==
 -->
