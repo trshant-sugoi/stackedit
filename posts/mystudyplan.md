@@ -55,10 +55,10 @@ Express
 MongoDB / Mongoose
 ReactJS
 
-The idea here is to start coding in functional programming - this will be a great intro to starting off with Python and also position me as a full stack MEAN developer.
+The idea here is to start coding in functional programming - After this i can start coding ML in python and ( hopefully! ) position myself as a ML production engineer
     
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5OTAxMDI2LDQ0NDQxNDQyOSwzNTUzND
+eyJoaXN0b3J5IjpbLTM4NTE4MjgwLDQ0NDQxNDQyOSwzNTUzND
 M1MjYsLTE0NTQwMDExMzldfQ==
 -->
