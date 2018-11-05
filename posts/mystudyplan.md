@@ -39,7 +39,7 @@ Lets me see if i can do some thing alone these lines. The objective of my study 
  Plan Change! 
  I spoke to my boss and he laid a plan out for me. This covers a lot of ends so it should open a lot of doors open for me. Plan follows...
  Javascript
-    A small recap/study
+    [A small recap/study](https://www.w3schools.com/js/)
     Closures
     Prototype
 ES6
@@ -61,6 +61,7 @@ Along with this, i want to get into the AWS ecosystem, starting off with the [es
     
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyOTg4NTA4OCwxMjcyODMzNDI2LDQ0ND
-QxNDQyOSwzNTUzNDM1MjYsLTE0NTQwMDExMzldfQ==
+eyJoaXN0b3J5IjpbLTE3Mzc2ODEyNDAsLTcyOTg4NTA4OCwxMj
+cyODMzNDI2LDQ0NDQxNDQyOSwzNTUzNDM1MjYsLTE0NTQwMDEx
+MzldfQ==
 -->
