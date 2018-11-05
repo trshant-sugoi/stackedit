@@ -42,7 +42,7 @@ Lets me see if i can do some thing alone these lines. The objective of my study 
     [A small recap/study](https://www.w3schools.com/js/)
     Closures
     Prototype
-ES6
+[ES6](
     Classes, modules, const, let
     promises
     async, await
@@ -61,7 +61,7 @@ Along with this, i want to get into the AWS ecosystem, starting off with the [es
     
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzc2ODEyNDAsLTcyOTg4NTA4OCwxMj
-cyODMzNDI2LDQ0NDQxNDQyOSwzNTUzNDM1MjYsLTE0NTQwMDEx
-MzldfQ==
+eyJoaXN0b3J5IjpbODM2NDM3ODc2LC03Mjk4ODUwODgsMTI3Mj
+gzMzQyNiw0NDQ0MTQ0MjksMzU1MzQzNTI2LC0xNDU0MDAxMTM5
+XX0=
 -->
