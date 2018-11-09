@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Code Snippets for data preprocessing using Pandas - Part 1"
+date: 2018-10-21T07:51:43+05:30
+draft: false
+tags : [BigData,pandas,CodeSnippets]
+Description : "Code Snippets for data preprocessing using Pandas - Part 1"
+---
 This post will be all about processing data using pandas.
 
 Use this to read CSVs into a dataframe
@@ -49,5 +57,5 @@ df.head(optional number of rows you want to see)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAwNDkyMTkwXX0=
+eyJoaXN0b3J5IjpbMTc5MDQ0Mzk2OSwzMDA0OTIxOTBdfQ==
 -->
