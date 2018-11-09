@@ -57,11 +57,10 @@ ReactJS
   
 The idea here is to start coding in functional programming - After this i can start coding ML in python and ( hopefully! ) position myself as a ML production engineer as well as as a full stack MEAN developer.
 Along with this, i want to get into the AWS ecosystem, starting off with the [essentials](https://aws.amazon.com/training/course-descriptions/essentials/) thru to [DevOps](https://aws.amazon.com/training/course-descriptions/devops-engineering/).
-
     
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2OTEyODM0NiwtNzI5ODg1MDg4LDEyNz
-I4MzM0MjYsNDQ0NDE0NDI5LDM1NTM0MzUyNiwtMTQ1NDAwMTEz
-OV19
+eyJoaXN0b3J5IjpbLTE1MDMzNTg3MTIsMTU2OTEyODM0NiwtNz
+I5ODg1MDg4LDEyNzI4MzM0MjYsNDQ0NDE0NDI5LDM1NTM0MzUy
+NiwtMTQ1NDAwMTEzOV19
 -->
