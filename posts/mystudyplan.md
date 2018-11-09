@@ -39,7 +39,7 @@ Lets me see if i can do some thing alone these lines. The objective of my study 
  Plan Change! 
  I spoke to my boss and he laid a plan out for me. This covers a lot of ends so it should open a lot of doors open for me. Plan follows...
  Javascript  
-    - ffdfg [x] [A small recap/study](https://www.w3schools.com/js/) and - [ ] [something advanced (and some fun!) ](https://johnresig.com/apps/learn/)  
+    - [x] [A small recap/study](https://www.w3schools.com/js/) and - [ ] [something advanced (and some fun!) ](https://johnresig.com/apps/learn/)  
     - [ ] Closures  
     - [ ] Prototype  
 [ES6](https://www.tutorialspoint.com/es6/index.htm)  
@@ -60,8 +60,8 @@ Along with this, i want to get into the AWS ecosystem, starting off with the [es
     
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDg2NjY1MDgsMTQzMDY4NDQ0MSw3OD
-EzNzA2NDMsNjUzNzI5NTkyLDE1NjkxMjgzNDYsLTcyOTg4NTA4
-OCwxMjcyODMzNDI2LDQ0NDQxNDQyOSwzNTUzNDM1MjYsLTE0NT
-QwMDExMzldfQ==
+eyJoaXN0b3J5IjpbMTQzMDY4NDQ0MSwxNDMwNjg0NDQxLDc4MT
+M3MDY0Myw2NTM3Mjk1OTIsMTU2OTEyODM0NiwtNzI5ODg1MDg4
+LDEyNzI4MzM0MjYsNDQ0NDE0NDI5LDM1NTM0MzUyNiwtMTQ1ND
+AwMTEzOV19
 -->
