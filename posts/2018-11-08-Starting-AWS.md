@@ -7,8 +7,8 @@ tags : [AWS , starting , development ]
 Description : "post on starting off in AWS"
 ---
 
-
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NDU1NTk2MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNTEwOTQ0MDEwLDE4ODQ1NTU5NjAsNzMwOT
+k4MTE2XX0=
 -->
