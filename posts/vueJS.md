@@ -27,3 +27,6 @@ Now we can see 1 instance, 3 different components, one of which is used 2 times 
 **list_of_post_titles** - This component gives a list of post titles. it is reused twice. once to show the list using date as the grouping  and the second time using a tag as the grouping. 
 
 In the next post, i will write the code for each of the components.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTEzNjIyOTEwNV19
+-->
