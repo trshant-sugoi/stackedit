@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Hello World"
-date: 2018-06-15T06:59:43+05:30
-draft: false
+title: "Mapreduce i"
+date: 2018-08-15T06:59:43+05:30
+draft: true
 ---
 Today i shall write of map reduce, specially for mongodb.
 This is really great to use to do some massive computations using some primitive building blocks.
@@ -28,5 +28,5 @@ References:
 
 Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzNzM3MSw4NDA0Mzg5MDJdfQ==
+eyJoaXN0b3J5IjpbLTE4OTQ3NDU3MSw4NDA0Mzg5MDJdfQ==
 -->
