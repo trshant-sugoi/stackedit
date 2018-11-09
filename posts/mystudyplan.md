@@ -39,18 +39,18 @@ Lets me see if i can do some thing alone these lines. The objective of my study 
  Plan Change! 
  I spoke to my boss and he laid a plan out for me. This covers a lot of ends so it should open a lot of doors open for me. Plan follows...
  Javascript  
-    - [x] [A small recap/study](https://www.w3schools.com/js/) and - [] [something advanced (and some fun!) ](https://johnresig.com/apps/learn/)  
-    - [] Closures  
-    - [] Prototype  
+    - [x] [A small recap/study](https://www.w3schools.com/js/) and - [ ] [something advanced (and some fun!) ](https://johnresig.com/apps/learn/)  
+    - [ ] Closures  
+    - [ ] Prototype  
 [ES6](https://www.tutorialspoint.com/es6/index.htm)  
-    - [] Classes, modules, const, let  
-    - [] promises  
-    - [] async, await  
-    - [] arrow functions  
-    - [] imports / exports  
+    - [ ] Classes, modules, const, let  
+    - [ ] promises  
+    - [ ] async, await  
+    - [ ] arrow functions  
+    - [ ] imports / exports  
 Node  
-    - [] Use Yarn  
-    - [] fs , path  
+    - [ ] Use Yarn  
+    - [ ] fs , path  
 Express  
 MongoDB / Mongoose  
 ReactJS  
@@ -60,7 +60,7 @@ Along with this, i want to get into the AWS ecosystem, starting off with the [es
     
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgxMzcwNjQzLDY1MzcyOTU5MiwxNTY5MT
-I4MzQ2LC03Mjk4ODUwODgsMTI3MjgzMzQyNiw0NDQ0MTQ0Mjks
-MzU1MzQzNTI2LC0xNDU0MDAxMTM5XX0=
+eyJoaXN0b3J5IjpbMTQzMDY4NDQ0MSw3ODEzNzA2NDMsNjUzNz
+I5NTkyLDE1NjkxMjgzNDYsLTcyOTg4NTA4OCwxMjcyODMzNDI2
+LDQ0NDQxNDQyOSwzNTUzNDM1MjYsLTE0NTQwMDExMzldfQ==
 -->
