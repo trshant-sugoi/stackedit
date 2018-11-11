@@ -2,7 +2,7 @@
 layout: post
 title: "Scope and Context in JavaScript"
 date: 2018-11-05T19:00:00+05:30
-draft: true
+draft: false
 tags : [JavaScript]
 Description : "Scope and Context in JavaScript"
 ---
@@ -24,6 +24,6 @@ Also, i would like to mention that [^3] and [^4] helped a lot in making this pos
 [^4]: [Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2MDk5OTc4LC0yMDM2MDA3NDc5LC0yMD
-IwMjI1ODAwXX0=
+eyJoaXN0b3J5IjpbLTE2ODMxNjcyNTEsLTIwMzYwMDc0NzksLT
+IwMjAyMjU4MDBdfQ==
 -->
