@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "Scope and Context in JavaScript"
 date: 2018-11-05T19:00:00+05:30
 draft: true
@@ -12,7 +12,7 @@ While there are many, many articles on the topic online [^1], I just wanted to a
 
 However, we can change the context for any method by using the call or apply function. Do go through  [^2] - its fun and will give you intuition as to scope and contexts .
 
-Also, i wold like to mention that [^3] and [^4] helped a lot in making this post look kind of academic.
+Also, i would like to mention that [^3] and [^4] helped a lot in making this post look kind of academic.
 
 
 [^1]: just one of the many! [What is the Difference Between Scope and Context in JavaScript?](https://blog.kevinchisholm.com/javascript/difference-between-scope-and-context/)  
@@ -24,6 +24,6 @@ Also, i wold like to mention that [^3] and [^4] helped a lot in making this post
 [^4]: [Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTEyMDg0MSwtMjAzNjAwNzQ3OSwtMj
-AyMDIyNTgwMF19
+eyJoaXN0b3J5IjpbNTI2MDk5OTc4LC0yMDM2MDA3NDc5LC0yMD
+IwMjI1ODAwXX0=
 -->
