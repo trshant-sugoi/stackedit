@@ -1,6 +1,4 @@
-
 ---
-layout: post
 title: "Scope and Context in JavaScript"
 date: 2018-11-05T19:00:00+05:30
 draft: true
@@ -25,5 +23,5 @@ Also, i wold like to mention that [^3] and [^4] helped a lot in making this post
 [^4]: [Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjM2MjE5OCwtMjAyMDIyNTgwMF19
+eyJoaXN0b3J5IjpbMTEzNDE3MDgxMCwtMjAyMDIyNTgwMF19
 -->
