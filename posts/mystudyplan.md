@@ -41,9 +41,10 @@ My wife picked up this book on  Data Science. David Natingga's Data Science Algo
 Lets me see if i can do some thing alone these lines. The objective of my study is to understand these topic atleast roughly to see how these can be built to scale.
  Plan Change! 
  I spoke to my boss and he laid a plan out for me. This covers a lot of ends so it should open a lot of doors open for me. Plan follows...
- Javascript  
-   - [x] [A small recap/study](https://www.w3schools.com/js/) and []  [something advanced (and some fun!) ](https://johnresig.com/apps/learn/)
-  
+ Javascript
+i am using this [collection of links](). Found this during the hacktober fest and it is truly awesome!
+   - [x] [A small recap/study](https://www.w3schools.com/js/)
+   - [x] [something advanced (and some fun!) ](https://johnresig.com/apps/learn/)
    - [ ] Closures  
    - [ ] Prototype  
 [ES6](https://www.tutorialspoint.com/es6/index.htm)  
@@ -64,8 +65,8 @@ Along with this, i want to get into the AWS ecosystem, starting off with the [es
     
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NTg1NzE1NSwxNDMwNjg0NDQxLDc4MT
-M3MDY0Myw2NTM3Mjk1OTIsMTU2OTEyODM0NiwtNzI5ODg1MDg4
-LDEyNzI4MzM0MjYsNDQ0NDE0NDI5LDM1NTM0MzUyNiwtMTQ1ND
-AwMTEzOV19
+eyJoaXN0b3J5IjpbNTg3MTE3MzU0LDE0MzA2ODQ0NDEsNzgxMz
+cwNjQzLDY1MzcyOTU5MiwxNTY5MTI4MzQ2LC03Mjk4ODUwODgs
+MTI3MjgzMzQyNiw0NDQ0MTQ0MjksMzU1MzQzNTI2LC0xNDU0MD
+AxMTM5XX0=
 -->
