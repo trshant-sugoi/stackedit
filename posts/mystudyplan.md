@@ -33,10 +33,13 @@ My wife picked up this book on  Data Science. David Natingga's Data Science Algo
 4. [ ] Random Forest
 5. [ ] Clustering into K clusters
 6. [ ] Regression
-7. [ ] Time Series Analysis
-Other links
-Lets me see if i can do some thing alone these lines. The objective of my study is to understand these topic atleast roughly to see how these can be built to scale.
- Plan Change! 
+7. [ ] Time Series Analysis  
+
+Other links to read from:
+- [ ] [basics of genetic algorithms](https://iq.opengenus.org/basics-of-genetic-algorithms/)
+Lets me see if i can do some thing along these lines. The objective of my study is to understand these topic atleast roughly to see how these can be built to scale.
+
+**Plan Change!** ( 28th October 2018 )
  I spoke to my boss and he laid a plan out for me. This covers a lot of ends so it should open a lot of doors open for me. Plan follows...
  
  Javascript
@@ -63,8 +66,8 @@ Along with this, i want to get into the AWS ecosystem, starting off with the [es
     
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNTgxMjQyLDE0MzA2ODQ0NDEsNzgxMz
-cwNjQzLDY1MzcyOTU5MiwxNTY5MTI4MzQ2LC03Mjk4ODUwODgs
-MTI3MjgzMzQyNiw0NDQ0MTQ0MjksMzU1MzQzNTI2LC0xNDU0MD
-AxMTM5XX0=
+eyJoaXN0b3J5IjpbLTIwMDgzNzAwNTEsMTQzMDY4NDQ0MSw3OD
+EzNzA2NDMsNjUzNzI5NTkyLDE1NjkxMjgzNDYsLTcyOTg4NTA4
+OCwxMjcyODMzNDI2LDQ0NDQxNDQyOSwzNTUzNDM1MjYsLTE0NT
+QwMDExMzldfQ==
 -->
