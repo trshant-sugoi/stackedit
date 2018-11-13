@@ -8,7 +8,4 @@ Daily todos
 another task list  
 - [ ] placeholder
 
-> Written with [StackEdit](https://stackedit.io/).
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NjYyMjkwMiwxMTY2NjIyOTAyXX0=
--->
+
