@@ -3,6 +3,9 @@ title: "Study Plan: v18_2"
 date: 2018-08-02T06:59:43+05:30
 draft: true
 ---
+links tp read from:
+- [ ] [basics of genetic algorithms](https://iq.opengenus.org/basics-of-genetic-algorithms/)
+
 I usually have a study plan in place for a period of 6 months. While the previous 3 have gone according to plan, they have been mostly private. This time around, I am making this public.  
 For the next 6 months, i am planning only career progression. This means even though i love to learn about machine learning and artificial intelligence, i am going to learn more how i can be good at my profession. This means i will need to get better on 3 fronts.  
   1.  At the language I am going to work in.
@@ -60,8 +63,8 @@ Along with this, i want to get into the AWS ecosystem, starting off with the [es
     
 > Written with [StackEdit](https://stackedit.io/) and [dillinger](https://dillinger.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMDY4NDQ0MSwxNDMwNjg0NDQxLDc4MT
-M3MDY0Myw2NTM3Mjk1OTIsMTU2OTEyODM0NiwtNzI5ODg1MDg4
-LDEyNzI4MzM0MjYsNDQ0NDE0NDI5LDM1NTM0MzUyNiwtMTQ1ND
-AwMTEzOV19
+eyJoaXN0b3J5IjpbLTE4Nzk3NTU4NDAsMTQzMDY4NDQ0MSw3OD
+EzNzA2NDMsNjUzNzI5NTkyLDE1NjkxMjgzNDYsLTcyOTg4NTA4
+OCwxMjcyODMzNDI2LDQ0NDQxNDQyOSwzNTUzNDM1MjYsLTE0NT
+QwMDExMzldfQ==
 -->
