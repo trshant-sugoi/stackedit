@@ -1,9 +1,9 @@
 Daily todos
 - [ ] write on promises
 - [x] write on contexts
-- [ ] sort out mobile books and movies
+- [x] sort out mobile books and movies
 - [ ] Write on AWS
-- [ ] sort finances - see where we can cut costs  
+- [x] sort finances - see where we can cut costs  
 
 another task list  
 - [ ] placeholder
