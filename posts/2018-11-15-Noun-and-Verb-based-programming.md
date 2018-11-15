@@ -3,7 +3,7 @@ layout: post
 title: "Scope and Context in JavaScript"
 date: 2018-11-15T19:00:00+05:30
 draft: false
-tags : [JavaScript]
+tags : [programming,softwareEngineering]
 Description : "Noun and Verb based software design. How this can simplify software design."
 ---
 Today i came to know of a new thing and quite frankly, it blew my mind.
@@ -24,5 +24,5 @@ another important use would be to  change contexts while programming. see above.
 
 [^vnp]: (https://wbsimms.com/programming-nouns-verbs/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODI5NTkxNDFdfQ==
+eyJoaXN0b3J5IjpbLTgwNTg0NzE4M119
 -->
