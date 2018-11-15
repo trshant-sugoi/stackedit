@@ -11,7 +11,7 @@ Today i came to know of a new thing and quite frankly, it blew my mind.
 **Thinking in terms of verbs and nouns**: This fantabulous idea was spoken to me by my mentor this evening. its also there on the web[^vnp].
 
 so what does this mean?
-consider this requirement: __we need to add a additional phone number to a user.__
+consider this requirement: _we need to add a additional phone number to a user._
 so here we have verbs:
  1. add  
 
@@ -24,5 +24,5 @@ another important use would be to  change contexts while programming. see above.
 
 [^vnp]: (https://wbsimms.com/programming-nouns-verbs/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODg4MjU4MDFdfQ==
+eyJoaXN0b3J5IjpbLTgzMTM0MzA2N119
 -->
