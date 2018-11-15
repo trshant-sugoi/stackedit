@@ -22,7 +22,9 @@ nouns:
 so we can add a new variable 'additional phone number' to a 'user' class and a new method to change this variable 'add'. This is definitely something to understand how to design your classes and methods to interact with other classes. 
 another important use would be to  change contexts while programming. see above. the program here is written with reference to the user, i.e., noun based, and keeping the verb as the context, we program the nouns around it. but we can also write atomic functions where the noun is the context and the verb is passed to it. This is a functional programming paradigm and can ease the software design process there too.  
 
+Also, do read the footnote link[^vnp]. It explains a lot more than my post does.
+
 [^vnp]: (https://wbsimms.com/programming-nouns-verbs/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMTM0MzA2N119
+eyJoaXN0b3J5IjpbMTAwNjg4MDAzMF19
 -->
