@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Scope and Context in JavaScript"
+title: "Noun and verb b"
 date: 2018-11-15T19:00:00+05:30
 draft: false
 tags : [programming,softwareEngineering]
@@ -26,5 +26,5 @@ Also, do read the footnote link[^vnp]. It explains a lot more than my post does.
 
 [^vnp]: (https://wbsimms.com/programming-nouns-verbs/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjg4MDAzMF19
+eyJoaXN0b3J5IjpbNDcwODA0NzQ4LDEwMDY4ODAwMzBdfQ==
 -->
