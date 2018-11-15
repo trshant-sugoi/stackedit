@@ -8,8 +8,7 @@ Description : "Noun and Verb based software design. How this can simplify softwa
 ---
 Today i came to know of a new thing and quite frankly, it blew my mind.  
 
-**Thinking in terms of verbs and nouns**
-This fantabulous idea was spoken to me by my mentor this evening. its also there on the web[^vnp].
+**Thinking in terms of verbs and nouns**: This fantabulous idea was spoken to me by my mentor this evening. its also there on the web[^vnp].
 
 so what does this mean?
 consider this requirement: __we need to add a additional phone number to a user.__
@@ -25,5 +24,5 @@ another important use would be to  change contexts while programming. see above.
 
 [^vnp]: (https://wbsimms.com/programming-nouns-verbs/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDc5Mzg2NTNdfQ==
+eyJoaXN0b3J5IjpbLTEwODg4MjU4MDFdfQ==
 -->
