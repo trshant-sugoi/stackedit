@@ -13,13 +13,14 @@ This involves us:
 - Ensuring FTP access is enabled (so that we can upload files to the server)( changing the group permissions to ensure everything is allowed inside ).
 - Accessing the site.( using the elastic IP ) 
 
-So first we log in to the AWS console. put in your card details. 
+So first we log in to the AWS console[^awsConsole]. Put in your card details. 
 
 [^awsSimpleLanguage]:<https://www.expeditedssl.com/aws-in-plain-english/?>
+[^awsConsole]: <https://console.aws.amazon.com>
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MjA0MjQ5OCwtMTY3NzQ5NjEwOCwtMz
+eyJoaXN0b3J5IjpbLTgxMzE0Nzc1MiwtMTY3NzQ5NjEwOCwtMz
 I0MjE5OTk4LDQ0NDQ1NzM0Myw1MTA5NDQwMTAsMTg4NDU1NTk2
 MCw3MzA5OTgxMTZdfQ==
 -->
