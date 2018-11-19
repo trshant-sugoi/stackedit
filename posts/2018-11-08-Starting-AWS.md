@@ -22,7 +22,7 @@ Move to the EC2 page[^awsEc2] . Click on the `Launch Instance` under the 'Create
  - Launch it!
  
  Now the server is up and running. We need to SSH into it to install the packages and then start the server.
- Get a key pair[^awsKeyPair]. Save the resulting file safely
+ Get a key pair[^awsKeyPair]. Save the resulting .pem file safely. use this to 
 
 [^awsSimpleLanguage]:<https://www.expeditedssl.com/aws-in-plain-english/?>
 [^awsConsole]: <https://console.aws.amazon.com>
@@ -30,7 +30,7 @@ Move to the EC2 page[^awsEc2] . Click on the `Launch Instance` under the 'Create
 [^awsKeyPair]: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair>
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODI5NjAxNTMsMTE1MDQxMjk2OSwxNT
-kxNzAzNzMyLC0xNjc3NDk2MTA4LC0zMjQyMTk5OTgsNDQ0NDU3
-MzQzLDUxMDk0NDAxMCwxODg0NTU1OTYwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTc3NjUwMTM2NSwxMTUwNDEyOTY5LDE1OT
+E3MDM3MzIsLTE2Nzc0OTYxMDgsLTMyNDIxOTk5OCw0NDQ0NTcz
+NDMsNTEwOTQ0MDEwLDE4ODQ1NTU5NjAsNzMwOTk4MTE2XX0=
 -->
