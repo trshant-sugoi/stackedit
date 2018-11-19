@@ -14,14 +14,15 @@ This involves us:
 - Accessing the site.( using the elastic IP ) 
 
 So first we log in to the AWS console[^awsConsole]. Do put in your card details to complete the registration process.
-M 
+Move to the EC2 page[^awsEc2] . Click on the `Create Instance` 
 
 [^awsSimpleLanguage]:<https://www.expeditedssl.com/aws-in-plain-english/?>
 [^awsConsole]: <https://console.aws.amazon.com>
+[^awsEc2]: <https://console.aws.amazon.com/ec2>
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDk5NDE3NjUsLTE2Nzc0OTYxMDgsLT
-MyNDIxOTk5OCw0NDQ0NTczNDMsNTEwOTQ0MDEwLDE4ODQ1NTU5
-NjAsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMjYyOTQ0NTc2LC0xNjc3NDk2MTA4LC0zMj
+QyMTk5OTgsNDQ0NDU3MzQzLDUxMDk0NDAxMCwxODg0NTU1OTYw
+LDczMDk5ODExNl19
 -->
