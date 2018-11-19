@@ -17,8 +17,8 @@ Move to the EC2 page[^awsEc2] . Click on the `Launch Instance` under the 'Create
  - Select a suitable instance ( the first one listed, Amazon AMI, is perfect for all our needs ), click on the next button.
  - Select the correct instance type (t2 micro is perfect for this).
  - The other 3 panels, Configure instance, Add Storage and Add Tags, can be skipped, but I suggest reading everything once, just in case you need it further when you are on your own.
- - The Configure Security Group step is needed to enable traffic to the server. The default is add a new group. keep that seleWhen adding the rules, select the type as 'All', source as '0.0.0.0/0' and 
- - 
+ - The Configure Security Group step is needed to enable traffic to the server. The default is add a new group. keep that selected. When adding the rules, select the type as 'All', source as '0.0.0.0/0' and go to the next step
+ - 'Review and Launch'. This gives you a summary of the selected options over the last 6 steps. 
 
 [^awsSimpleLanguage]:<https://www.expeditedssl.com/aws-in-plain-english/?>
 [^awsConsole]: <https://console.aws.amazon.com>
@@ -26,7 +26,7 @@ Move to the EC2 page[^awsEc2] . Click on the `Launch Instance` under the 'Create
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU0MjA0OTUwLDExNTA0MTI5NjksMTU5MT
+eyJoaXN0b3J5IjpbMTE4OTQ3NjIyLDExNTA0MTI5NjksMTU5MT
 cwMzczMiwtMTY3NzQ5NjEwOCwtMzI0MjE5OTk4LDQ0NDQ1NzM0
 Myw1MTA5NDQwMTAsMTg4NDU1NTk2MCw3MzA5OTgxMTZdfQ==
 -->
