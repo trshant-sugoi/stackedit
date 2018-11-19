@@ -17,17 +17,19 @@ Move to the EC2 page[^awsEc2] . Click on the `Launch Instance` under the 'Create
  - Select a suitable instance ( the first one listed, Amazon AMI, is perfect for all our needs ), click on the next button.
  - Select the correct instance type (t2 micro is perfect for this).
  - The other 3 panels, Configure instance, Add Storage and Add Tags, can be skipped, but I suggest reading everything once, just in case you need it further when you are on your own.
- - The Configure Security Group step is needed to enable traffic to the server. The default is add a new group. keep that selected. When adding the rules, select the type as 'All', source as '0.0.0.0/0' and go to the next step
+ - The Configure Security Group step is needed to enable traffic to the server. The default is add a new group. keep that selected. When adding the rules, select the type as 'All', source as '0.0.0.0/0' and go to the next step.
  - 'Review and Launch'. This gives you a summary of the selected options over the last 6 steps. and then...
  - Launch it!
  
  Now the server is up and running. We need to SSH into it to install the packages and then start the server.
+ 
  Get a key pair[^awsKeyPair]. Save the resulting .pem file safely. Use this to log into your server by SSH:
  ```bash
  ssh -i linkToPEMFile ec2-user@PublicDnsIp
  ``` 
 
 Once in, Follow the instructions on this page[^awsInstallLamp] to install the important packages for a LAMP server.
+
 Then, type in `sudo service httpd start` This should result in an `OK`. Then we can see the page using the Public DNS (IPv4) address. 
 Now your server is online and ready to display pages.
 
@@ -42,8 +44,8 @@ Next up, we will use FTP to upload files to the server.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NjEyNDgzNCwtNTIxNzM1OCwtNzc2NT
-AxMzY1LDExNTA0MTI5NjksMTU5MTcwMzczMiwtMTY3NzQ5NjEw
-OCwtMzI0MjE5OTk4LDQ0NDQ1NzM0Myw1MTA5NDQwMTAsMTg4ND
-U1NTk2MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNzc2MTI2MjIyLC01MjE3MzU4LC03NzY1MD
+EzNjUsMTE1MDQxMjk2OSwxNTkxNzAzNzMyLC0xNjc3NDk2MTA4
+LC0zMjQyMTk5OTgsNDQ0NDU3MzQzLDUxMDk0NDAxMCwxODg0NT
+U1OTYwLDczMDk5ODExNl19
 -->
