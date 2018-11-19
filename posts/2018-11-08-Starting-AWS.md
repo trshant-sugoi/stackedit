@@ -8,8 +8,8 @@ Description : "I started off using AWS. This is a basically a documentation of h
 ---
 Do read through AWS in simple english[^awsSimpleLanguage] to figure out what we are going to do here. What we are trying to accomplish is simply to host a static site.
 This involves us:
-- Setting up the server.
-- Making sure that the outer world has access to our server.
+- Setting up the server (called EC2 in AWS language).
+- Making sure that the outer world has access to our server (setting up the group permisions).
 - Ensuring FTP access is enabled (so that we can upload files to the server).
 - Accessing the site. 
 
@@ -17,7 +17,7 @@ This involves us:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDYxNDE1MzMsLTE2Nzc0OTYxMDgsLT
+eyJoaXN0b3J5IjpbLTE5MTg4OTUzOTAsLTE2Nzc0OTYxMDgsLT
 MyNDIxOTk5OCw0NDQ0NTczNDMsNTEwOTQ0MDEwLDE4ODQ1NTU5
 NjAsNzMwOTk4MTE2XX0=
 -->
