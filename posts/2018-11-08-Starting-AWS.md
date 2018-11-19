@@ -28,7 +28,10 @@ Move to the EC2 page[^awsEc2] . Click on the `Launch Instance` under the 'Create
  ``` 
 
 Once in, Follow the instructions on this page[^awsInstallLamp] to install the important packages for a LAMP server.
-Then, type in `sudo service httpd start` This should result in an `OK`. Then we can see the page using the public 
+Then, type in `sudo service httpd start` This should result in an `OK`. Then we can see the page using the Public DNS (IPv4) address. 
+Now your server is online and ready to display pages.
+
+Next up, we will uploa 
 
 [^awsSimpleLanguage]:<https://www.expeditedssl.com/aws-in-plain-english/?>
 [^awsConsole]: <https://console.aws.amazon.com>
@@ -39,8 +42,8 @@ Then, type in `sudo service httpd start` This should result in an `OK`. Then we 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0MjA0NjI2LC03NzY1MDEzNjUsMTE1MD
-QxMjk2OSwxNTkxNzAzNzMyLC0xNjc3NDk2MTA4LC0zMjQyMTk5
-OTgsNDQ0NDU3MzQzLDUxMDk0NDAxMCwxODg0NTU1OTYwLDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTM4OTkxNTI0MCwtNzc2NTAxMzY1LDExNT
+A0MTI5NjksMTU5MTcwMzczMiwtMTY3NzQ5NjEwOCwtMzI0MjE5
+OTk4LDQ0NDQ1NzM0Myw1MTA5NDQwMTAsMTg4NDU1NTk2MCw3Mz
+A5OTgxMTZdfQ==
 -->
