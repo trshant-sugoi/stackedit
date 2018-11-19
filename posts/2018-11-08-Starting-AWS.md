@@ -8,12 +8,14 @@ Description : "I started off using AWS. This is a basically a documentation of h
 ---
 Do read through AWS in simple english[^awsSimpleLanguage] to figure out what we are going to do here. What we are trying to accomplish is simply to host a static site.
 This involves us:
-- Setting up the server (called EC2 in AWS language).
-- Making sure that the outer world has access to our server (setting up the group permisions).
-- Ensuring FTP access is enabled (so that we can upload files to the server)( changing the group permissions to ensure everything is allowed inside ).
+1. Setting up the server (called EC2 in AWS language).
+1. Making sure that the outer world has access to our server (setting up the group permisions).
+1. Ensuring FTP access is enabled (so that we can upload files to the server)( changing the group permissions to ensure everything is allowed inside ).
 
 So first we log in to the AWS console[^awsConsole]. Do put in your card details to complete the registration process.
+
 Move to the EC2 page[^awsEc2] . Click on the `Launch Instance` under the 'Create Instance'. Then follow the steps below:
+
  - Select a suitable instance ( the first one listed, Amazon AMI, is perfect for all our needs ), click on the next button.
  - Select the correct instance type (t2 micro is perfect for this).
  - The other 3 panels, Configure instance, Add Storage and Add Tags, can be skipped, but I suggest reading everything once, just in case you need it further when you are on your own.
@@ -44,8 +46,8 @@ Next up, we will use FTP to upload files to the server.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc2MTI2MjIyLC01MjE3MzU4LC03NzY1MD
-EzNjUsMTE1MDQxMjk2OSwxNTkxNzAzNzMyLC0xNjc3NDk2MTA4
-LC0zMjQyMTk5OTgsNDQ0NDU3MzQzLDUxMDk0NDAxMCwxODg0NT
-U1OTYwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTMyMjAwMTU2OCwtNTIxNzM1OCwtNzc2NT
+AxMzY1LDExNTA0MTI5NjksMTU5MTcwMzczMiwtMTY3NzQ5NjEw
+OCwtMzI0MjE5OTk4LDQ0NDQ1NzM0Myw1MTA5NDQwMTAsMTg4ND
+U1NTk2MCw3MzA5OTgxMTZdfQ==
 -->
