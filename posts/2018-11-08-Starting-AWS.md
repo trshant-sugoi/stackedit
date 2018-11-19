@@ -6,7 +6,7 @@ draft: true
 tags : [AWS , starting , development ]
 Description : "I started off using AWS. This is a basically a documentation of how i set up a simple static site using EC2"
 ---
-Do Read through AWS in simple english[^awsSimpleLanguage] to figure out what we are going to do here. What we are trying to accomplish is simply to host a static site.
+Do read through AWS in simple english[^awsSimpleLanguage] to figure out what we are going to do here. What we are trying to accomplish is simply to host a static site.
 This involves us:
 - Setting up the server.
 - Making sure that the outer world has access to our server.
@@ -17,7 +17,7 @@ This involves us:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODk2OTA5MSwtMTY3NzQ5NjEwOCwtMz
-I0MjE5OTk4LDQ0NDQ1NzM0Myw1MTA5NDQwMTAsMTg4NDU1NTk2
-MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTExMDYxNDE1MzMsLTE2Nzc0OTYxMDgsLT
+MyNDIxOTk5OCw0NDQ0NTczNDMsNTEwOTQ0MDEwLDE4ODQ1NTU5
+NjAsNzMwOTk4MTE2XX0=
 -->
