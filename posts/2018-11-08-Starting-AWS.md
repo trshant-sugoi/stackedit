@@ -37,6 +37,7 @@ Now your server is online and ready to display pages.
 
 Next up, we will use FTP to upload files to the server. 
 
+
 [^awsSimpleLanguage]:<https://www.expeditedssl.com/aws-in-plain-english/?>
 [^awsConsole]: <https://console.aws.amazon.com>
 [^awsEc2]: <https://console.aws.amazon.com/ec2>
@@ -46,8 +47,8 @@ Next up, we will use FTP to upload files to the server.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjAwMTU2OCwtNTIxNzM1OCwtNzc2NT
-AxMzY1LDExNTA0MTI5NjksMTU5MTcwMzczMiwtMTY3NzQ5NjEw
-OCwtMzI0MjE5OTk4LDQ0NDQ1NzM0Myw1MTA5NDQwMTAsMTg4ND
-U1NTk2MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMzQ0OTMwNjc0LDEzMjIwMDE1NjgsLTUyMT
+czNTgsLTc3NjUwMTM2NSwxMTUwNDEyOTY5LDE1OTE3MDM3MzIs
+LTE2Nzc0OTYxMDgsLTMyNDIxOTk5OCw0NDQ0NTczNDMsNTEwOT
+Q0MDEwLDE4ODQ1NTU5NjAsNzMwOTk4MTE2XX0=
 -->
