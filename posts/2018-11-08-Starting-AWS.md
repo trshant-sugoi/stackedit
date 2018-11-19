@@ -27,16 +27,19 @@ Move to the EC2 page[^awsEc2] . Click on the `Launch Instance` under the 'Create
  ssh -i linkToPEMFile ec2-user@PublicDnsIp
  ``` 
 
-Once in, Follow the instructions on this page[] to install the important packages for a LAMP server.
+Once in, Follow the instructions on this page[^awsInstallLamp] to install the important packages for a LAMP server.
+Then, type in `sudo service httpd start` This should result in an `OK`. Then we can see the page using the public 
 
 [^awsSimpleLanguage]:<https://www.expeditedssl.com/aws-in-plain-english/?>
 [^awsConsole]: <https://console.aws.amazon.com>
 [^awsEc2]: <https://console.aws.amazon.com/ec2>
 [^awsKeyPair]: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair>
-[^]: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-LAMP.html>
+[^awsInstallLamp]: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-LAMP.html>
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyNjcxNDcwLC03NzY1MDEzNjUsMTE1MD
+eyJoaXN0b3J5IjpbMzk0MjA0NjI2LC03NzY1MDEzNjUsMTE1MD
 QxMjk2OSwxNTkxNzAzNzMyLC0xNjc3NDk2MTA4LC0zMjQyMTk5
 OTgsNDQ0NDU3MzQzLDUxMDk0NDAxMCwxODg0NTU1OTYwLDczMD
 k5ODExNl19
