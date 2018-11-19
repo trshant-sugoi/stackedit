@@ -35,7 +35,7 @@ Once in, Follow the instructions on this page[^awsInstallLamp] to install the im
 Then, type in `sudo service httpd start` This should result in an `OK`. Then we can see the page using the Public DNS (IPv4) address. 
 Now your server is online and ready to display pages.
 
-Next up, we will use FTP to upload files to the server. This pag 
+Next up, we will use FTP to upload files to the server. This page will tell you exactly how to go about it[^awsStckOverflowFtp]. However the key thing here is the PEM file, this called the key pair, read up on this here  
 
 
 [^awsSimpleLanguage]:<https://www.expeditedssl.com/aws-in-plain-english/?>
@@ -47,9 +47,9 @@ Next up, we will use FTP to upload files to the server. This pag
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzMwMjE5MTAsMzQ0OTMwNjc0LDEzMj
-IwMDE1NjgsLTUyMTczNTgsLTc3NjUwMTM2NSwxMTUwNDEyOTY5
-LDE1OTE3MDM3MzIsLTE2Nzc0OTYxMDgsLTMyNDIxOTk5OCw0ND
-Q0NTczNDMsNTEwOTQ0MDEwLDE4ODQ1NTU5NjAsNzMwOTk4MTE2
-XX0=
+eyJoaXN0b3J5IjpbLTc5OTI3NjY0MiwzNDQ5MzA2NzQsMTMyMj
+AwMTU2OCwtNTIxNzM1OCwtNzc2NTAxMzY1LDExNTA0MTI5Njks
+MTU5MTcwMzczMiwtMTY3NzQ5NjEwOCwtMzI0MjE5OTk4LDQ0ND
+Q1NzM0Myw1MTA5NDQwMTAsMTg4NDU1NTk2MCw3MzA5OTgxMTZd
+fQ==
 -->
