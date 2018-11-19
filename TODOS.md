@@ -1,14 +1,14 @@
 Daily todos
-- [ ] write on promises
-- [] write on contexts
-- [] sort out mobile books and movies
 - [ ] Write on AWS
-- [] sort finances - see where we can cut costs  
+- [ ] sort mess out at bottom of cupboard
+- [ ] get shot for psp
+- [ ] speak to Rups about finding  
+
 
 another task list  
 - [ ] placeholder
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUzNDc3OTE2XX0=
+eyJoaXN0b3J5IjpbMTkzNDEyMTUzXX0=
 -->
