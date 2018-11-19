@@ -16,7 +16,7 @@ So first we log in to the AWS console[^awsConsole]. Do put in your card details 
 Move to the EC2 page[^awsEc2] . Click on the `Launch Instance` under the 'Create Instance'. Then follow the steps below:
  - Select a suitable instance ( the first one listed, Amazon AMI, is perfect for all our needs ), click on the next button.
  - Select the correct instance type (t2 micro is perfect for this).
- - 
+ - The other 2 panels, Configure instance and Add Storage, can be skipped, but i suggest reading everything once, just in case you need 
 
 [^awsSimpleLanguage]:<https://www.expeditedssl.com/aws-in-plain-english/?>
 [^awsConsole]: <https://console.aws.amazon.com>
@@ -24,7 +24,7 @@ Move to the EC2 page[^awsEc2] . Click on the `Launch Instance` under the 'Create
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTIxNDQ5LDExNTA0MTI5NjksMTU5MT
+eyJoaXN0b3J5IjpbNTk1MjE2ODIwLDExNTA0MTI5NjksMTU5MT
 cwMzczMiwtMTY3NzQ5NjEwOCwtMzI0MjE5OTk4LDQ0NDQ1NzM0
 Myw1MTA5NDQwMTAsMTg4NDU1NTk2MCw3MzA5OTgxMTZdfQ==
 -->
