@@ -35,7 +35,7 @@ Once in, Follow the instructions on this page[^awsInstallLamp] to install the im
 Then, type in `sudo service httpd start` This should result in an `OK`. Then we can see the page using the Public DNS (IPv4) address. 
 Now your server is online and ready to display pages.
 
-Next up, we will use FTP to upload files to the server. This page will tell you exactly how to go about it[^awsStckOverflowFtp]. However the key thing here is the PEM file, this called the key pair, read up on this here[^awsKeyPair].   
+Next up, we will use FTP to upload files to the server. This page will tell you exactly how to go about it[^awsStckOverflowFtp]. However the key thing here is the PEM file, this called the key pair, read up on this here[^awsKeyPair].  Also, remember that adding additional users is as simple as on a normal linux box[^awsEc2Users].  
 
 
 [^awsSimpleLanguage]:<https://www.expeditedssl.com/aws-in-plain-english/?>
@@ -47,9 +47,9 @@ Next up, we will use FTP to upload files to the server. This page will tell you 
 [^awsKeyPair]: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair>
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTMwOTM0NSwzNDQ5MzA2NzQsMTMyMj
-AwMTU2OCwtNTIxNzM1OCwtNzc2NTAxMzY1LDExNTA0MTI5Njks
-MTU5MTcwMzczMiwtMTY3NzQ5NjEwOCwtMzI0MjE5OTk4LDQ0ND
-Q1NzM0Myw1MTA5NDQwMTAsMTg4NDU1NTk2MCw3MzA5OTgxMTZd
-fQ==
+eyJoaXN0b3J5IjpbLTMwOTQ3NDE0MSwxOTA5MzA5MzQ1LDM0ND
+kzMDY3NCwxMzIyMDAxNTY4LC01MjE3MzU4LC03NzY1MDEzNjUs
+MTE1MDQxMjk2OSwxNTkxNzAzNzMyLC0xNjc3NDk2MTA4LC0zMj
+QyMTk5OTgsNDQ0NDU3MzQzLDUxMDk0NDAxMCwxODg0NTU1OTYw
+LDczMDk5ODExNl19
 -->
