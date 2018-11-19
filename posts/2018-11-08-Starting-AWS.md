@@ -12,14 +12,14 @@ This involves us:
 - Making sure that the outer world has access to our server.
 - Ensuring FTP access is enabled (so that we can upload files to the server).
 - Accessing the site. 
-TODO: write about setting up an instance, RDS , policy 
+TODO:  
 TODO: install PHP mysql after getting shell access.
 
 [^awsSimpleLanguage]:<https://www.expeditedssl.com/aws-in-plain-english/?>
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MTUxNjQzNiwtMzI0MjE5OTk4LDQ0ND
-Q1NzM0Myw1MTA5NDQwMTAsMTg4NDU1NTk2MCw3MzA5OTgxMTZd
-fQ==
+eyJoaXN0b3J5IjpbLTE2Nzc0OTYxMDgsLTMyNDIxOTk5OCw0ND
+Q0NTczNDMsNTEwOTQ0MDEwLDE4ODQ1NTU5NjAsNzMwOTk4MTE2
+XX0=
 -->
