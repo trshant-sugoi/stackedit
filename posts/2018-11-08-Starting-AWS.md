@@ -35,7 +35,7 @@ Once in, Follow the instructions on this page[^awsInstallLamp] to install the im
 Then, type in `sudo service httpd start` This should result in an `OK`. Then we can see the page using the Public DNS (IPv4) address. 
 Now your server is online and ready to display pages.
 
-Next up, we will use FTP to upload files to the server. This page will tell you exactly how to go about it[^awsStckOverflowFtp]. However the key thing here is the PEM file, this called the key pair, read up on this here[^awsKeyPair].  Also, remember that adding additional users is as simple as on a normal linux box[^awsEc2Users].  
+Next up, we will use FTP to upload files to the server. This page will tell you exactly how to go about it[^awsStckOverflowFtp]. However the key thing here is the PEM file, this called the key pair, read up on this here[^awsKeyPair].  Also, remember that adding additional users is as simple[^awsEc2Users] as on a normal linux box.  
 
 
 [^awsSimpleLanguage]:<https://www.expeditedssl.com/aws-in-plain-english/?>
@@ -45,11 +45,13 @@ Next up, we will use FTP to upload files to the server. This page will tell you 
 [^awsInstallLamp]: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-LAMP.html>
 [^awsStckOverflowFtp]: <https://stackoverflow.com/a/49053891>
 [^awsKeyPair]: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair>
+[^awsEc2Users]: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/managing-users.html>
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwOTQ3NDE0MSwxOTA5MzA5MzQ1LDM0ND
-kzMDY3NCwxMzIyMDAxNTY4LC01MjE3MzU4LC03NzY1MDEzNjUs
-MTE1MDQxMjk2OSwxNTkxNzAzNzMyLC0xNjc3NDk2MTA4LC0zMj
-QyMTk5OTgsNDQ0NDU3MzQzLDUxMDk0NDAxMCwxODg0NTU1OTYw
-LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTExNDUzNDc5MTksMTkwOTMwOTM0NSwzND
+Q5MzA2NzQsMTMyMjAwMTU2OCwtNTIxNzM1OCwtNzc2NTAxMzY1
+LDExNTA0MTI5NjksMTU5MTcwMzczMiwtMTY3NzQ5NjEwOCwtMz
+I0MjE5OTk4LDQ0NDQ1NzM0Myw1MTA5NDQwMTAsMTg4NDU1NTk2
+MCw3MzA5OTgxMTZdfQ==
 -->
