@@ -31,7 +31,7 @@ Once in, Follow the instructions on this page[^awsInstallLamp] to install the im
 Then, type in `sudo service httpd start` This should result in an `OK`. Then we can see the page using the Public DNS (IPv4) address. 
 Now your server is online and ready to display pages.
 
-Next up, we will uploa 
+Next up, we will use FTP to upload files to your server. 
 
 [^awsSimpleLanguage]:<https://www.expeditedssl.com/aws-in-plain-english/?>
 [^awsConsole]: <https://console.aws.amazon.com>
@@ -42,8 +42,8 @@ Next up, we will uploa
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTkxNTI0MCwtNzc2NTAxMzY1LDExNT
-A0MTI5NjksMTU5MTcwMzczMiwtMTY3NzQ5NjEwOCwtMzI0MjE5
-OTk4LDQ0NDQ1NzM0Myw1MTA5NDQwMTAsMTg4NDU1NTk2MCw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTUyMTczNTgsLTc3NjUwMTM2NSwxMTUwND
+EyOTY5LDE1OTE3MDM3MzIsLTE2Nzc0OTYxMDgsLTMyNDIxOTk5
+OCw0NDQ0NTczNDMsNTEwOTQ0MDEwLDE4ODQ1NTU5NjAsNzMwOT
+k4MTE2XX0=
 -->
