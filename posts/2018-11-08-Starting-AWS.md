@@ -10,14 +10,16 @@ Do read through AWS in simple english[^awsSimpleLanguage] to figure out what we 
 This involves us:
 - Setting up the server (called EC2 in AWS language).
 - Making sure that the outer world has access to our server (setting up the group permisions).
-- Ensuring FTP access is enabled (so that we can upload files to the server).
-- Accessing the site. 
+- Ensuring FTP access is enabled (so that we can upload files to the server)( changing the group permissions to ensure everything is allowed inside ).
+- Accessing the site.( using the elastic IP ) 
+
+So first we log in to the AWS console. put in your card details. 
 
 [^awsSimpleLanguage]:<https://www.expeditedssl.com/aws-in-plain-english/?>
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTg4OTUzOTAsLTE2Nzc0OTYxMDgsLT
-MyNDIxOTk5OCw0NDQ0NTczNDMsNTEwOTQ0MDEwLDE4ODQ1NTU5
-NjAsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTk0MjA0MjQ5OCwtMTY3NzQ5NjEwOCwtMz
+I0MjE5OTk4LDQ0NDQ1NzM0Myw1MTA5NDQwMTAsMTg4NDU1NTk2
+MCw3MzA5OTgxMTZdfQ==
 -->
