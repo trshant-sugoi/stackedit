@@ -2,10 +2,10 @@ notes quick
 
 
 -×-×-×-×-×-×-×-×-×-×-×-×
-Daily todos  
+Daily todos 
 - [ ] get shot for passport photos
 - [ ] reading list for analytics
- 
+
 Blogging @blog +AWS
 - [ ] Using Lambdas
 - [ ] RDS
@@ -24,6 +24,6 @@ finished tasks
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1ODAxNDU5MiwtOTk2MzIyMjMsMTMyNz
+eyJoaXN0b3J5IjpbLTY0MzEyNzE4MiwtOTk2MzIyMjMsMTMyNz
 gyMTE3OSwtMjk5ODE4MjcwLDE5ODcxODc4MzVdfQ==
 -->
