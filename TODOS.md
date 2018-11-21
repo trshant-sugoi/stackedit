@@ -2,9 +2,10 @@ notes quick
 
 
 -×-×-×-×-×-×-×-×-×-×-×-×
-Daily todos
+Daily todos  
 - [ ] get shot for passport photos
-
+- [ ] reading list for analytics
+ 
 Blogging @blog +AWS
 - [ ] Using Lambdas
 - [ ] RDS
@@ -13,6 +14,8 @@ personal development
 - [ ] get content from source
 - [ ] get idf tags from content
 - [ ] bash script for internet radio stations
+    > sdsdfsdfsdsdsdf
+    > sdsdfsdfsdfsdfdsf
 
 finished tasks
 - [x] get the clothes back from iron shop
@@ -22,6 +25,6 @@ finished tasks
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjMyMjIzLDEzMjc4MjExNzksLTI5OT
-gxODI3MCwxOTg3MTg3ODM1XX0=
+eyJoaXN0b3J5IjpbNzEyMjI3NTczLC05OTYzMjIyMywxMzI3OD
+IxMTc5LC0yOTk4MTgyNzAsMTk4NzE4NzgzNV19
 -->
