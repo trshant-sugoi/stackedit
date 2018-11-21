@@ -14,9 +14,12 @@ personal development
 - [ ] get content from source
 - [ ] get idf tags from content
 - [ ] bash script for internet radio stations
-    > explanation
-    > Explanation 2 in place
-    > 3rd line
+    >   <https://unix.stackexchange.com/questions/84922/extract-a-part-of-one-line-from-a-file-with-sed>
+    > <https://unix.stackexchange.com/questions/84922/extract-a-part-of-one-line-from-a-file-with-sed>
+    > wc -l <filename>
+    > http://www.ing.iac.es/~docs/external/bash/abs-guide/randomvar.html
+
+
 finished tasks
 - [x] get the clothes back from iron shop
 - [x] sort mess out at bottom of cupboard
