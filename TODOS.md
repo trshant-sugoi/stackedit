@@ -15,7 +15,8 @@ personal development
 - [ ] get idf tags from content
 - [ ] bash script for internet radio stations
     > explanation
-    
+    > Explanation 2 in place
+    > 3rd line
 finished tasks
 - [x] get the clothes back from iron shop
 - [x] sort mess out at bottom of cupboard
