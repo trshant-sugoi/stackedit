@@ -14,9 +14,8 @@ personal development
 - [ ] get content from source
 - [ ] get idf tags from content
 - [ ] bash script for internet radio stations
-     > explanation
-   
-
+    > explanation
+    
 finished tasks
 - [x] get the clothes back from iron shop
 - [x] sort mess out at bottom of cupboard
@@ -25,6 +24,6 @@ finished tasks
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NTUxMzEyMCwtOTk2MzIyMjMsMTMyNz
+eyJoaXN0b3J5IjpbLTI1ODAxNDU5MiwtOTk2MzIyMjMsMTMyNz
 gyMTE3OSwtMjk5ODE4MjcwLDE5ODcxODc4MzVdfQ==
 -->
