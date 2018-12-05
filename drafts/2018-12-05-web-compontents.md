@@ -11,6 +11,10 @@ New blog post on web components
 
 references
 At google[^atGoogle] , A blog post[^blogPost1], sitepen[^sitepen], That have a site too[^site].
+[^atGoogle](https://developers.google.com/web/fundamentals/web-components/customelements), 
+[^blogPost1](https://coryrylan.com/blog/introduction-to-web-components), 
+[^sitepen](https://www.sitepen.com/blog/2018/07/06/web-components-in-2018/), 
+[^site](https://www.webcomponents.org/introduction).
 
 
 [^atGoogle]: (https://developers.google.com/web/fundamentals/web-components/customelements)
