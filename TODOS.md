@@ -9,7 +9,8 @@ Daily todos
 - [ ] clear headboard
 - [ ] clear make up cupboard
 - [ ] buy veggies
-- [ ] buy truli
+- [ ] buy trulife
+- [ ] 
 
 Blogging @blog +AWS
 - [ ] Using Lambdas
@@ -33,7 +34,7 @@ finished tasks
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNzc2MzYyMCwxNjUxNzU4NjY0LC05OT
+eyJoaXN0b3J5IjpbMjEwNTg3NDc0NCwxNjUxNzU4NjY0LC05OT
 YzMjIyMywxMzI3ODIxMTc5LC0yOTk4MTgyNzAsMTk4NzE4Nzgz
 NV19
 -->
