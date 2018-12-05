@@ -9,6 +9,9 @@ Description : "My attempt at explaining web components."
 
 New blog post on web components
 
+references
+At google[^atGoogle] , A blog post[^blogPost1], sitepen[^sitepen], That have a site too[^site].
+
 
 [^atGoogle]: (https://developers.google.com/web/fundamentals/web-components/customelements)
 [^blogPost1]: (https://coryrylan.com/blog/introduction-to-web-components)
