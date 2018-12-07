@@ -7,7 +7,11 @@ tags : [programming,JavaScript,WebComponents]
 Description : "My attempt at explaining web components."
 ---
 
-New blog post on web componentsWeb components are a way to define custom HTML elements. These are reusable and since, they can be all custom JavaScript, can be saved as an  npm package. 
+New blog post on web componentsWeb components are a way to define custom HTML elements. These are reusable and since, they can be all custom JavaScript, can be shared as an  npm package. 
+Now we have a few concepts to understand here:
+ 1. Document fragment.
+ 2. Shadow Dom
+ 3. 
 
 
 references
@@ -28,5 +32,5 @@ At google[^atGoogle] , A blog post[^blogPost1], sitepen[^sitepen], That have a s
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3Nzg3OTMwNV19
+eyJoaXN0b3J5IjpbLTE5NjYwMjM0MzFdfQ==
 -->
