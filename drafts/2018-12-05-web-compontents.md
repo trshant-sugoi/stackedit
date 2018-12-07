@@ -7,7 +7,7 @@ tags : [programming,JavaScript,WebComponents]
 Description : "My attempt at explaining web components."
 ---
 
-New blog post on web componentsWeb components are a way to define custom HTML elements whivh
+New blog post on web componentsWeb components are a way to define custom HTML elements. These are reusable and since, they can be all custom ja
 
 references
 At google[^atGoogle] , A blog post[^blogPost1], sitepen[^sitepen], That have a site too[^site].
@@ -27,5 +27,5 @@ At google[^atGoogle] , A blog post[^blogPost1], sitepen[^sitepen], That have a s
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MzU3ODAwMl19
+eyJoaXN0b3J5IjpbLTQ3NDc4ODc5MV19
 -->
