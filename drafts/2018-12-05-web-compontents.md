@@ -7,7 +7,7 @@ tags : [programming,JavaScript,WebComponents]
 Description : "My attempt at explaining web components."
 ---
 
-New blog post on web components
+New blog post on web componentsWeb components are a way to define custom HTML elements whivh
 
 references
 At google[^atGoogle] , A blog post[^blogPost1], sitepen[^sitepen], That have a site too[^site].
@@ -26,3 +26,6 @@ At google[^atGoogle] , A blog post[^blogPost1], sitepen[^sitepen], That have a s
 > Written with [StackEdit](https://stackedit.io/).
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTA0MzU3ODAwMl19
+-->
