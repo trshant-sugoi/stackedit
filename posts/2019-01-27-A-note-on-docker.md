@@ -6,7 +6,7 @@ draft: false
 tags : [programming,softwareEngineering,docker]
 Description : "A note on Docker."
 ---
-Docker is a buzzword right now.
+Docker is a buzzword right now.  
 It is a lightweight virtualisation system, which does not add to your system and maintains developer sanity.  
 Since its not a full blown VM, git handles things beautifully. your configured dev environment can be moved to the production system, setting only the environment variable in place for the respective production/test/dev systems. And you get to save some HDD space, which is also quite expensive.  
 Basically, you are leaving nothing to chance. And using kubernetes, you can maintain all your containers.  
@@ -19,5 +19,6 @@ The main terms to understand here are:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MjQ4ODk5MSwtMTM0NjQyNTg4OV19
+eyJoaXN0b3J5IjpbLTE3MTIxMDY2NTcsLTEzNDY0MjU4ODldfQ
+==
 -->
