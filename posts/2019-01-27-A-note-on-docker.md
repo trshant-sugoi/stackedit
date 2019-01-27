@@ -15,10 +15,9 @@ The main terms to understand here are:
 **1. files** : These are the files you need dockerised.  
 **2. images** : These are the systems you want to encapsulate the files in.    
 **3. container** : These are what we build using the images and files.  
-
+Simple enough, I suppose!
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTIxMDY2NTcsLTEzNDY0MjU4ODldfQ
-==
+eyJoaXN0b3J5IjpbLTc2Nzk5NjQxOCwtMTM0NjQyNTg4OV19
 -->
