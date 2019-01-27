@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Noun and verb based programming"
+title: "A note on Docker."
 date: 2019-01-27T19:00:00+05:30
 draft: false
 tags : [programming,softwareEngineering,docker]
@@ -19,5 +19,6 @@ Simple enough, I suppose!
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2Nzk5NjQxOCwtMTM0NjQyNTg4OV19
+eyJoaXN0b3J5IjpbMTUzMjU3MjQxMiwtNzY3OTk2NDE4LC0xMz
+Q2NDI1ODg5XX0=
 -->
