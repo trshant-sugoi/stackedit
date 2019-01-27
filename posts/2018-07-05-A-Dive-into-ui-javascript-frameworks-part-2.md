@@ -61,7 +61,7 @@ Since we have some clarity on what we need, we move on to the code. Do have a lo
     </li>
   </ul>
   <!-- This stringifies the contents of the data object and displays it on the page -->
-  <pre>{{ $data }}</pre>
+  <pre>{{ data }}</pre>
 </div>
 ```
 
