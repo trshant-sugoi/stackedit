@@ -16,8 +16,10 @@ Database ->> Server: Data not in the client
 Server ->> Client: There you go....
 ```
 
+Murmur Hash : The master hash is the ANDed product of all the individual hashes. The hashing function used here is the murmur hash which has a lot of improvements over the normal SHA256. In NodeJS
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAzMTIzMzIyXX0=
+eyJoaXN0b3J5IjpbMTA5NjUxMDMyLDQwMzEyMzMyMl19
 -->
