@@ -76,8 +76,15 @@ Now since i know it works, let me put it all in a class, so I dont pollute the g
 ```javascript
 //TODO: make a class.
 ``` 
+
+Some reading:
+<https://blog.medium.com/what-are-bloom-filters-1ec2a50c68ff>
+<https://llimllib.github.io/bloomfilter-tutorial/>
+<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators>
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwODY5NzAzMCw1MTg0NjQyOTIsLTEwOT
-I2NjI0MDIsMTE1MDMzMTIwNCw0MDMxMjMzMjJdfQ==
+eyJoaXN0b3J5IjpbLTE0MzA3OTU5ODAsMTYwODY5NzAzMCw1MT
+g0NjQyOTIsLTEwOTI2NjI0MDIsMTE1MDMzMTIwNCw0MDMxMjMz
+MjJdfQ==
 -->
