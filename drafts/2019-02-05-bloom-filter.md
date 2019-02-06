@@ -65,9 +65,14 @@ function  checkTheHashes( masterHash , hashToCheck ){
  ```
 
 checking the hashes...
-
+```javascript
+check  =  checkTheHashes(oredhash, hash3);
+console.log(" checking hash \"not me!\" (should be false) : ",check); // false
+check  =  checkTheHashes(oredhash, hash4);
+console.log(" checking hash \"do me too\" (should be true): ",check); // true
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MDc3MDc4Miw1MTg0NjQyOTIsLTEwOT
-I2NjI0MDIsMTE1MDMzMTIwNCw0MDMxMjMzMjJdfQ==
+eyJoaXN0b3J5IjpbLTEyMDg4Nzk5MDcsNTE4NDY0MjkyLC0xMD
+kyNjYyNDAyLDExNTAzMzEyMDQsNDAzMTIzMzIyXX0=
 -->
