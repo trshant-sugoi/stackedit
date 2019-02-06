@@ -34,10 +34,16 @@ console.log( hash );
 var  hash2  =  murmurHash('do me too') // 3728646459
 console.log(hash2);
 ``` 
-Now we
-Now ORing it all together.
+Now we need to OR it since we need all the bits set from all the hashes. ORing it all together, we get:
+```javascript
+var  oredhash  =  hash  >>>  0  |  hash2  >>>  0 ;
+oredhash  =  oredhash  >>>  0;
+console.log(" Final hash : ",oredhash); // 4278103935
+```
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYxMzI0MTM5LC0xMDkyNjYyNDAyLDExNT
-AzMzEyMDQsNDAzMTIzMzIyXX0=
+eyJoaXN0b3J5IjpbLTE5NTcwODI1ODEsLTEwOTI2NjI0MDIsMT
+E1MDMzMTIwNCw0MDMxMjMzMjJdfQ==
 -->
