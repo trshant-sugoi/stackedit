@@ -40,10 +40,15 @@ var  oredhash  =  hash  >>>  0  |  hash2  >>>  0 ;
 oredhash  =  oredhash  >>>  0;
 console.log(" Final hash : ",oredhash); // 4278103935
 ```
+Hence now we have the masterhash.
 
+Now we need to create a few more hashes to check against the master hash. 
+```javascript
 
+```
+ 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTcwODI1ODEsLTEwOTI2NjI0MDIsMT
-E1MDMzMTIwNCw0MDMxMjMzMjJdfQ==
+eyJoaXN0b3J5IjpbMTQyOTUwMzU3OCwtMTA5MjY2MjQwMiwxMT
+UwMzMxMjA0LDQwMzEyMzMyMl19
 -->
