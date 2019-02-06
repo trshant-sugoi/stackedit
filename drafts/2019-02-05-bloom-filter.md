@@ -71,8 +71,13 @@ console.log(" checking hash \"not me!\" (should be false) : ",check); // false
 check  =  checkTheHashes(oredhash, hash4);
 console.log(" checking hash \"do me too\" (should be true): ",check); // true
 ```
+
+Now since i know it works, let me put it all in a class, so I dont pollute the global namespace.
+```javascript
+//TODO: make a class.
+``` 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDg4Nzk5MDcsNTE4NDY0MjkyLC0xMD
-kyNjYyNDAyLDExNTAzMzEyMDQsNDAzMTIzMzIyXX0=
+eyJoaXN0b3J5IjpbMTYwODY5NzAzMCw1MTg0NjQyOTIsLTEwOT
+I2NjI0MDIsMTE1MDMzMTIwNCw0MDMxMjMzMjJdfQ==
 -->
