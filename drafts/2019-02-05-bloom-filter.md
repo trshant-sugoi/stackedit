@@ -50,7 +50,7 @@ console.log(hash3); //1542629515
 var  hash4  =  murmurHash('do me too') >>>  0
 console.log(hash4); // 3728646459
 ```
- 
+
  Now we need to check if the bits are set both in the individual hash as well as the master hash.
  ```javascript
 function  checkTheHashes( masterHash , hashToCheck ){
@@ -63,8 +63,11 @@ function  checkTheHashes( masterHash , hashToCheck ){
 	}
 }
  ```
+
+checking the hashes...
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTk2NzM3NTcsNTE4NDY0MjkyLC0xMD
-kyNjYyNDAyLDExNTAzMzEyMDQsNDAzMTIzMzIyXX0=
+eyJoaXN0b3J5IjpbMTU3MDc3MDc4Miw1MTg0NjQyOTIsLTEwOT
+I2NjI0MDIsMTE1MDMzMTIwNCw0MDMxMjMzMjJdfQ==
 -->
