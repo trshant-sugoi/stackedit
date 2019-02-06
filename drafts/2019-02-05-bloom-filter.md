@@ -55,7 +55,7 @@ console.log(hash4); // 3728646459
  ```javascript
 function  checkTheHashes( masterHash , hashToCheck ){
 	var  check  = (masterHash  &  hashToCheck) >>>  0;
-	console.log(masterHash, hashToCheck, check);
+	//console.log(masterHash, hashToCheck, check);
 	if (check  ==  hashToCheck) {
 		return  true;
 	} else {
@@ -65,6 +65,6 @@ function  checkTheHashes( masterHash , hashToCheck ){
  ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4OTYwNjQzLDUxODQ2NDI5MiwtMTA5Mj
-Y2MjQwMiwxMTUwMzMxMjA0LDQwMzEyMzMyMl19
+eyJoaXN0b3J5IjpbLTEwNTk2NzM3NTcsNTE4NDY0MjkyLC0xMD
+kyNjYyNDAyLDExNTAzMzEyMDQsNDAzMTIzMzIyXX0=
 -->
