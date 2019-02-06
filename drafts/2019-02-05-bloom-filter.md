@@ -53,10 +53,18 @@ console.log(hash4); // 3728646459
  
  Now we need to check if the bits are set both in the individual hash as well as the master hash.
  ```javascript
- 
+function  checkTheHashes( masterHash , hashToCheck ){
+	var  check  = (masterHash  &  hashToCheck) >>>  0;
+	console.log(masterHash, hashToCheck, check);
+	if (check  ==  hashToCheck) {
+		return  true;
+	} else {
+		return  false;
+	}
+}
  ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE4NDY0MjkyLC0xMDkyNjYyNDAyLDExNT
-AzMzEyMDQsNDAzMTIzMzIyXX0=
+eyJoaXN0b3J5IjpbODQ4OTYwNjQzLDUxODQ2NDI5MiwtMTA5Mj
+Y2MjQwMiwxMTUwMzMxMjA0LDQwMzEyMzMyMl19
 -->
