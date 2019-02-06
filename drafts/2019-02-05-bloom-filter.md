@@ -24,10 +24,20 @@ var  murmurHash  =  require('murmurhash-native').murmurHash
 murmurHash( 'hash me!' ) // 2061152078
 ```
 
-Now, using the same tech, we can also use the whole 
+Now, using the same package, Lets hash a few strings:
+```javascript
+var  murmurHash  =  require('murmurhash-native').murmurHash
 
+var  hash  =  murmurHash( 'hash me!' ) // 2061152078
+console.log( hash );
+
+var  hash2  =  murmurHash('do me too') // 3728646459
+console.log(hash2);
+``` 
+Now we
+Now ORing it all together.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTI2NjI0MDIsMTE1MDMzMTIwNCw0MD
-MxMjMzMjJdfQ==
+eyJoaXN0b3J5IjpbODYxMzI0MTM5LC0xMDkyNjYyNDAyLDExNT
+AzMzEyMDQsNDAzMTIzMzIyXX0=
 -->
