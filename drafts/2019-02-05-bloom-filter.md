@@ -15,8 +15,8 @@ Note over Server,Client: 1. Check each data point against <br/>individual hashes
 
 Server ->> Client: There you go....
 
-alt is sick
-        Client->>Server: Not so good :(
+alt Checks master hash
+        Note over Client: 
 else is well
         Client->>Server: Feeling fresh like a daisy
 end
@@ -100,7 +100,7 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgwNzk4MzI5LC0xNDMwNzk1OTgwLDE2MD
+eyJoaXN0b3J5IjpbODY2NTU5NDU2LC0xNDMwNzk1OTgwLDE2MD
 g2OTcwMzAsNTE4NDY0MjkyLC0xMDkyNjYyNDAyLDExNTAzMzEy
 MDQsNDAzMTIzMzIyXX0=
 -->
