@@ -7,7 +7,9 @@ Description : "A note on implementing a bloom filter"
 ---
 A bloom filter is a data structure which allows the server to sync data with a client with low data consumption. Another usecase is to find out uniqueness of the data. [Geekforgeeks](https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/) have a pretty good explanation of bloom filters. 
 
-My post is for syncing the data from the server to client. I am assuming that the data on the client is already
+My post is for syncing the data from the server to client. I am assuming that the data on the client is already updating the server as and when the data is entered. The problem statement is not the unavailability or low availability of internet. It is to minimise the syncing operation involved.
+
+We use murmur hash since it is superfast.
 
 Here is how the interaction between the client/server will take place:
 ```mermaid
@@ -108,7 +110,7 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NDg4MTg5NSwyMTM5MzM5OTgzLC0xND
+eyJoaXN0b3J5IjpbLTQ5MjQ1MTU5MywyMTM5MzM5OTgzLC0xND
 MwNzk1OTgwLDE2MDg2OTcwMzAsNTE4NDY0MjkyLC0xMDkyNjYy
 NDAyLDExNTAzMzEyMDQsNDAzMTIzMzIyXX0=
 -->
