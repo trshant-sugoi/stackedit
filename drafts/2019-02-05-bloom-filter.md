@@ -69,8 +69,11 @@ console.log(" checking hash \"do me too\" (should be true): ",check); // true
 Now since i know it works, let me put it all in a class, so I dont pollute the global namespace.
 ```javascript
 var bloomFilter = {
-	masterhash : null,
-	has
+	masterHash : null,
+	hashDataPoint : function( dataString ){
+		hash = murmurHash( dataString ) >>>  0
+		this,
+	}
 }
 ``` 
 I am going to use this class later.
@@ -107,7 +110,7 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTg2MTE4MCwtOTA4MTI4ODA4LC0xNz
+eyJoaXN0b3J5IjpbMTU0NDk5NDI4MSwtOTA4MTI4ODA4LC0xNz
 YyMjM0ODk4LDEyNDczOTQ5NjMsMTI3NjE1Mzc5MiwyMTM5MzM5
 OTgzLC0xNDMwNzk1OTgwLDE2MDg2OTcwMzAsNTE4NDY0MjkyLC
 0xMDkyNjYyNDAyLDExNTAzMzEyMDQsNDAzMTIzMzIyXX0=
