@@ -11,7 +11,8 @@ Here is how the interaction between the client/server will take place:
 sequenceDiagram
 Client ->> Server: Hi! here's my master hash
 Server ->> Server: Checking against all the individual hashes to 
-Note right of Server: Here <br/>is <br/>where <br/>the <br/>thinking <br/>happens.
+Note right of Server: 1. Check against <br/>individual hashes.<br/>2. Collect all the ones<br/> where the bits dont <br/>match.<br/>
+
 Server ->> Client: There you go....
 ```
 
@@ -93,7 +94,7 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NzM3OTkwMywtMTQzMDc5NTk4MCwxNj
-A4Njk3MDMwLDUxODQ2NDI5MiwtMTA5MjY2MjQwMiwxMTUwMzMx
-MjA0LDQwMzEyMzMyMl19
+eyJoaXN0b3J5IjpbNzY3MDQzMDU0LC0xNDMwNzk1OTgwLDE2MD
+g2OTcwMzAsNTE4NDY0MjkyLC0xMDkyNjYyNDAyLDExNTAzMzEy
+MDQsNDAzMTIzMzIyXX0=
 -->
