@@ -25,7 +25,7 @@ Client ->> Client : Updates Itself
 ---
 **Writing a small proof of concept with existing libraries**  
 
-From Murmurhash-native's npm page
+From [Murmurhash-native](https://www.npmjs.com/package/murmurhash-native)'s npm page
 ```javascript
 var  murmurHash  =  require('murmurhash-native').murmurHash
 murmurHash( 'hash me!' ) // 2061152078
@@ -93,7 +93,7 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTc3MzI3NDgsMjEzOTMzOTk4MywtMT
-QzMDc5NTk4MCwxNjA4Njk3MDMwLDUxODQ2NDI5MiwtMTA5MjY2
-MjQwMiwxMTUwMzMxMjA0LDQwMzEyMzMyMl19
+eyJoaXN0b3J5IjpbLTc3ODgzOTg1MCwyMTM5MzM5OTgzLC0xND
+MwNzk1OTgwLDE2MDg2OTcwMzAsNTE4NDY0MjkyLC0xMDkyNjYy
+NDAyLDExNTAzMzEyMDQsNDAzMTIzMzIyXX0=
 -->
