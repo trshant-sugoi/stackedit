@@ -14,6 +14,12 @@ Client ->> Server: Hi! here's my master hash
 Note over Server,Client: 1. Check each data point against <br/>individual hashes.<br/>2. Collect all the ones where the bits<br/> dont match.<br/>3. Send the Collected data points <br/>back to the client with its own<br/> master hash.
 
 Server ->> Client: There you go....
+
+alt is sick
+        Client->>Server: Not so good :(
+else is well
+        Client->>Server: Feeling fresh like a daisy
+end
 ```
 
 Murmur Hash : The master hash is the ANDed product of all the individual hashes. The hashing function used here is the murmur hash which has a lot of improvements over the normal SHA256. In NodeJS, this is how we use it.
@@ -94,7 +100,7 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQyOTUxNTAsLTE0MzA3OTU5ODAsMT
-YwODY5NzAzMCw1MTg0NjQyOTIsLTEwOTI2NjI0MDIsMTE1MDMz
-MTIwNCw0MDMxMjMzMjJdfQ==
+eyJoaXN0b3J5IjpbMjgwNzk4MzI5LC0xNDMwNzk1OTgwLDE2MD
+g2OTcwMzAsNTE4NDY0MjkyLC0xMDkyNjYyNDAyLDExNTAzMzEy
+MDQsNDAzMTIzMzIyXX0=
 -->
