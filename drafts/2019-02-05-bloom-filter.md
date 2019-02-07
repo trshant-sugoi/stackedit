@@ -89,6 +89,10 @@ Note over Server,Client: 1. Check each data point against <br/>individual hashes
 Server ->> Client: There you go....
 Client ->> Client : Updates Itself
 ```
+
+However, the server itself consists of 2 parts. the web server and the database server. In the code examples above
+
+
 ---
 
 
@@ -97,8 +101,8 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjIyMzQ4OTgsMTI0NzM5NDk2MywxMj
-c2MTUzNzkyLDIxMzkzMzk5ODMsLTE0MzA3OTU5ODAsMTYwODY5
-NzAzMCw1MTg0NjQyOTIsLTEwOTI2NjI0MDIsMTE1MDMzMTIwNC
-w0MDMxMjMzMjJdfQ==
+eyJoaXN0b3J5IjpbNDkwNDMyMDczLC0xNzYyMjM0ODk4LDEyND
+czOTQ5NjMsMTI3NjE1Mzc5MiwyMTM5MzM5OTgzLC0xNDMwNzk1
+OTgwLDE2MDg2OTcwMzAsNTE4NDY0MjkyLC0xMDkyNjYyNDAyLD
+ExNTAzMzEyMDQsNDAzMTIzMzIyXX0=
 -->
