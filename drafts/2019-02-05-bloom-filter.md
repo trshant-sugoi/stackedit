@@ -9,7 +9,7 @@ Description : "A note on implementing a bloom filter"
 Here is how the interaction between the client/server will take place:
 ```mermaid
 sequenceDiagram
-Client ->> Server: Hi! here's my master hash
+Client ->> Server: Hi! here's my master hash with 
 
 Note over Server,Client: 1. Check each data point against <br/>individual hashes.<br/>2. Collect all the ones where the bits<br/> dont match.<br/>3. Send the Collected data points <br/>back to the client with its own<br/> master hash (SMH).
 
@@ -18,7 +18,7 @@ Server ->> Client: There you go....
 alt Checks SMH: isssues
         Note over Client:1. sends changes to<br/> server.<br/>  
 else Checks SMH: no issues
-        Note over Client:1. sends changes to<br/> server.<br/>
+        Note right of Client:1. sends hash to<br/> server.<br/>
 end
 
 
@@ -102,7 +102,7 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NzI2OTc3OCwtMTQzMDc5NTk4MCwxNj
-A4Njk3MDMwLDUxODQ2NDI5MiwtMTA5MjY2MjQwMiwxMTUwMzMx
-MjA0LDQwMzEyMzMyMl19
+eyJoaXN0b3J5IjpbMzM0ODAwMTc0LC0xNDMwNzk1OTgwLDE2MD
+g2OTcwMzAsNTE4NDY0MjkyLC0xMDkyNjYyNDAyLDExNTAzMzEy
+MDQsNDAzMTIzMzIyXX0=
 -->
