@@ -5,7 +5,7 @@ draft: false
 tags : [Algorithm , BloomFilter]
 Description : "A note on implementing a bloom filter"
 ---
-A bloom filter is a data structure which allows the server to sync data with a client with low data consumption
+A bloom filter is a data structure which allows the server to sync data with a client with low data consumption. Another usecase is to find out uniqueness of the data 
 
 Here is how the interaction between the client/server will take place:
 ```mermaid
@@ -106,7 +106,7 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzOTMzOTk4MywtMTQzMDc5NTk4MCwxNj
-A4Njk3MDMwLDUxODQ2NDI5MiwtMTA5MjY2MjQwMiwxMTUwMzMx
-MjA0LDQwMzEyMzMyMl19
+eyJoaXN0b3J5IjpbOTY0MDg2MDAzLDIxMzkzMzk5ODMsLTE0Mz
+A3OTU5ODAsMTYwODY5NzAzMCw1MTg0NjQyOTIsLTEwOTI2NjI0
+MDIsMTE1MDMzMTIwNCw0MDMxMjMzMjJdfQ==
 -->
