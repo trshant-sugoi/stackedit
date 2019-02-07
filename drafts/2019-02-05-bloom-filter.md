@@ -15,10 +15,10 @@ Note over Server,Client: 1. Check each data point against <br/>individual hashes
 
 Server ->> Client: There you go....
 
-alt Checks SMH
-        Note over Client:  
-else is well
-        Client->>Server: Feeling fresh like a daisy
+alt Checks SMH: isssues
+        Note over Client:1. sends changes to<br/> server.<br/>  
+else Checks SMH: no issues
+        Note over Client:1. sends changes to<br/> server.<br/>
 end
 
 
@@ -102,7 +102,7 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNzIzNzA1NywtMTQzMDc5NTk4MCwxNj
+eyJoaXN0b3J5IjpbMTk4NzI2OTc3OCwtMTQzMDc5NTk4MCwxNj
 A4Njk3MDMwLDUxODQ2NDI5MiwtMTA5MjY2MjQwMiwxMTUwMzMx
 MjA0LDQwMzEyMzMyMl19
 -->
