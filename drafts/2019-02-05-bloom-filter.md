@@ -5,7 +5,9 @@ draft: false
 tags : [Algorithm , BloomFilter]
 Description : "A note on implementing a bloom filter"
 ---
-A bloom filter is a data structure which allows the server to sync data with a client with low data consumption. Another usecase is to find out uniqueness of the data 
+A bloom filter is a data structure which allows the server to sync data with a client with low data consumption. Another usecase is to find out uniqueness of the data. [Geekforgeeks](https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/) have a pretty good explanation of bloom filters. 
+
+My post is for syncing the data from the server to client. I am assuming that the data on the client is already
 
 Here is how the interaction between the client/server will take place:
 ```mermaid
@@ -106,7 +108,7 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY0MDg2MDAzLDIxMzkzMzk5ODMsLTE0Mz
-A3OTU5ODAsMTYwODY5NzAzMCw1MTg0NjQyOTIsLTEwOTI2NjI0
-MDIsMTE1MDMzMTIwNCw0MDMxMjMzMjJdfQ==
+eyJoaXN0b3J5IjpbMTE5NDg4MTg5NSwyMTM5MzM5OTgzLC0xND
+MwNzk1OTgwLDE2MDg2OTcwMzAsNTE4NDY0MjkyLC0xMDkyNjYy
+NDAyLDExNTAzMzEyMDQsNDAzMTIzMzIyXX0=
 -->
