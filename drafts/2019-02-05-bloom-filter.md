@@ -73,6 +73,8 @@ Now since i know it works, let me put it all in a class, so I dont pollute the g
 ``` 
 I am going to use this class later.
 
+As we can see, it is quite useful for checking uniqueness and availability of the data, depending on the answer seeked for is positive or negative. 
+
 ---
 As we are concerned with the 
 Here is how the interaction between the client/server will take place:
@@ -95,7 +97,7 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTU0OTY2NDIsMjEzOTMzOTk4MywtMT
-QzMDc5NTk4MCwxNjA4Njk3MDMwLDUxODQ2NDI5MiwtMTA5MjY2
-MjQwMiwxMTUwMzMxMjA0LDQwMzEyMzMyMl19
+eyJoaXN0b3J5IjpbOTk5OTg4NzM2LDIxMzkzMzk5ODMsLTE0Mz
+A3OTU5ODAsMTYwODY5NzAzMCw1MTg0NjQyOTIsLTEwOTI2NjI0
+MDIsMTE1MDMzMTIwNCw0MDMxMjMzMjJdfQ==
 -->
