@@ -68,13 +68,15 @@ console.log(" checking hash \"do me too\" (should be true): ",check); // true
 ```
 Now since i know it works, let me put it all in a class, so I dont pollute the global namespace.
 ```javascript
-//TODO: make a class.
+var bloomFilter = {
+	masterhash : null,
+	has
+}
 ``` 
 I am going to use this class later.
 
 As we can see, it is quite useful for checking uniqueness and availability of the data, depending on the answer expected is positive or negative.
 
-If this  
 
 ---
 As we are concerned with syncing data between the server and client.
@@ -105,8 +107,8 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMjQ2MjQ2LC05MDgxMjg4MDgsLTE3Nj
-IyMzQ4OTgsMTI0NzM5NDk2MywxMjc2MTUzNzkyLDIxMzkzMzk5
-ODMsLTE0MzA3OTU5ODAsMTYwODY5NzAzMCw1MTg0NjQyOTIsLT
-EwOTI2NjI0MDIsMTE1MDMzMTIwNCw0MDMxMjMzMjJdfQ==
+eyJoaXN0b3J5IjpbLTg2MTg2MTE4MCwtOTA4MTI4ODA4LC0xNz
+YyMjM0ODk4LDEyNDczOTQ5NjMsMTI3NjE1Mzc5MiwyMTM5MzM5
+OTgzLC0xNDMwNzk1OTgwLDE2MDg2OTcwMzAsNTE4NDY0MjkyLC
+0xMDkyNjYyNDAyLDExNTAzMzEyMDQsNDAzMTIzMzIyXX0=
 -->
