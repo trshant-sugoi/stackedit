@@ -10,7 +10,6 @@ Here is how the interaction between the client/server will take place:
 ```mermaid
 sequenceDiagram
 Client ->> Server: Hi! here's my master hash
-Server ->> Server: Checking against all the individual hashes to 
 Note right of Server: 1. Check each data <br/>point against <br/>individual hashes.<br/>2. Collect all the ones<br/> where the bits dont <br/>match.<br/>3. Send the Collected<br/> data points back to <br/>the client with its own<br/> master hash.
 Server ->> Client: There you go....
 ```
@@ -93,7 +92,7 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDY0OTUxOTksLTE0MzA3OTU5ODAsMT
+eyJoaXN0b3J5IjpbLTE1NjI0OTk0MjcsLTE0MzA3OTU5ODAsMT
 YwODY5NzAzMCw1MTg0NjQyOTIsLTEwOTI2NjI0MDIsMTE1MDMz
 MTIwNCw0MDMxMjMzMjJdfQ==
 -->
