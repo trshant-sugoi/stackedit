@@ -90,7 +90,7 @@ Server ->> Client: There you go....
 Client ->> Client : Updates Itself
 ```
 
-However, the server itself consists of 2 parts. the web server and the database server. In the code examples above we saw that we can use the murmurhash to update the hash probably in a field in the same table. Along with this, we need
+However, the server itself consists of 2 parts. the web server and the database server. In the code examples above we saw that we can use the murmurhash to update the hash probably in a field in the same table. Along with this, we need to continuously update the master hash with each insert or update, periodically 
 
 
 ---
@@ -101,7 +101,7 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MzY2NzkwMiwtMTc2MjIzNDg5OCwxMj
+eyJoaXN0b3J5IjpbLTYyMTE4NTc0NCwtMTc2MjIzNDg5OCwxMj
 Q3Mzk0OTYzLDEyNzYxNTM3OTIsMjEzOTMzOTk4MywtMTQzMDc5
 NTk4MCwxNjA4Njk3MDMwLDUxODQ2NDI5MiwtMTA5MjY2MjQwMi
 wxMTUwMzMxMjA0LDQwMzEyMzMyMl19
