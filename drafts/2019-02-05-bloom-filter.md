@@ -83,25 +83,17 @@ Now since i know it works, let me put it all in a class, so I dont pollute the g
 ```javascript
 //TODO: make a class.
 ``` 
-Now let us see how to utilise this. I have written a small ER diagram to see the flow of conversation:
-```mermaid
-sequenceDiagram
-Client ->> Server: Hi! here's my master hash
-Server ->> Database: SQL
-Note left of Database: Here is where<br/>the thinking <br/>happens.
-Database ->> Server: Data not in the client
-Server ->> Client: There you go....
-```
+I am going to use this class later.
 
 
 Some reading:
-<https://blog.medium.com/what-are-bloom-filters-1ec2a50c68ff>
+<https://blog.medium.com/what-are-bloiom-filters-1ec2a50c68ff>
 <https://llimllib.github.io/bloomfilter-tutorial/>
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators>
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjcxNTI0OSwyMTM5MzM5OTgzLC0xND
-MwNzk1OTgwLDE2MDg2OTcwMzAsNTE4NDY0MjkyLC0xMDkyNjYy
-NDAyLDExNTAzMzEyMDQsNDAzMTIzMzIyXX0=
+eyJoaXN0b3J5IjpbLTE0OTc3MzI3NDgsMjEzOTMzOTk4MywtMT
+QzMDc5NTk4MCwxNjA4Njk3MDMwLDUxODQ2NDI5MiwtMTA5MjY2
+MjQwMiwxMTUwMzMxMjA0LDQwMzEyMzMyMl19
 -->
