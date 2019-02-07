@@ -73,10 +73,11 @@ Now since i know it works, let me put it all in a class, so I dont pollute the g
 ``` 
 I am going to use this class later.
 
-As we can see, it is quite useful for checking uniqueness and availability of the data, depending on the answer seeked for is positive or negative. :P
+As we can see, it is quite useful for checking uniqueness and availability of the data, depending on the answer expected is positive or negative.
 
 ---
-As we are concerned with the 
+As we are concerned with syncing data between the server and client.
+
 Here is how the interaction between the client/server will take place:
 ```mermaid
 sequenceDiagram
@@ -97,7 +98,7 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzQ3NzY2ODIsMjEzOTMzOTk4MywtMT
-QzMDc5NTk4MCwxNjA4Njk3MDMwLDUxODQ2NDI5MiwtMTA5MjY2
-MjQwMiwxMTUwMzMxMjA0LDQwMzEyMzMyMl19
+eyJoaXN0b3J5IjpbMTI3NjE1Mzc5MiwyMTM5MzM5OTgzLC0xND
+MwNzk1OTgwLDE2MDg2OTcwMzAsNTE4NDY0MjkyLC0xMDkyNjYy
+NDAyLDExNTAzMzEyMDQsNDAzMTIzMzIyXX0=
 -->
