@@ -72,8 +72,11 @@ var bloomFilter = {
 	masterHash : null,
 	hashDataPoint : function( dataString ){
 		hash = murmurHash( dataString ) >>>  0
-		if( !isNmasterHash  )
-		this,masterHash = this.masterHash | hash ;
+		if( !isNull( masterHash )  ){
+			this,masterHash = this.masterHash | hash ;
+		} else {
+			this.masterHash = hash;
+		}
 	},
 	checkIfPresent : function( StringToCheck ){
 	    hashToCheck = this.hashDataPoint(StringToCheck);
@@ -120,8 +123,8 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MzEyODc1NSwtOTA4MTI4ODA4LC0xNz
-YyMjM0ODk4LDEyNDczOTQ5NjMsMTI3NjE1Mzc5MiwyMTM5MzM5
-OTgzLC0xNDMwNzk1OTgwLDE2MDg2OTcwMzAsNTE4NDY0MjkyLC
-0xMDkyNjYyNDAyLDExNTAzMzEyMDQsNDAzMTIzMzIyXX0=
+eyJoaXN0b3J5IjpbNzg5NjEyOTY4LC05MDgxMjg4MDgsLTE3Nj
+IyMzQ4OTgsMTI0NzM5NDk2MywxMjc2MTUzNzkyLDIxMzkzMzk5
+ODMsLTE0MzA3OTU5ODAsMTYwODY5NzAzMCw1MTg0NjQyOTIsLT
+EwOTI2NjI0MDIsMTE1MDMzMTIwNCw0MDMxMjMzMjJdfQ==
 -->
