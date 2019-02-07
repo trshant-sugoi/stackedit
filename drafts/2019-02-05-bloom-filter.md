@@ -82,7 +82,7 @@ As we are concerned with syncing data between the server and client.
 Here is how the interaction between the client/server will take place:
 ```mermaid
 sequenceDiagram
-Client ->> Server: Hi! here's my master hash with the last time synced
+Client ->> Server: Hi! here's my master hash (CMH) with the last time synced
 
 Note over Server,Client: 1. Check each data point against <br/>individual hashes.<br/>2. Collect all the ones where the bits<br/> dont match.<br/>3. Send the Collected data points <br/>back to the client with its own<br/> master hash (SMH).
 
@@ -91,7 +91,9 @@ Client ->> Client : Updates Itself
 ```
 
 However, the server itself consists of 2 parts. the web server and the database server. In the code examples above we saw that we can use the murmurhash to update the hash probably in a field in the same table. Along with this, we need to continuously update the master hash with each insert or update, periodically refreshing the masterhash.
-
+```SQL
+SELECT * FROM table_name WHERE hash_field_value & CM
+```
 
 
 ---
@@ -102,8 +104,8 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODEyODgwOCwtMTc2MjIzNDg5OCwxMj
-Q3Mzk0OTYzLDEyNzYxNTM3OTIsMjEzOTMzOTk4MywtMTQzMDc5
-NTk4MCwxNjA4Njk3MDMwLDUxODQ2NDI5MiwtMTA5MjY2MjQwMi
-wxMTUwMzMxMjA0LDQwMzEyMzMyMl19
+eyJoaXN0b3J5IjpbOTczMzY3MzQzLC05MDgxMjg4MDgsLTE3Nj
+IyMzQ4OTgsMTI0NzM5NDk2MywxMjc2MTUzNzkyLDIxMzkzMzk5
+ODMsLTE0MzA3OTU5ODAsMTYwODY5NzAzMCw1MTg0NjQyOTIsLT
+EwOTI2NjI0MDIsMTE1MDMzMTIwNCw0MDMxMjMzMjJdfQ==
 -->
