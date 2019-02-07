@@ -82,7 +82,7 @@ As we are concerned with syncing data between the server and client.
 Here is how the interaction between the client/server will take place:
 ```mermaid
 sequenceDiagram
-Client ->> Server: Hi! here's my master hash with the last time updated
+Client ->> Server: Hi! here's my master hash with the last time synced
 
 Note over Server,Client: 1. Check each data point against <br/>individual hashes.<br/>2. Collect all the ones where the bits<br/> dont match.<br/>3. Send the Collected data points <br/>back to the client with its own<br/> master hash (SMH).
 
@@ -97,8 +97,8 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzM5NDk2MywxMjc2MTUzNzkyLDIxMz
-kzMzk5ODMsLTE0MzA3OTU5ODAsMTYwODY5NzAzMCw1MTg0NjQy
-OTIsLTEwOTI2NjI0MDIsMTE1MDMzMTIwNCw0MDMxMjMzMjJdfQ
-==
+eyJoaXN0b3J5IjpbLTE3NjIyMzQ4OTgsMTI0NzM5NDk2MywxMj
+c2MTUzNzkyLDIxMzkzMzk5ODMsLTE0MzA3OTU5ODAsMTYwODY5
+NzAzMCw1MTg0NjQyOTIsLTEwOTI2NjI0MDIsMTE1MDMzMTIwNC
+w0MDMxMjMzMjJdfQ==
 -->
