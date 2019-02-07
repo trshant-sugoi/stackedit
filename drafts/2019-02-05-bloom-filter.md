@@ -92,8 +92,10 @@ Client ->> Client : Updates Itself
 
 However, the server itself consists of 2 parts. the web server and the database server. In the code examples above we saw that we can use the murmurhash to update the hash probably in a field in the same table. Along with this, we need to continuously update the master hash with each insert or update, periodically refreshing the masterhash.
 ```SQL
-SELECT * FROM table_name WHERE hash_field_value & CM
+SELECT * FROM table_name HAVING hash_field_value & CMH <> hash_field_value
 ```
+The above SQL will return only those rows from the tablename which are not there or updated in the client system.
+
 
 
 ---
@@ -104,7 +106,7 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTczMzY3MzQzLC05MDgxMjg4MDgsLTE3Nj
+eyJoaXN0b3J5IjpbODY5NDU1ODY0LC05MDgxMjg4MDgsLTE3Nj
 IyMzQ4OTgsMTI0NzM5NDk2MywxMjc2MTUzNzkyLDIxMzkzMzk5
 ODMsLTE0MzA3OTU5ODAsMTYwODY5NzAzMCw1MTg0NjQyOTIsLT
 EwOTI2NjI0MDIsMTE1MDMzMTIwNCw0MDMxMjMzMjJdfQ==
