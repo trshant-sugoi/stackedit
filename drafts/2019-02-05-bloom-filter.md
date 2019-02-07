@@ -9,8 +9,9 @@ A bloom filter is a data structure which allows the server to sync data with a c
 
 My post is for syncing the data from the server to client. I am assuming that the data on the client is already updating the server as and when the data is entered. The problem statement is not the unavailability or low availability of internet. It is to minimise the syncing operation involved.
 
-We use murmur hash since it is superfast.
+The master hash is the ANDed product of all the individual hashes. The hashing function used here is the murmur hash which has great speed improvements over the normally used  SHA256. In NodeJS, this is how we use it.
 
+---
 Here is how the interaction between the client/server will take place:
 ```mermaid
 sequenceDiagram
@@ -21,8 +22,8 @@ Note over Server,Client: 1. Check each data point against <br/>individual hashes
 Server ->> Client: There you go....
 Client ->> Client : Updates Itself
 ```
-
-The master hash is the ANDed product of all the individual hashes. The hashing function used here is the murmur hash which has great speed improvements over the normally used  SHA256. In NodeJS, this is how we use it.
+---
+**Writing a small proof of concept with existing libraries**  
 
 From Murmurhash-native's npm page
 ```javascript
@@ -100,7 +101,7 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0NzcwMTk3LDIxMzkzMzk5ODMsLTE0Mz
-A3OTU5ODAsMTYwODY5NzAzMCw1MTg0NjQyOTIsLTEwOTI2NjI0
-MDIsMTE1MDMzMTIwNCw0MDMxMjMzMjJdfQ==
+eyJoaXN0b3J5IjpbLTYwMjcxNTI0OSwyMTM5MzM5OTgzLC0xND
+MwNzk1OTgwLDE2MDg2OTcwMzAsNTE4NDY0MjkyLC0xMDkyNjYy
+NDAyLDExNTAzMzEyMDQsNDAzMTIzMzIyXX0=
 -->
