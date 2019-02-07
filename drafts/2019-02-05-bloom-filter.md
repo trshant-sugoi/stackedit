@@ -92,13 +92,14 @@ Client ->> Client : Updates Itself
 
 
 Some reading:
-<https://blog.medium.com/what-are-bloiom-filters-1ec2a50c68ff>
+<https://blog.medium.com/what-are-bloom-filters-1ec2a50c68ff>
 <https://llimllib.github.io/bloomfilter-tutorial/>
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators>
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NjE1Mzc5MiwyMTM5MzM5OTgzLC0xND
-MwNzk1OTgwLDE2MDg2OTcwMzAsNTE4NDY0MjkyLC0xMDkyNjYy
-NDAyLDExNTAzMzEyMDQsNDAzMTIzMzIyXX0=
+eyJoaXN0b3J5IjpbMTMzNDIyOTgzOSwxMjc2MTUzNzkyLDIxMz
+kzMzk5ODMsLTE0MzA3OTU5ODAsMTYwODY5NzAzMCw1MTg0NjQy
+OTIsLTEwOTI2NjI0MDIsMTE1MDMzMTIwNCw0MDMxMjMzMjJdfQ
+==
 -->
