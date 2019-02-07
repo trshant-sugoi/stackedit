@@ -10,7 +10,8 @@ Here is how the interaction between the client/server will take place:
 ```mermaid
 sequenceDiagram
 Client ->> Server: Hi! here's my master hash
-Note right of Server: Here is where the thinking happens.
+Server ->> Server: Checking against all the individual hashes to 
+Note right of Server: Here <br/>is <br/>where <br/>the <br/>thinking <br/>happens.
 Server ->> Client: There you go....
 ```
 
@@ -92,7 +93,7 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MzkyMDk2NCwtMTQzMDc5NTk4MCwxNj
+eyJoaXN0b3J5IjpbMTA2NzM3OTkwMywtMTQzMDc5NTk4MCwxNj
 A4Njk3MDMwLDUxODQ2NDI5MiwtMTA5MjY2MjQwMiwxMTUwMzMx
 MjA0LDQwMzEyMzMyMl19
 -->
