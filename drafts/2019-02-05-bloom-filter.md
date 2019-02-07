@@ -19,20 +19,10 @@ Client ->> Server: Hi! here's my master hash with the last time updated
 Note over Server,Client: 1. Check each data point against <br/>individual hashes.<br/>2. Collect all the ones where the bits<br/> dont match.<br/>3. Send the Collected data points <br/>back to the client with its own<br/> master hash (SMH).
 
 Server ->> Client: There you go....
-alt Uses Data
-	Client ->> Server : My master hash
-end	
-
-alt Checks SMH: issues
-        Note over Client:1. sends changes to<br/> server.<br/>  
-else Checks SMH: no issues
-        Note right of Client:1. sends hash to<br/> server.<br/>
-end
-
-
+Client ->> Client : Updates Itself
 ```
 
-Murmur Hash : The master hash is the ANDed product of all the individual hashes. The hashing function used here is the murmur hash which has a lot of improvements over the normal SHA256. In NodeJS, this is how we use it.
+The master hash is the ANDed product of all the individual hashes. The hashing function used here is the murmur hash which has great speed improvements over the normally used  SHA256. In NodeJS, this is how we use it.
 
 From Murmurhash-native's npm page
 ```javascript
@@ -110,7 +100,7 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MjQ1MTU5MywyMTM5MzM5OTgzLC0xND
-MwNzk1OTgwLDE2MDg2OTcwMzAsNTE4NDY0MjkyLC0xMDkyNjYy
-NDAyLDExNTAzMzEyMDQsNDAzMTIzMzIyXX0=
+eyJoaXN0b3J5IjpbNzI0NzcwMTk3LDIxMzkzMzk5ODMsLTE0Mz
+A3OTU5ODAsMTYwODY5NzAzMCw1MTg0NjQyOTIsLTEwOTI2NjI0
+MDIsMTE1MDMzMTIwNCw0MDMxMjMzMjJdfQ==
 -->
