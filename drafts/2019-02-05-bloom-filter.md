@@ -11,18 +11,6 @@ My post is for syncing the data from the server to client. I am assuming that th
 
 The master hash is the ANDed product of all the individual hashes. The hashing function used here is the murmur hash which has great speed improvements over the normally used  SHA256. In NodeJS, this is how we use it.
 
----
-Here is how the interaction between the client/server will take place:
-```mermaid
-sequenceDiagram
-Client ->> Server: Hi! here's my master hash with the last time updated
-
-Note over Server,Client: 1. Check each data point against <br/>individual hashes.<br/>2. Collect all the ones where the bits<br/> dont match.<br/>3. Send the Collected data points <br/>back to the client with its own<br/> master hash (SMH).
-
-Server ->> Client: There you go....
-Client ->> Client : Updates Itself
-```
----
 **Writing a small proof of concept with existing libraries**  
 
 From [Murmurhash-native](https://www.npmjs.com/package/murmurhash-native)'s npm page
@@ -85,6 +73,20 @@ Now since i know it works, let me put it all in a class, so I dont pollute the g
 ``` 
 I am going to use this class later.
 
+---
+As we are concerned with the 
+Here is how the interaction between the client/server will take place:
+```mermaid
+sequenceDiagram
+Client ->> Server: Hi! here's my master hash with the last time updated
+
+Note over Server,Client: 1. Check each data point against <br/>individual hashes.<br/>2. Collect all the ones where the bits<br/> dont match.<br/>3. Send the Collected data points <br/>back to the client with its own<br/> master hash (SMH).
+
+Server ->> Client: There you go....
+Client ->> Client : Updates Itself
+```
+---
+
 
 Some reading:
 <https://blog.medium.com/what-are-bloiom-filters-1ec2a50c68ff>
@@ -93,7 +95,7 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3ODgzOTg1MCwyMTM5MzM5OTgzLC0xND
-MwNzk1OTgwLDE2MDg2OTcwMzAsNTE4NDY0MjkyLC0xMDkyNjYy
-NDAyLDExNTAzMzEyMDQsNDAzMTIzMzIyXX0=
+eyJoaXN0b3J5IjpbLTE0OTU0OTY2NDIsMjEzOTMzOTk4MywtMT
+QzMDc5NTk4MCwxNjA4Njk3MDMwLDUxODQ2NDI5MiwtMTA5MjY2
+MjQwMiwxMTUwMzMxMjA0LDQwMzEyMzMyMl19
 -->
