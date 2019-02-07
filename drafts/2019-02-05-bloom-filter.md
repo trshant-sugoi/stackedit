@@ -66,7 +66,6 @@ console.log(" checking hash \"not me!\" (should be false) : ",check); // false
 check  =  checkTheHashes(oredhash, hash4);
 console.log(" checking hash \"do me too\" (should be true): ",check); // true
 ```
-
 Now since i know it works, let me put it all in a class, so I dont pollute the global namespace.
 ```javascript
 //TODO: make a class.
@@ -74,6 +73,8 @@ Now since i know it works, let me put it all in a class, so I dont pollute the g
 I am going to use this class later.
 
 As we can see, it is quite useful for checking uniqueness and availability of the data, depending on the answer expected is positive or negative.
+
+If this  
 
 ---
 As we are concerned with syncing data between the server and client.
@@ -92,13 +93,11 @@ Client ->> Client : Updates Itself
 
 
 Some reading:
-<https://blog.medium.com/what-are-bloom-filters-1ec2a50c68ff>
-<https://llimllib.github.io/bloomfilter-tutorial/>
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators>
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNDIyOTgzOSwxMjc2MTUzNzkyLDIxMz
+eyJoaXN0b3J5IjpbMTI0NzM5NDk2MywxMjc2MTUzNzkyLDIxMz
 kzMzk5ODMsLTE0MzA3OTU5ODAsMTYwODY5NzAzMCw1MTg0NjQy
 OTIsLTEwOTI2NjI0MDIsMTE1MDMzMTIwNCw0MDMxMjMzMjJdfQ
 ==
