@@ -97,7 +97,6 @@ SELECT * FROM table_name HAVING hash_field_value & CMH <> hash_field_value
 The above SQL will return only those rows from the tablename which are not there or updated in the client system.
 
 
-
 ---
 
 
@@ -106,7 +105,7 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5NDU1ODY0LC05MDgxMjg4MDgsLTE3Nj
+eyJoaXN0b3J5IjpbMTEwMjQ2MjQ2LC05MDgxMjg4MDgsLTE3Nj
 IyMzQ4OTgsMTI0NzM5NDk2MywxMjc2MTUzNzkyLDIxMzkzMzk5
 ODMsLTE0MzA3OTU5ODAsMTYwODY5NzAzMCw1MTg0NjQyOTIsLT
 EwOTI2NjI0MDIsMTE1MDMzMTIwNCw0MDMxMjMzMjJdfQ==
