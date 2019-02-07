@@ -11,15 +11,17 @@ Here is how the interaction between the client/server will take place:
 sequenceDiagram
 Client ->> Server: Hi! here's my master hash
 
-Note over Server,Client: 1. Check each data point against <br/>individual hashes.<br/>2. Collect all the ones where the bits<br/> dont match.<br/>3. Send the Collected data points <br/>back to the client with its own<br/> master hash.
+Note over Server,Client: 1. Check each data point against <br/>individual hashes.<br/>2. Collect all the ones where the bits<br/> dont match.<br/>3. Send the Collected data points <br/>back to the client with its own<br/> master hash (SMH).
 
 Server ->> Client: There you go....
 
-alt Checks master hash
-        Note over Client: 
+alt Checks SMH
+        Note over Client:  
 else is well
         Client->>Server: Feeling fresh like a daisy
 end
+
+
 ```
 
 Murmur Hash : The master hash is the ANDed product of all the individual hashes. The hashing function used here is the murmur hash which has a lot of improvements over the normal SHA256. In NodeJS, this is how we use it.
@@ -100,7 +102,7 @@ Some reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY2NTU5NDU2LC0xNDMwNzk1OTgwLDE2MD
-g2OTcwMzAsNTE4NDY0MjkyLC0xMDkyNjYyNDAyLDExNTAzMzEy
-MDQsNDAzMTIzMzIyXX0=
+eyJoaXN0b3J5IjpbMTMwNzIzNzA1NywtMTQzMDc5NTk4MCwxNj
+A4Njk3MDMwLDUxODQ2NDI5MiwtMTA5MjY2MjQwMiwxMTUwMzMx
+MjA0LDQwMzEyMzMyMl19
 -->
