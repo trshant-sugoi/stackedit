@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Hello World"
 date: 2018-06-23T06:59:43+05:30
 draft: false
@@ -19,13 +18,13 @@ This is also a test filewhere i will be trying out `newer` things i want to do.
 
 > i ❤ this. 
 
-{% mermaid %}
+```mermaid
 graph LR
         A[AWS Kinesis] --> B[Spark Streaming Application]
         B --> C[AWS S3]
         B --> D[AWS Redshift]
         C -.-> D
-{% endmermaid %}
+```
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTUyODI3NTI1MV19
 -->

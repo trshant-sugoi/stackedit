@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Noun and verb based programming"
 date: 2018-11-15T19:00:00+05:30
 draft: false

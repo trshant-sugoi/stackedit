@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Scope and Context in JavaScript"
 date: 2018-11-05T19:00:00+05:30
 draft: false

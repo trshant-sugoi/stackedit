@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Starting off with AWS - static site setup"
 date: 2018-11-08T07:51:43+05:30
 draft: true

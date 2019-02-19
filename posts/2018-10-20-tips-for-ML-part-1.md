@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Code snippets for ML using Scikit-Learn - Part 1"
 date: 2018-10-20T07:51:43+05:30
 draft: false

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Mapreduce using MongoDB"
 date: 2018-08-15T06:59:43+05:30
 draft: true

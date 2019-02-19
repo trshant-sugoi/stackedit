@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "A note on Docker."
 date: 2019-01-27T19:00:00+05:30
 draft: false

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Code Snippets for data preprocessing using Pandas - Part 1"
 date: 2018-10-21T07:51:43+05:30
 draft: false
