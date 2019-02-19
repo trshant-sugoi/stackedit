@@ -48,17 +48,17 @@ Lets me see if i can do some thing along these lines. The objective of my study 
 I am using this [collection of links](https://github.com/leonardomso/33-js-concepts). Found this during the hacktober fest and it is truly awesome!
    - [x] [A small recap/study](https://www.w3schools.com/js/)
    - [x] [something advanced (and some fun!) ](https://johnresig.com/apps/learn/)
-   - [ ] Closures  
-   - [ ] Prototype  
+   - [x] Closures  
+   - [x] Prototype  
 [ES6](https://www.tutorialspoint.com/es6/index.htm)  
-    - [ ] Classes, modules, const, let  
-    - [ ] promises  
-    - [ ] async, await  
-    - [ ] arrow functions  
-    - [ ] imports / exports  
+    - [x] Classes, modules, const, let  
+    - [x] promises  
+    - [x] async, await  
+    - [x] arrow functions  
+    - [x] imports / exports  
 Node  
-    - [ ] Use Yarn  
-    - [ ] fs , path  
+    - [x] Use Yarn  
+    - [x] fs , path  
 Express  
 MongoDB / Mongoose  
 ReactJS  
