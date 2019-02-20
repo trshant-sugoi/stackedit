@@ -15,7 +15,8 @@ We have a few concepts to understand here:
 
 My understanding of web components was helped in a big way because of Cory's[^blogPost1] and sitepen's[^sitepen] posts.  
 
-So How do we 
+So How do we start?
+
 
 [^atGoogle]: (https://developers.google.com/web/fundamentals/web-components/customelements)  
 [^blogPost1]: (https://coryrylan.com/blog/introduction-to-web-components)
@@ -27,6 +28,6 @@ So How do we
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0OTAxODYzOCwtODI2MzkyNjMyLC04OD
+eyJoaXN0b3J5IjpbLTgxNTUwNTE4MywtODI2MzkyNjMyLC04OD
 AyNjI5MDFdfQ==
 -->
