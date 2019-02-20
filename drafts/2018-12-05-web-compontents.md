@@ -8,9 +8,9 @@ Description : "My attempt at understanding of web components."
 
 New blog post on web componentsWeb components are a way to define custom HTML elements. These are reusable and since, they can be all custom JavaScript, can be shared as an  npm package. 
 Now we have a few concepts to understand here:
- 1. **Document fragment** : This is the part of the HTML that never shows up rendered on the screen.  This is where the templates will lie before they are
- 2. Shadow Dom.
- 3. A few JavaScript web component APIs.
+ 1. **Document fragment**: This is the part of the HTML that never shows up rendered on the screen.  This is where the templates will lie before they are used.
+ 2. **Shadow Dom**: 
+ 3. **JavaScript web component APIs**. This link will be explain this much better than i ever will.
 
 
 references
@@ -30,6 +30,6 @@ references
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjY3NzYyODAsLTgyNjM5MjYzMiwtOD
-gwMjYyOTAxXX0=
+eyJoaXN0b3J5IjpbLTgyMDY5MDgzLC04MjYzOTI2MzIsLTg4MD
+I2MjkwMV19
 -->
