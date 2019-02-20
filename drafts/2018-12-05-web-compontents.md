@@ -21,12 +21,6 @@ references
  - That have a site too[^site].
 
 
-[^atGoogle](https://developers.google.com/web/fundamentals/web-components/customelements), 
-[^blogPost1](https://coryrylan.com/blog/introduction-to-web-components), 
-[^sitepen](https://www.sitepen.com/blog/2018/07/06/web-components-in-2018/), 
-[^site](https://www.webcomponents.org/introduction).
-
-
 [^atGoogle]: (https://developers.google.com/web/fundamentals/web-components/customelements)
 [^blogPost1]: (https://coryrylan.com/blog/introduction-to-web-components)
 [^sitepen]: (https://www.sitepen.com/blog/2018/07/06/web-components-in-2018/)
@@ -37,5 +31,5 @@ references
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM2Mzg1NTUsLTg4MDI2MjkwMV19
+eyJoaXN0b3J5IjpbLTgyNjM5MjYzMiwtODgwMjYyOTAxXX0=
 -->
