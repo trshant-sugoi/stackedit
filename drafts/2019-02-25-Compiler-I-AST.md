@@ -28,8 +28,10 @@ Compiler ->> User: Executable
 
 To understand and see these in action, Do try out <https://astexplorer.net/>. This site is amazing and will make you see in action building of an AST.  
 
+Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is truly a pleasure to work with.  
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAzMTc4NjcsLTE2MjMyNTQzNjEsMTUxMz
-cyMDc1OSwxNTg1MjY3MTQ0LDgzMTc3MjMwXX0=
+eyJoaXN0b3J5IjpbLTQxNDc0Njc2NSwtMTYyMzI1NDM2MSwxNT
+EzNzIwNzU5LDE1ODUyNjcxNDQsODMxNzcyMzBdfQ==
 -->
