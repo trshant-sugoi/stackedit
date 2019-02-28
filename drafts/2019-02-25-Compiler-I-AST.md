@@ -44,22 +44,31 @@ C ->> U: Executable
 * CST : Concrete Syntax tree
 	```mermaid
 	graph TD
+		A1["Exp"]
+		a
 		B["+"]
 		B-->A[5]
 	        B-->E(*)
-	        E-->C(ee)
 	        E-->D(1)
+	        E-->F(12)
 	```
 * AST : Abstract Syntax tree
-
+    ```mermaid
+	graph TD
+		B["+"]
+		B-->A[5]
+	        B-->E(*)
+	        E-->D(1)
+	        E-->F(12)
+    ```
 To understand and see these in action, Do try out <https://astexplorer.net/>. This site is amazing and will make you see in action building of an AST.  
 
 Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is truly a pleasure to work with.  
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMjU5MDg1OSwtMTY3NTE1NjczNSwtMT
-A4Mzk5MjY3MiwxODY0OTIzNDU1LC0zNDAyMDczMTEsNDYzMzYw
-MDYxLC00MTQ3NDY3NjUsLTE2MjMyNTQzNjEsMTUxMzcyMDc1OS
-wxNTg1MjY3MTQ0LDgzMTc3MjMwXX0=
+eyJoaXN0b3J5IjpbLTEyMzg2NTQ1NDMsLTE2NzUxNTY3MzUsLT
+EwODM5OTI2NzIsMTg2NDkyMzQ1NSwtMzQwMjA3MzExLDQ2MzM2
+MDA2MSwtNDE0NzQ2NzY1LC0xNjIzMjU0MzYxLDE1MTM3MjA3NT
+ksMTU4NTI2NzE0NCw4MzE3NzIzMF19
 -->
