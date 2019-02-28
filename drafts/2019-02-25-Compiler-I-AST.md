@@ -6,8 +6,12 @@ tags : [CompSci,compilerTheory,AST]
 Description : "Building your own compiler (Part 1)"
 ---  
 **Building blocks of a compiler**:
+Copied from <https://www.programcreek.com/2011/02/how-compiler-works/>
 >A compiler is a computer program that transforms source code written in a high-level programming language into a lower level language.  
 
+Here is what happens in a compiler
+
+Lexical Analysis, Syntax Analysis, Semantic Analysis, IR Generation, IR Optimization, Code Generation, Optimization
 
 
 **How do you get to an AST**
@@ -69,9 +73,9 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTIwODQwMTIsNzQwNzc0Njk5LDc0Nj
-kwNTY4MiwtMTY3NTE1NjczNSwtMTA4Mzk5MjY3MiwxODY0OTIz
-NDU1LC0zNDAyMDczMTEsNDYzMzYwMDYxLC00MTQ3NDY3NjUsLT
-E2MjMyNTQzNjEsMTUxMzcyMDc1OSwxNTg1MjY3MTQ0LDgzMTc3
-MjMwXX0=
+eyJoaXN0b3J5IjpbMTQ0MDQxNzk4Miw3NDA3NzQ2OTksNzQ2OT
+A1NjgyLC0xNjc1MTU2NzM1LC0xMDgzOTkyNjcyLDE4NjQ5MjM0
+NTUsLTM0MDIwNzMxMSw0NjMzNjAwNjEsLTQxNDc0Njc2NSwtMT
+YyMzI1NDM2MSwxNTEzNzIwNzU5LDE1ODUyNjcxNDQsODMxNzcy
+MzBdfQ==
 -->
