@@ -17,8 +17,12 @@ graph TD
 classDef className fill:#f9f,stroke:#333,stroke-width:4px;
 class I,O className;
 I["file"]
+
 I-->A["Lexical Analysis"]
+subgraph Arriving at AST
+subgraph Arriving at AST
 A-->B["Syntax Analysis"]
+end
 B-->C["Semantic Analysis"]
 C-->D["IR Generation"]
 D-->E["IR Optimization"]
@@ -86,9 +90,9 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxMzAxMjA3LDc0MDc3NDY5OSw3NDY5MD
-U2ODIsLTE2NzUxNTY3MzUsLTEwODM5OTI2NzIsMTg2NDkyMzQ1
-NSwtMzQwMjA3MzExLDQ2MzM2MDA2MSwtNDE0NzQ2NzY1LC0xNj
-IzMjU0MzYxLDE1MTM3MjA3NTksMTU4NTI2NzE0NCw4MzE3NzIz
-MF19
+eyJoaXN0b3J5IjpbMTcxMjYxMTI2MCw3NDA3NzQ2OTksNzQ2OT
+A1NjgyLC0xNjc1MTU2NzM1LC0xMDgzOTkyNjcyLDE4NjQ5MjM0
+NTUsLTM0MDIwNzMxMSw0NjMzNjAwNjEsLTQxNDc0Njc2NSwtMT
+YyMzI1NDM2MSwxNTEzNzIwNzU5LDE1ODUyNjcxNDQsODMxNzcy
+MzBdfQ==
 -->
