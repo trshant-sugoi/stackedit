@@ -20,13 +20,15 @@ sequenceDiagram
 User ->> Compiler: File  
 
 Compiler ->> Lexical Analyser: String  
-Lexical Analyser ->> Syntax Analysis: Takeni 
-Create Parse Tree (CST) 
+Lexical Analysis ->> Syntax Analysis: Takenised   
+Syntax Analysis  ->> Next level of compiling : Create Parse Tree (CST) 
+
+Compiler ->> : File
 ```
 * CST : Concrete Syntax trees
 * 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgxMTg4OTE4LC0xNjIzMjU0MzYxLDE1MT
-M3MjA3NTksMTU4NTI2NzE0NCw4MzE3NzIzMF19
+eyJoaXN0b3J5IjpbLTEyNTQwMjA4NzksLTE2MjMyNTQzNjEsMT
+UxMzcyMDc1OSwxNTg1MjY3MTQ0LDgzMTc3MjMwXX0=
 -->
