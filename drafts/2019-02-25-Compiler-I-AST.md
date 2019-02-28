@@ -15,7 +15,10 @@ Lexical Analysis, Syntax Analysis, Semantic Analysis, IR Generation, IR Optimiza
 ```mermaid
 graph TD
 classDef className fill:#f9f,stroke:#333,stroke-width:4px;
-
+class I,O className;
+I["file"]
+I->>A[Lexical Analysis]
+O["executable"]
 ```
 
 **How do you get to an AST**
@@ -77,7 +80,7 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTgyNjgwNiw3NDA3NzQ2OTksNzQ2OT
+eyJoaXN0b3J5IjpbLTY3NDEwNjQxMSw3NDA3NzQ2OTksNzQ2OT
 A1NjgyLC0xNjc1MTU2NzM1LC0xMDgzOTkyNjcyLDE4NjQ5MjM0
 NTUsLTM0MDIwNzMxMSw0NjMzNjAwNjEsLTQxNDc0Njc2NSwtMT
 YyMzI1NDM2MSwxNTEzNzIwNzU5LDE1ODUyNjcxNDQsODMxNzcy
