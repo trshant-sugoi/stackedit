@@ -17,12 +17,17 @@ Below diagram is based on [Vaidehi Joshi's](https://medium.com/basecs/leveling-u
 
 ```mermaid
 sequenceDiagram
+```
+participant LA as Lexical Analysis
+participant SA as Syntax Analysis
+
 User ->> Compiler: File  
 Compiler ->> Scanner : String
-Scanner ->> Lexical Analysis: lexemes  
-Lexical Analysis ->> Syntax Analysis: Tokenised   
+Scanner ->> LA: lexemes  
+LA ->> : Tokenised   
 Syntax Analysis  ->> Next level of compiling : Create Parse Tree (CST) 
-Compiler ->> User: Executable
+Compiler ->> User: Executable  
+
 ```
 * CST : Concrete Syntax trees
 * 
@@ -33,7 +38,7 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTU0Nzc3MTgsLTQxNDc0Njc2NSwtMT
-YyMzI1NDM2MSwxNTEzNzIwNzU5LDE1ODUyNjcxNDQsODMxNzcy
-MzBdfQ==
+eyJoaXN0b3J5IjpbLTQwMTI4NTMwMSwtNDE0NzQ2NzY1LC0xNj
+IzMjU0MzYxLDE1MTM3MjA3NTksMTU4NTI2NzE0NCw4MzE3NzIz
+MF19
 -->
