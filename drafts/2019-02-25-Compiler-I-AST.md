@@ -19,13 +19,12 @@ class I,O className;
 I["file"]
 I-->A["Lexical Analysis"]
 A-->B["Syntax Analysis"]
-B-->C[""]
-C-->D[""]
-D-->E[""]
-E-->F[""]
-F-->G[""]
-G-->H[""]
-H-->O["executable"]
+B-->C["Semantic Analysis"]
+C-->D["IR Generation"]
+D-->E["IR Optimization"]
+E-->F["Code Generation"]
+F-->G["Optimization"]
+G-->O["executable"]
 ```
 
 **How do you get to an AST**
@@ -87,9 +86,9 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjQyODk2MzIsNzQwNzc0Njk5LDc0Nj
-kwNTY4MiwtMTY3NTE1NjczNSwtMTA4Mzk5MjY3MiwxODY0OTIz
-NDU1LC0zNDAyMDczMTEsNDYzMzYwMDYxLC00MTQ3NDY3NjUsLT
-E2MjMyNTQzNjEsMTUxMzcyMDc1OSwxNTg1MjY3MTQ0LDgzMTc3
-MjMwXX0=
+eyJoaXN0b3J5IjpbODIxMzAxMjA3LDc0MDc3NDY5OSw3NDY5MD
+U2ODIsLTE2NzUxNTY3MzUsLTEwODM5OTI2NzIsMTg2NDkyMzQ1
+NSwtMzQwMjA3MzExLDQ2MzM2MDA2MSwtNDE0NzQ2NzY1LC0xNj
+IzMjU0MzYxLDE1MTM3MjA3NTksMTU4NTI2NzE0NCw4MzE3NzIz
+MF19
 -->
