@@ -25,13 +25,17 @@ participant SA1 as Syntax Analysis: CST
 participant SA2 as Syntax Analysis: AST 
 
 U ->> C  : File  
+Note over C: Pre Compilation
 C ->> S  : String
 Note over S: Strip text
 S ->> T  : lexemes 
 Note over T: Convert to Tokens
 T ->> SA1 : Tokenised   
+Note over SA1: Create a Parse Tree
 SA1  ->> SA2 : CST
+Note over SA2: Optimise the Parse Tree
 SA2  ->> Next level of compiling: AST 
+Note over C: Post Compilation
 C ->> U: Executable  
 ```  
 
@@ -44,7 +48,7 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1Nzg5MTg1MSwtMzQwMjA3MzExLDQ2Mz
+eyJoaXN0b3J5IjpbMTIyNDgxMDMxMSwtMzQwMjA3MzExLDQ2Mz
 M2MDA2MSwtNDE0NzQ2NzY1LC0xNjIzMjU0MzYxLDE1MTM3MjA3
 NTksMTU4NTI2NzE0NCw4MzE3NzIzMF19
 -->
