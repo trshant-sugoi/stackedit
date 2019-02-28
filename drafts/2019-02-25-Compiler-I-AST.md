@@ -18,8 +18,9 @@ Below diagram is based on [Vaidehi Joshi's](https://medium.com/basecs/leveling-u
 ```mermaid
 sequenceDiagram
 User ->> Compiler: File  
-Compiler ->> Lexical Analyser: String  
-Lexical Analysis ->> Syntax Analysis: Takenised   
+Compiler ->> Scanner : String
+Scanner ->> Lexical Analysis: lexemes  
+Lexical Analysis ->> Syntax Analysis: Tokenised   
 Syntax Analysis  ->> Next level of compiling : Create Parse Tree (CST) 
 Compiler ->> User: Executable
 ```
@@ -32,6 +33,7 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDc0Njc2NSwtMTYyMzI1NDM2MSwxNT
-EzNzIwNzU5LDE1ODUyNjcxNDQsODMxNzcyMzBdfQ==
+eyJoaXN0b3J5IjpbLTE3MTU0Nzc3MTgsLTQxNDc0Njc2NSwtMT
+YyMzI1NDM2MSwxNTEzNzIwNzU5LDE1ODUyNjcxNDQsODMxNzcy
+MzBdfQ==
 -->
