@@ -20,11 +20,12 @@ sequenceDiagram
 User ->> Compiler: File  
 
 Compiler ->> Lexical Analyser: Tokenise  
-Lexical Analyser ->> Syntax Analysis: Create Parse Tree 
+Lexical Analyser ->> Syntax Analysis: Create Parse Tree (CST) 
 ```
-
+* CST : Concrete Syntax trees
+* 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDkzMTA4MDEsMTUxMzcyMDc1OSwxNT
+eyJoaXN0b3J5IjpbLTE2MjMyNTQzNjEsMTUxMzcyMDc1OSwxNT
 g1MjY3MTQ0LDgzMTc3MjMwXX0=
 -->
