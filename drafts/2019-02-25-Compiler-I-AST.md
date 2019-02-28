@@ -17,13 +17,12 @@ Description : "Building your own compiler (Part 1): How to build a Abstract Synt
 sequenceDiagram
 User ->> Compiler: File  
 
-Compiler ->> Lexical Analyser: Tokenise
-Server ->> Client: There you go....
-Client ->> Client : Updates Itself
+Compiler ->> Lexical Analyser: Tokenise  
+Lexical Analyser ->> Syntax Analysis: Create Parse Tree 
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMTYyNjA1MywxNTg1MjY3MTQ0LDgzMT
+eyJoaXN0b3J5IjpbMTUxMzcyMDc1OSwxNTg1MjY3MTQ0LDgzMT
 c3MjMwXX0=
 -->
