@@ -14,6 +14,7 @@ Description : "Building your own compiler (Part 1): How to build a Abstract Synt
 **Define your grammer**:  
 
 Below diagram is based on [Vaidehi Joshi's](https://medium.com/basecs/leveling-up-ones-parsing-game-with-asts-d7a6fc2400ff) awesome post on ASTs:
+As she has, we will be using the same example for our input " 5+(1*12) "
 
 ```mermaid
 sequenceDiagram
@@ -33,9 +34,9 @@ Note over S: Strip text <br/>"5+(1*12)"
 S ->> T  : lexemes  
 Note over T: Convert to Tokens<br/>["5","+","(","1","*","12",")"]
 T ->> SA1 : Tokenised   
-Note over SA1: Create a Parse Tree
+Note over SA1: Create Parse Tree
 SA1  ->> SA2 : CST
-Note over SA2: Optimise the Parse Tree
+Note over SA2: Optimise Parse Tree
 SA2  ->> Next level of compiling: AST 
 Note over C: Post Compilation
 C ->> U: Executable  
@@ -51,9 +52,9 @@ C ->> U: Executable
 		A2-->C["("]
 		A2-->A3["Exp"]
 		A2-->G[")"]
-		A-->D[1]
-		A2-->E["*"]
-		A2-->F[12]
+		A3-->D[1]
+		A3-->E["*"]
+		A3-->F[12]
 	```
 * AST : Abstract Syntax tree
     ```mermaid
@@ -70,8 +71,8 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDkxNDQ4MDMsLTE2NzUxNTY3MzUsLT
-EwODM5OTI2NzIsMTg2NDkyMzQ1NSwtMzQwMjA3MzExLDQ2MzM2
-MDA2MSwtNDE0NzQ2NzY1LC0xNjIzMjU0MzYxLDE1MTM3MjA3NT
-ksMTU4NTI2NzE0NCw4MzE3NzIzMF19
+eyJoaXN0b3J5IjpbNzQ2OTA1NjgyLC0xNjc1MTU2NzM1LC0xMD
+gzOTkyNjcyLDE4NjQ5MjM0NTUsLTM0MDIwNzMxMSw0NjMzNjAw
+NjEsLTQxNDc0Njc2NSwtMTYyMzI1NDM2MSwxNTEzNzIwNzU5LD
+E1ODUyNjcxNDQsODMxNzcyMzBdfQ==
 -->
