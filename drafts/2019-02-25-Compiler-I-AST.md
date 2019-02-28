@@ -13,7 +13,7 @@ Description : "Building your own compiler (Part 1): How to build a Abstract Synt
 ---  
 **Define your grammer**:  
 
-Thanks to []()
+Below diagram is based on [Vaidehi Joshi's](https://medium.com/basecs/leveling-up-ones-parsing-game-with-asts-d7a6fc2400ff) awesome post on ASTs:
 
 ```mermaid
 sequenceDiagram
@@ -25,6 +25,6 @@ Lexical Analyser ->> Syntax Analysis: Create Parse Tree
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTQwOTkyMiwxNTEzNzIwNzU5LDE1OD
-UyNjcxNDQsODMxNzcyMzBdfQ==
+eyJoaXN0b3J5IjpbLTIwNDkzMTA4MDEsMTUxMzcyMDc1OSwxNT
+g1MjY3MTQ0LDgzMTc3MjMwXX0=
 -->
