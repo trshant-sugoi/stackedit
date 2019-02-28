@@ -17,11 +17,11 @@ Below diagram is based on [Vaidehi Joshi's](https://medium.com/basecs/leveling-u
 
 ```mermaid
 sequenceDiagram
-participant U as U  
-participant Compiler as C   
-participant Scanner as S   
-participant LA as Lexical Analysis  
-participant SA as Syntax Analysis  
+participant U as User  
+participant C as Compiler   
+participant S as Scanner   
+participant LA as Parsing I: Lexical Analysis  
+participant SA as Parsing II: Syntax Analysis  
 U ->> C: File  
 C ->> S : String
 S ->> LA: lexemes  
@@ -39,7 +39,7 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzcyMjU4MiwtNDE0NzQ2NzY1LC0xNj
+eyJoaXN0b3J5IjpbMTMzMzMxNjk4MSwtNDE0NzQ2NzY1LC0xNj
 IzMjU0MzYxLDE1MTM3MjA3NTksMTU4NTI2NzE0NCw4MzE3NzIz
 MF19
 -->
