@@ -21,12 +21,13 @@ participant U as User
 participant C as Compiler   
 participant S as Lexical Analysis: Scanner
 participant T as Lexical Analysis: Tokeniser   
-participant SA as Syntax Analysis  
+participant SA1 as Syntax Analysis:  
 U ->> C  : File  
 C ->> S  : String
 S ->> T  : lexemes 
-T ->> SA : Tokenised   
-SA  ->> Next level of compiling : Create Parse Tree (CST) 
+T ->> SA1 : Tokenised   
+SA1  ->> SA2 : CST
+SA2  ->> Next level of compiling: Optimised P 
 C ->> U: Executable  
 ```  
 
@@ -39,7 +40,7 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYzMzYwMDYxLC00MTQ3NDY3NjUsLTE2Mj
-MyNTQzNjEsMTUxMzcyMDc1OSwxNTg1MjY3MTQ0LDgzMTc3MjMw
-XX0=
+eyJoaXN0b3J5IjpbLTE4NTc4MzkwMDksNDYzMzYwMDYxLC00MT
+Q3NDY3NjUsLTE2MjMyNTQzNjEsMTUxMzcyMDc1OSwxNTg1MjY3
+MTQ0LDgzMTc3MjMwXX0=
 -->
