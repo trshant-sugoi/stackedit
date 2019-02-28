@@ -42,6 +42,7 @@ C ->> U: Executable
 ```  
 
 * CST : Concrete Syntax tree
+
 * AST : Abstract Syntax tree
 
 To understand and see these in action, Do try out <https://astexplorer.net/>. This site is amazing and will make you see in action building of an AST.  
@@ -50,8 +51,8 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzUxNTY3MzUsLTEwODM5OTI2NzIsMT
-g2NDkyMzQ1NSwtMzQwMjA3MzExLDQ2MzM2MDA2MSwtNDE0NzQ2
-NzY1LC0xNjIzMjU0MzYxLDE1MTM3MjA3NTksMTU4NTI2NzE0NC
-w4MzE3NzIzMF19
+eyJoaXN0b3J5IjpbMTc3MDIyODU2MywtMTY3NTE1NjczNSwtMT
+A4Mzk5MjY3MiwxODY0OTIzNDU1LC0zNDAyMDczMTEsNDYzMzYw
+MDYxLC00MTQ3NDY3NjUsLTE2MjMyNTQzNjEsMTUxMzcyMDc1OS
+wxNTg1MjY3MTQ0LDgzMTc3MjMwXX0=
 -->
