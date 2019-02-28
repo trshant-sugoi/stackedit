@@ -42,12 +42,12 @@ C ->> U: Executable
 ```  
 
 * CST : Concrete Syntax tree
-	```
+	```mermaid
 	graph TD
-		B["fa:fa-twitter for peace"]
-		B-->C[fa:fa-ban forbidden]
-	        B-->D(fa:fa-spinner);
-	        B-->E(A fa:fa-camera-retro perhaps?);
+		B["+"]
+		B-->A[5]
+	        B-->E(*)
+	        E
 	```
 * AST : Abstract Syntax tree
 
@@ -57,8 +57,8 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MjYwMDI4NSwtMTY3NTE1NjczNSwtMT
-A4Mzk5MjY3MiwxODY0OTIzNDU1LC0zNDAyMDczMTEsNDYzMzYw
-MDYxLC00MTQ3NDY3NjUsLTE2MjMyNTQzNjEsMTUxMzcyMDc1OS
-wxNTg1MjY3MTQ0LDgzMTc3MjMwXX0=
+eyJoaXN0b3J5IjpbLTE2MzM0MDY3MDQsLTE2NzUxNTY3MzUsLT
+EwODM5OTI2NzIsMTg2NDkyMzQ1NSwtMzQwMjA3MzExLDQ2MzM2
+MDA2MSwtNDE0NzQ2NzY1LC0xNjIzMjU0MzYxLDE1MTM3MjA3NT
+ksMTU4NTI2NzE0NCw4MzE3NzIzMF19
 -->
