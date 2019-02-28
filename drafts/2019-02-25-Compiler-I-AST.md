@@ -1,5 +1,5 @@
 ---
-title: "Building a compiler-part1. AST"
+title: "Building a compiler-part1 AST"
 date: 2019-01-27T19:00:00+05:30
 draft: false
 tags : [CompSci,compilerTheory,AST]
@@ -68,8 +68,8 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3ODE0MTQxNyw3NDY5MDU2ODIsLTE2Nz
-UxNTY3MzUsLTEwODM5OTI2NzIsMTg2NDkyMzQ1NSwtMzQwMjA3
-MzExLDQ2MzM2MDA2MSwtNDE0NzQ2NzY1LC0xNjIzMjU0MzYxLD
-E1MTM3MjA3NTksMTU4NTI2NzE0NCw4MzE3NzIzMF19
+eyJoaXN0b3J5IjpbNzQwNzc0Njk5LDc0NjkwNTY4MiwtMTY3NT
+E1NjczNSwtMTA4Mzk5MjY3MiwxODY0OTIzNDU1LC0zNDAyMDcz
+MTEsNDYzMzYwMDYxLC00MTQ3NDY3NjUsLTE2MjMyNTQzNjEsMT
+UxMzcyMDc1OSwxNTg1MjY3MTQ0LDgzMTc3MjMwXX0=
 -->
