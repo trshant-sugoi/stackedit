@@ -12,7 +12,11 @@ Copied from <https://www.programcreek.com/2011/02/how-compiler-works/>
 Here is what happens in a compiler
 
 Lexical Analysis, Syntax Analysis, Semantic Analysis, IR Generation, IR Optimization, Code Generation, Optimization
+```mermaid
+graph TD
+classDef className fill:#f9f,stroke:#333,stroke-width:4px;
 
+```
 
 **How do you get to an AST**
 Below diagram is based on [Vaidehi Joshi's](https://medium.com/basecs/leveling-up-ones-parsing-game-with-asts-d7a6fc2400ff) awesome post on ASTs:
@@ -73,7 +77,7 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MDQxNzk4Miw3NDA3NzQ2OTksNzQ2OT
+eyJoaXN0b3J5IjpbMTE5MTgyNjgwNiw3NDA3NzQ2OTksNzQ2OT
 A1NjgyLC0xNjc1MTU2NzM1LC0xMDgzOTkyNjcyLDE4NjQ5MjM0
 NTUsLTM0MDIwNzMxMSw0NjMzNjAwNjEsLTQxNDc0Njc2NSwtMT
 YyMzI1NDM2MSwxNTEzNzIwNzU5LDE1ODUyNjcxNDQsODMxNzcy
