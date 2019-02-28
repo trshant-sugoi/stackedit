@@ -15,16 +15,15 @@ Description : "Building your own compiler (Part 1): How to build a Abstract Synt
 
 ```mermaid
 sequenceDiagram
-User ->> Lexical A: Hi! here's my master hash (CMH) with the last time synced
+User ->> Compiler: File  
 
-Note over Server,Client: 1. Check each data point against <br/>individual hashes.<br/>2. Collect all the ones where the bits<br/> dont match.<br/>3. Send the Collected data points <br/>back to the client with its own<br/> master hash (SMH).
-
+Compiler ->> Lexical Analyser: Tokenise
 Server ->> Client: There you go....
 Client ->> Client : Updates Itself
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4NzUwNjY1LDE1ODUyNjcxNDQsODMxNz
-cyMzBdfQ==
+eyJoaXN0b3J5IjpbMTUwMTYyNjA1MywxNTg1MjY3MTQ0LDgzMT
+c3MjMwXX0=
 -->
