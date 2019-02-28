@@ -48,12 +48,12 @@ C ->> U: Executable
 		A1-->A[5]
 		A1-->B["+"]
 		A1-->A2[Exp]
-		A2-->C[(]
-		A2-->D
-		A2-->E
-		A2-->F
-		E-->D(1)
-	        E-->F(12)
+		A2-->C["("]
+		A2-->A3["Exp"]
+		A2-->G[")"]
+		A-->D[1]
+		A2-->E["*"]
+		A2-->F[12]
 	```
 * AST : Abstract Syntax tree
     ```mermaid
@@ -70,8 +70,8 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzg0MTYxMiwtMTY3NTE1NjczNSwtMT
-A4Mzk5MjY3MiwxODY0OTIzNDU1LC0zNDAyMDczMTEsNDYzMzYw
-MDYxLC00MTQ3NDY3NjUsLTE2MjMyNTQzNjEsMTUxMzcyMDc1OS
-wxNTg1MjY3MTQ0LDgzMTc3MjMwXX0=
+eyJoaXN0b3J5IjpbLTIxMDkxNDQ4MDMsLTE2NzUxNTY3MzUsLT
+EwODM5OTI2NzIsMTg2NDkyMzQ1NSwtMzQwMjA3MzExLDQ2MzM2
+MDA2MSwtNDE0NzQ2NzY1LC0xNjIzMjU0MzYxLDE1MTM3MjA3NT
+ksMTU4NTI2NzE0NCw4MzE3NzIzMF19
 -->
