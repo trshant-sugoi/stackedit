@@ -87,7 +87,7 @@ C ->> U: Executable
     ```
 To understand and see these in action, Do try out <https://astexplorer.net/>. This site is amazing and will make you see in action building of an AST with code.  Read [this](https://blog.buildo.io/a-tour-of-abstract-syntax-trees-906c0574a067) to figure out the why's and what's.
 
-Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is truly a pleasure to work with.  
+Many thanks to the creators of  <https://mermaidjs.github.io> for the sequence diagram. It is truly a pleasure to work with.  
 
 more reading:
 <https://medium.com/basecs/grammatically-rooting-oneself-with-parse-trees-ec9daeda7dad>
@@ -95,7 +95,7 @@ more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODI3NjcxNSw3NDA3NzQ2OTksNzQ2OT
+eyJoaXN0b3J5IjpbMTU1ODQ1MzM5Miw3NDA3NzQ2OTksNzQ2OT
 A1NjgyLC0xNjc1MTU2NzM1LC0xMDgzOTkyNjcyLDE4NjQ5MjM0
 NTUsLTM0MDIwNzMxMSw0NjMzNjAwNjEsLTQxNDc0Njc2NSwtMT
 YyMzI1NDM2MSwxNTEzNzIwNzU5LDE1ODUyNjcxNDQsODMxNzcy
