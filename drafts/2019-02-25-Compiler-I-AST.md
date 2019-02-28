@@ -6,6 +6,7 @@ tags : [CompSci,compilerTheory,AST]
 Description : "Building your own compiler (Part 1)"
 ---  
 **Building blocks of a compiler**:
+>A compiler is a computer program that transforms source code written in a high-level programming language into a lower level language.  
 
 
 
@@ -68,8 +69,9 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwNzc0Njk5LDc0NjkwNTY4MiwtMTY3NT
-E1NjczNSwtMTA4Mzk5MjY3MiwxODY0OTIzNDU1LC0zNDAyMDcz
-MTEsNDYzMzYwMDYxLC00MTQ3NDY3NjUsLTE2MjMyNTQzNjEsMT
-UxMzcyMDc1OSwxNTg1MjY3MTQ0LDgzMTc3MjMwXX0=
+eyJoaXN0b3J5IjpbLTExMTIwODQwMTIsNzQwNzc0Njk5LDc0Nj
+kwNTY4MiwtMTY3NTE1NjczNSwtMTA4Mzk5MjY3MiwxODY0OTIz
+NDU1LC0zNDAyMDczMTEsNDYzMzYwMDYxLC00MTQ3NDY3NjUsLT
+E2MjMyNTQzNjEsMTUxMzcyMDc1OSwxNTg1MjY3MTQ0LDgzMTc3
+MjMwXX0=
 -->
