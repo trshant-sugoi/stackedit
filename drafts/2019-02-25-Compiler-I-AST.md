@@ -28,8 +28,8 @@ U ->> C  : File
 Note over C: " 5+(1*12) "
 C ->> S  : String
 Note over S: Strip text <br/>"5+(1*12)"
-S ->> T  : lexemes <br/>["5","+","(","1","*","12",")"] 
-Note over T: Convert to Tokens
+S ->> T  : lexemes  
+Note over T: Convert to Tokens<br/>["5","+","(","1","*","12",")"]
 T ->> SA1 : Tokenised   
 Note over SA1: Create a Parse Tree
 SA1  ->> SA2 : CST
@@ -48,7 +48,7 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDc5Mzc3ODgsMTg2NDkyMzQ1NSwtMz
+eyJoaXN0b3J5IjpbLTEwODM5OTI2NzIsMTg2NDkyMzQ1NSwtMz
 QwMjA3MzExLDQ2MzM2MDA2MSwtNDE0NzQ2NzY1LC0xNjIzMjU0
 MzYxLDE1MTM3MjA3NTksMTU4NTI2NzE0NCw4MzE3NzIzMF19
 -->
