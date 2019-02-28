@@ -3,16 +3,13 @@ title: "Building a compiler-part1. AST"
 date: 2019-01-27T19:00:00+05:30
 draft: false
 tags : [CompSci,compilerTheory,AST]
-Description : "Building your own compiler (Part 1): How to build a Abstract Syntax Tree"
+Description : "Building your own compiler (Part 1)"
 ---  
-**What is an AST?**:
+**Building blocks of a compiler**:
 
 
-**Define your rules**:  
 
----  
-**Define your grammer**:  
-
+**How do you get to an AST**
 Below diagram is based on [Vaidehi Joshi's](https://medium.com/basecs/leveling-up-ones-parsing-game-with-asts-d7a6fc2400ff) awesome post on ASTs:
 As she has, we will be using the same example for our input " 5+(1*12) "
 
@@ -71,8 +68,8 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ2OTA1NjgyLC0xNjc1MTU2NzM1LC0xMD
-gzOTkyNjcyLDE4NjQ5MjM0NTUsLTM0MDIwNzMxMSw0NjMzNjAw
-NjEsLTQxNDc0Njc2NSwtMTYyMzI1NDM2MSwxNTEzNzIwNzU5LD
-E1ODUyNjcxNDQsODMxNzcyMzBdfQ==
+eyJoaXN0b3J5IjpbMTk3ODE0MTQxNyw3NDY5MDU2ODIsLTE2Nz
+UxNTY3MzUsLTEwODM5OTI2NzIsMTg2NDkyMzQ1NSwtMzQwMjA3
+MzExLDQ2MzM2MDA2MSwtNDE0NzQ2NzY1LC0xNjIzMjU0MzYxLD
+E1MTM3MjA3NTksMTU4NTI2NzE0NCw4MzE3NzIzMF19
 -->
