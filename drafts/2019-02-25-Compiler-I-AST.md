@@ -19,13 +19,14 @@ Below diagram is based on [Vaidehi Joshi's](https://medium.com/basecs/leveling-u
 sequenceDiagram
 User ->> Compiler: File  
 
-Compiler ->> Lexical Analyser: Tokenise  
-Lexical Analyser ->> Syntax Analysis: Create Parse Tree (CST) 
+Compiler ->> Lexical Analyser: String  
+Lexical Analyser ->> Syntax Analysis: Takeni 
+Create Parse Tree (CST) 
 ```
 * CST : Concrete Syntax trees
 * 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjMyNTQzNjEsMTUxMzcyMDc1OSwxNT
-g1MjY3MTQ0LDgzMTc3MjMwXX0=
+eyJoaXN0b3J5IjpbMzgxMTg4OTE4LC0xNjIzMjU0MzYxLDE1MT
+M3MjA3NTksMTU4NTI2NzE0NCw4MzE3NzIzMF19
 -->
