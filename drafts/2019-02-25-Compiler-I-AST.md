@@ -39,8 +39,8 @@ Note over C: Post Compilation
 C ->> U: Executable  
 ```  
 
-* CST : Concrete Syntax trees
-* 
+* CST : Concrete Syntax tree
+* AST : Abstract Syntax tree
 
 To understand and see these in action, Do try out <https://astexplorer.net/>. This site is amazing and will make you see in action building of an AST.  
 
@@ -48,7 +48,7 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNDgxMDMxMSwtMzQwMjA3MzExLDQ2Mz
+eyJoaXN0b3J5IjpbMTg2NDkyMzQ1NSwtMzQwMjA3MzExLDQ2Mz
 M2MDA2MSwtNDE0NzQ2NzY1LC0xNjIzMjU0MzYxLDE1MTM3MjA3
 NTksMTU4NTI2NzE0NCw4MzE3NzIzMF19
 -->
