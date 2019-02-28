@@ -19,11 +19,13 @@ Below diagram is based on [Vaidehi Joshi's](https://medium.com/basecs/leveling-u
 sequenceDiagram
 participant U as User  
 participant C as Compiler   
-participant S as Lexical Analysis: Scanner
-participant T as Lexical Analysis: Tokeniser   
+participant S as Scanner
+participant T as Tokeniser   
 participant SA1 as Syntax Analysis: CST
 participant SA2 as Syntax Analysis: AST 
 
+Note over S,T: Lexical Analysis
+Note over S,T: Lexical Analysis
 U ->> C  : File  
 Note over C: " 5+(1*12) "
 C ->> S  : String
@@ -48,7 +50,8 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODM5OTI2NzIsMTg2NDkyMzQ1NSwtMz
-QwMjA3MzExLDQ2MzM2MDA2MSwtNDE0NzQ2NzY1LC0xNjIzMjU0
-MzYxLDE1MTM3MjA3NTksMTU4NTI2NzE0NCw4MzE3NzIzMF19
+eyJoaXN0b3J5IjpbOTA2NjQwODI4LC0xMDgzOTkyNjcyLDE4Nj
+Q5MjM0NTUsLTM0MDIwNzMxMSw0NjMzNjAwNjEsLTQxNDc0Njc2
+NSwtMTYyMzI1NDM2MSwxNTEzNzIwNzU5LDE1ODUyNjcxNDQsOD
+MxNzcyMzBdfQ==
 -->
