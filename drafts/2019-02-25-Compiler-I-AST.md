@@ -26,7 +26,9 @@ participant SA2 as Syntax Analysis: AST
 
 U ->> C  : File  
 C ->> S  : String
+Note over S: Strip text
 S ->> T  : lexemes 
+Note over T: Convert to Tokens
 T ->> SA1 : Tokenised   
 SA1  ->> SA2 : CST
 SA2  ->> Next level of compiling: AST 
@@ -42,7 +44,7 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MDIwNzMxMSw0NjMzNjAwNjEsLTQxND
-c0Njc2NSwtMTYyMzI1NDM2MSwxNTEzNzIwNzU5LDE1ODUyNjcx
-NDQsODMxNzcyMzBdfQ==
+eyJoaXN0b3J5IjpbMTI1Nzg5MTg1MSwtMzQwMjA3MzExLDQ2Mz
+M2MDA2MSwtNDE0NzQ2NzY1LC0xNjIzMjU0MzYxLDE1MTM3MjA3
+NTksMTU4NTI2NzE0NCw4MzE3NzIzMF19
 -->
