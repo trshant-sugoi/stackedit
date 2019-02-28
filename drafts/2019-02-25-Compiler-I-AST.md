@@ -18,17 +18,17 @@ Below diagram is based on [Vaidehi Joshi's](https://medium.com/basecs/leveling-u
 ```mermaid
 sequenceDiagram
 User ->> Compiler: File  
-
 Compiler ->> Lexical Analyser: String  
 Lexical Analysis ->> Syntax Analysis: Takenised   
 Syntax Analysis  ->> Next level of compiling : Create Parse Tree (CST) 
-
-Compiler ->> : File
+Compiler ->> User: Executable
 ```
 * CST : Concrete Syntax trees
 * 
+
+To understand and see these in action, Do try out <https://astexplorer.net/>. T
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTQwMjA4NzksLTE2MjMyNTQzNjEsMT
-UxMzcyMDc1OSwxNTg1MjY3MTQ0LDgzMTc3MjMwXX0=
+eyJoaXN0b3J5IjpbODU3NjgyNjEsLTE2MjMyNTQzNjEsMTUxMz
+cyMDc1OSwxNTg1MjY3MTQ0LDgzMTc3MjMwXX0=
 -->
