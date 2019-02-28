@@ -25,7 +25,7 @@ participant SA1 as Syntax Analysis: CST
 participant SA2 as Syntax Analysis: AST 
 
 U ->> C  : File  
-Note over C: Pre Compilation
+Note over C: "5+(1 )"
 C ->> S  : String
 Note over S: Strip text
 S ->> T  : lexemes 
@@ -48,7 +48,7 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDkyMzQ1NSwtMzQwMjA3MzExLDQ2Mz
-M2MDA2MSwtNDE0NzQ2NzY1LC0xNjIzMjU0MzYxLDE1MTM3MjA3
-NTksMTU4NTI2NzE0NCw4MzE3NzIzMF19
+eyJoaXN0b3J5IjpbLTc4NTI2MzA5MywxODY0OTIzNDU1LC0zND
+AyMDczMTEsNDYzMzYwMDYxLC00MTQ3NDY3NjUsLTE2MjMyNTQz
+NjEsMTUxMzcyMDc1OSwxNTg1MjY3MTQ0LDgzMTc3MjMwXX0=
 -->
