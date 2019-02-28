@@ -85,7 +85,7 @@ C ->> U: Executable
 	        E-->D(1)
 	        E-->F(12)
     ```
-To understand and see these in action, Do try out <https://astexplorer.net/>. This site is amazing and will make you see in action building of an AST.  Read [this](https://blog.buildo.io/a-tour-of-abstract-syntax-trees-906c0574a067) 
+To understand and see these in action, Do try out <https://astexplorer.net/>. This site is amazing and will make you see in action building of an AST with code.  Read [this](https://blog.buildo.io/a-tour-of-abstract-syntax-trees-906c0574a067) to figure out the why's and what's.
 
 Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is truly a pleasure to work with.  
 
@@ -95,9 +95,9 @@ more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzUzMjQzMTUsNzQwNzc0Njk5LDc0Nj
-kwNTY4MiwtMTY3NTE1NjczNSwtMTA4Mzk5MjY3MiwxODY0OTIz
-NDU1LC0zNDAyMDczMTEsNDYzMzYwMDYxLC00MTQ3NDY3NjUsLT
-E2MjMyNTQzNjEsMTUxMzcyMDc1OSwxNTg1MjY3MTQ0LDgzMTc3
-MjMwXX0=
+eyJoaXN0b3J5IjpbLTk5ODI3NjcxNSw3NDA3NzQ2OTksNzQ2OT
+A1NjgyLC0xNjc1MTU2NzM1LC0xMDgzOTkyNjcyLDE4NjQ5MjM0
+NTUsLTM0MDIwNzMxMSw0NjMzNjAwNjEsLTQxNDc0Njc2NSwtMT
+YyMzI1NDM2MSwxNTEzNzIwNzU5LDE1ODUyNjcxNDQsODMxNzcy
+MzBdfQ==
 -->
