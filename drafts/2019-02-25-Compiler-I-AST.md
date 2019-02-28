@@ -42,7 +42,13 @@ C ->> U: Executable
 ```  
 
 * CST : Concrete Syntax tree
-
+	```
+	graph TD
+		B["fa:fa-twitter for peace"]
+		B-->C[fa:fa-ban forbidden]
+	        B-->D(fa:fa-spinner);
+	        B-->E(A fa:fa-camera-retro perhaps?);
+	```
 * AST : Abstract Syntax tree
 
 To understand and see these in action, Do try out <https://astexplorer.net/>. This site is amazing and will make you see in action building of an AST.  
@@ -51,7 +57,7 @@ Many thanks to <https://mermaidjs.github.io> for the sequence diagram. It is tru
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MDIyODU2MywtMTY3NTE1NjczNSwtMT
+eyJoaXN0b3J5IjpbMTQ4MjYwMDI4NSwtMTY3NTE1NjczNSwtMT
 A4Mzk5MjY3MiwxODY0OTIzNDU1LC0zNDAyMDczMTEsNDYzMzYw
 MDYxLC00MTQ3NDY3NjUsLTE2MjMyNTQzNjEsMTUxMzcyMDc1OS
 wxNTg1MjY3MTQ0LDgzMTc3MjMwXX0=
