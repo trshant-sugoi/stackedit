@@ -30,7 +30,8 @@ F-->G["Optimization"]
 end
 G-->O["Executable"]
 ```
-This blog is getting to finish till Syntax Analysis.  
+**Lexical Analysis**
+
 
 **How do you get to an AST**
 Below diagram is based on [Vaidehi Joshi's](https://medium.com/basecs/leveling-up-ones-parsing-game-with-asts-d7a6fc2400ff) awesome post on ASTs:
@@ -95,7 +96,7 @@ more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwOTk0MjMyLDE1NTg0NTMzOTIsNzQwNz
+eyJoaXN0b3J5IjpbOTE3MTk3Mjk2LDE1NTg0NTMzOTIsNzQwNz
 c0Njk5LDc0NjkwNTY4MiwtMTY3NTE1NjczNSwtMTA4Mzk5MjY3
 MiwxODY0OTIzNDU1LC0zNDAyMDczMTEsNDYzMzYwMDYxLC00MT
 Q3NDY3NjUsLTE2MjMyNTQzNjEsMTUxMzcyMDc1OSwxNTg1MjY3
