@@ -92,7 +92,7 @@ SA2  ->> Synaptic Analyser: AST
 	```
 	We can see that the expression we started out with was divided into parts and further into more parts. This above tree tells us how it was divided.
 	
-* **AST : Abstract Syntax tree** As we can see, the parse tree is fabulous and true to the rules of the language. But its too verbose (too many nodes!). We try and solve that problem with Abstract Syntax tree where we throw out what is not needed and keep the core of the program. 
+* **AST : Abstract Syntax tree** As we can see, the parse tree is fabulous and true to the rules of the language. But its too verbose (too many nodes!). We try and solve that problem with Abstract Syntax tree where we throw out what is not needed and keep the core of the program. The main aim of this part is to reduce the 
     ```mermaid
 	graph TD
 		B["+"]
@@ -111,7 +111,7 @@ more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODI2OTM1MiwtNzkyMDUzNzU4LDE0MT
+eyJoaXN0b3J5IjpbMTYwMjI0MzQyMywtNzkyMDUzNzU4LDE0MT
 Q5Mjg2NjcsLTI5ODczMjgzMSwxMjg2MzYzNDQ3LDE1NTg0NTMz
 OTIsNzQwNzc0Njk5LDc0NjkwNTY4MiwtMTY3NTE1NjczNSwtMT
 A4Mzk5MjY3MiwxODY0OTIzNDU1LC0zNDAyMDczMTEsNDYzMzYw
