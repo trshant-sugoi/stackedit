@@ -11,7 +11,6 @@ Copied from <https://www.programcreek.com/2011/02/how-compiler-works/>
 
 Here is what happens in a compiler
 
-Lexical Analysis, Syntax Analysis, Semantic Analysis, IR Generation, IR Optimization, Code Generation, Optimization
 ```mermaid
 graph TD
 classDef className fill:#f9f,stroke:#333,stroke-width:4px;
@@ -31,6 +30,7 @@ F-->G["Optimization"]
 end
 G-->O["Executable"]
 ```
+This blog is getting to finish till Syntax Analysis.  
 
 **How do you get to an AST**
 Below diagram is based on [Vaidehi Joshi's](https://medium.com/basecs/leveling-up-ones-parsing-game-with-asts-d7a6fc2400ff) awesome post on ASTs:
@@ -95,9 +95,9 @@ more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1ODQ1MzM5Miw3NDA3NzQ2OTksNzQ2OT
-A1NjgyLC0xNjc1MTU2NzM1LC0xMDgzOTkyNjcyLDE4NjQ5MjM0
-NTUsLTM0MDIwNzMxMSw0NjMzNjAwNjEsLTQxNDc0Njc2NSwtMT
-YyMzI1NDM2MSwxNTEzNzIwNzU5LDE1ODUyNjcxNDQsODMxNzcy
-MzBdfQ==
+eyJoaXN0b3J5IjpbOTkwOTk0MjMyLDE1NTg0NTMzOTIsNzQwNz
+c0Njk5LDc0NjkwNTY4MiwtMTY3NTE1NjczNSwtMTA4Mzk5MjY3
+MiwxODY0OTIzNDU1LC0zNDAyMDczMTEsNDYzMzYwMDYxLC00MT
+Q3NDY3NjUsLTE2MjMyNTQzNjEsMTUxMzcyMDc1OSwxNTg1MjY3
+MTQ0LDgzMTc3MjMwXX0=
 -->
