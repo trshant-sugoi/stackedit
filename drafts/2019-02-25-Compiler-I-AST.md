@@ -60,7 +60,7 @@ There are 2 stages to this:
 1. Getting a parse tree out.
 2. Optimising the parse tree.
 
-Again, do have a look at [Vaidehi Joshi's](https://medium.com/basecs/grammatically-rooting-oneself-with-parse-trees-ec9daeda7dad) fantastic post on parse trees.
+Again, do have a look at [Vaidehi Joshi's](https://medium.com/basecs/grammatically-rooting-oneself-with-parse-trees-ec9daeda7dad) fantastic post on parse trees. Its extremely well written.
 
 ```mermaid
 sequenceDiagram
@@ -109,9 +109,9 @@ more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NjM2MzQ0NywxNTU4NDUzMzkyLDc0MD
-c3NDY5OSw3NDY5MDU2ODIsLTE2NzUxNTY3MzUsLTEwODM5OTI2
-NzIsMTg2NDkyMzQ1NSwtMzQwMjA3MzExLDQ2MzM2MDA2MSwtND
-E0NzQ2NzY1LC0xNjIzMjU0MzYxLDE1MTM3MjA3NTksMTU4NTI2
-NzE0NCw4MzE3NzIzMF19
+eyJoaXN0b3J5IjpbLTI5ODczMjgzMSwxMjg2MzYzNDQ3LDE1NT
+g0NTMzOTIsNzQwNzc0Njk5LDc0NjkwNTY4MiwtMTY3NTE1Njcz
+NSwtMTA4Mzk5MjY3MiwxODY0OTIzNDU1LC0zNDAyMDczMTEsND
+YzMzYwMDYxLC00MTQ3NDY3NjUsLTE2MjMyNTQzNjEsMTUxMzcy
+MDc1OSwxNTg1MjY3MTQ0LDgzMTc3MjMwXX0=
 -->
