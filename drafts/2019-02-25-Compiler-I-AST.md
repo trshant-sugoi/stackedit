@@ -55,7 +55,7 @@ T ->> SA : Tokenised
 ```
 
 **Syntax Analysis**
-
+At its very basic, a Syntax analyser converts tokens to a parse tree. This is a oversimplification so that we can understand the basic functionlity of this stage of a compiler. An explanation f 
 
 ```mermaid
 sequenceDiagram
@@ -103,9 +103,9 @@ more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDkzNzk5MiwxNTU4NDUzMzkyLDc0MD
-c3NDY5OSw3NDY5MDU2ODIsLTE2NzUxNTY3MzUsLTEwODM5OTI2
-NzIsMTg2NDkyMzQ1NSwtMzQwMjA3MzExLDQ2MzM2MDA2MSwtND
-E0NzQ2NzY1LC0xNjIzMjU0MzYxLDE1MTM3MjA3NTksMTU4NTI2
-NzE0NCw4MzE3NzIzMF19
+eyJoaXN0b3J5IjpbMTUzNTY2MDMsMTU1ODQ1MzM5Miw3NDA3Nz
+Q2OTksNzQ2OTA1NjgyLC0xNjc1MTU2NzM1LC0xMDgzOTkyNjcy
+LDE4NjQ5MjM0NTUsLTM0MDIwNzMxMSw0NjMzNjAwNjEsLTQxND
+c0Njc2NSwtMTYyMzI1NDM2MSwxNTEzNzIwNzU5LDE1ODUyNjcx
+NDQsODMxNzcyMzBdfQ==
 -->
