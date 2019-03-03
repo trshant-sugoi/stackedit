@@ -31,7 +31,11 @@ end
 G-->O["Executable"]
 ```
 **Lexical Analysis**
+The lexical analyzer breaks the input file or sentence into a series of tokens, by removing or adding any whitespace or comments in the source code. So it should have these stages:
 
+```mermaid
+
+```
 
 **How do you get to an AST**
 Below diagram is based on [Vaidehi Joshi's](https://medium.com/basecs/leveling-up-ones-parsing-game-with-asts-d7a6fc2400ff) awesome post on ASTs:
@@ -96,9 +100,9 @@ more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE3MTk3Mjk2LDE1NTg0NTMzOTIsNzQwNz
-c0Njk5LDc0NjkwNTY4MiwtMTY3NTE1NjczNSwtMTA4Mzk5MjY3
-MiwxODY0OTIzNDU1LC0zNDAyMDczMTEsNDYzMzYwMDYxLC00MT
-Q3NDY3NjUsLTE2MjMyNTQzNjEsMTUxMzcyMDc1OSwxNTg1MjY3
-MTQ0LDgzMTc3MjMwXX0=
+eyJoaXN0b3J5IjpbLTEyOTYzMTE4MjIsMTU1ODQ1MzM5Miw3ND
+A3NzQ2OTksNzQ2OTA1NjgyLC0xNjc1MTU2NzM1LC0xMDgzOTky
+NjcyLDE4NjQ5MjM0NTUsLTM0MDIwNzMxMSw0NjMzNjAwNjEsLT
+QxNDc0Njc2NSwtMTYyMzI1NDM2MSwxNTEzNzIwNzU5LDE1ODUy
+NjcxNDQsODMxNzcyMzBdfQ==
 -->
