@@ -68,9 +68,9 @@ participant SA2 as AST
 
 T ->> SA1 : Tokenised   
 Note over T:["5","+","(","1","*","12",")"]
-Note over SA1: Create Parse Tree<br/>See CST fig
+Note over SA1: Create Parse Tree<br/>See CST figure below.
 SA1  ->> SA2 : CST
-Note over SA2: Optimise Parse Tree
+Note over SA2: Optimise Parse Tree<br/>See AST figure below.
 SA2  ->> Synaptic Analyser: AST 
 ```  
 
@@ -107,7 +107,7 @@ more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NDEyNTg3MCwxNTU4NDUzMzkyLDc0MD
+eyJoaXN0b3J5IjpbLTI0MDUzMjk5OCwxNTU4NDUzMzkyLDc0MD
 c3NDY5OSw3NDY5MDU2ODIsLTE2NzUxNTY3MzUsLTEwODM5OTI2
 NzIsMTg2NDkyMzQ1NSwtMzQwMjA3MzExLDQ2MzM2MDA2MSwtND
 E0NzQ2NzY1LC0xNjIzMjU0MzYxLDE1MTM3MjA3NTksMTU4NTI2
