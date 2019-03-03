@@ -34,10 +34,19 @@ G-->O["Executable"]
 The lexical analyzer breaks the input file or sentence into a series of tokens, by removing or adding any whitespace or comments in the source code. So it should have these stages:
 
 ```mermaid
-participant C as Code   
-participant S as Scanner
-participant T as Tokeniser
-participant SA as Syntax Analyser 
+participant C  as Code   
+participant S  as Scanner
+participant T  as Tokeniser
+participant SA as Syntax Analyser  
+
+C ->> S  : File  
+Note over C: " 5+(1*12) "
+C ->> S  : String
+Note over S: Strip text <br/>"5+(1*12)"
+S ->> T  : lexemes  
+Note over T: Convert to Tokens<br/>["5","+","(","1","*","12",")"]
+T ->> SA : Tokenised   
+ 
 ```
 
 **How do you get to an AST**
@@ -103,7 +112,7 @@ more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTcyMzk3OTksMTU1ODQ1MzM5Miw3ND
+eyJoaXN0b3J5IjpbLTEwOTE1Mjg0MTAsMTU1ODQ1MzM5Miw3ND
 A3NzQ2OTksNzQ2OTA1NjgyLC0xNjc1MTU2NzM1LC0xMDgzOTky
 NjcyLDE4NjQ5MjM0NTUsLTM0MDIwNzMxMSw0NjMzNjAwNjEsLT
 QxNDc0Njc2NSwtMTYyMzI1NDM2MSwxNTEzNzIwNzU5LDE1ODUy
