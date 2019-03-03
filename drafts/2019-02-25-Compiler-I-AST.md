@@ -30,7 +30,7 @@ F-->G["Optimization"]
 end
 G-->O["Executable"]
 ```
-
+This post covers Lexical Analyser and Syntax analyser. 
 
 Below diagram is based on [Vaidehi Joshi's](https://medium.com/basecs/leveling-up-ones-parsing-game-with-asts-d7a6fc2400ff) awesome post on ASTs:
 As she has, we will be using the same example for our input `" 5+(1*12) "`. This will form a  continuity if you decide to visit her blogpost.
@@ -54,7 +54,7 @@ Note over T: Convert to Tokens<br/>["5","+","(","1","*","12",")"]
 T ->> SA : Tokenised    
 ```
 
-**How do you get to an AST**
+**Syntax Analysis**
 
 
 ```mermaid
@@ -103,9 +103,9 @@ more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTgyNDc5OTcsMTU1ODQ1MzM5Miw3ND
-A3NzQ2OTksNzQ2OTA1NjgyLC0xNjc1MTU2NzM1LC0xMDgzOTky
-NjcyLDE4NjQ5MjM0NTUsLTM0MDIwNzMxMSw0NjMzNjAwNjEsLT
-QxNDc0Njc2NSwtMTYyMzI1NDM2MSwxNTEzNzIwNzU5LDE1ODUy
-NjcxNDQsODMxNzcyMzBdfQ==
+eyJoaXN0b3J5IjpbMTU0NDkzNzk5MiwxNTU4NDUzMzkyLDc0MD
+c3NDY5OSw3NDY5MDU2ODIsLTE2NzUxNTY3MzUsLTEwODM5OTI2
+NzIsMTg2NDkyMzQ1NSwtMzQwMjA3MzExLDQ2MzM2MDA2MSwtND
+E0NzQ2NzY1LC0xNjIzMjU0MzYxLDE1MTM3MjA3NTksMTU4NTI2
+NzE0NCw4MzE3NzIzMF19
 -->
