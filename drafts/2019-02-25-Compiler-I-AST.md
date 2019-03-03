@@ -55,10 +55,14 @@ T ->> SA : Tokenised
 ```
 
 **Syntax Analysis**
-At its very basic, a Syntax analyser converts tokens to a parse tree. This is a oversimplification so that we can understand the basic functionlity of this stage of a compiler, which is the point of this post.
+At its very basic, a Syntax analyser converts tokens to a parse tree. This is a oversimplification so that we can understand the basic functionlity of this stage of a compiler, which is the point of this post.  
+There are 2 stages to this:
+1. Getting a parse tree out.
+2. Optimising the parse tree.
+
 ```mermaid
 sequenceDiagram
-participant T as Lexical Analysr   
+participant T as Lexical Analyser   
 participant SA1 as CST
 participant SA2 as AST 
 
@@ -102,7 +106,7 @@ more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1Nzc4OTU4LDE1NTg0NTMzOTIsNzQwNz
+eyJoaXN0b3J5IjpbOTE1MjMyOTg5LDE1NTg0NTMzOTIsNzQwNz
 c0Njk5LDc0NjkwNTY4MiwtMTY3NTE1NjczNSwtMTA4Mzk5MjY3
 MiwxODY0OTIzNDU1LC0zNDAyMDczMTEsNDYzMzYwMDYxLC00MT
 Q3NDY3NjUsLTE2MjMyNTQzNjEsMTUxMzcyMDc1OSwxNTg1MjY3
