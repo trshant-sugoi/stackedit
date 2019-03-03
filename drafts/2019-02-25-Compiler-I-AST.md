@@ -60,6 +60,8 @@ There are 2 stages to this:
 1. Getting a parse tree out.
 2. Optimising the parse tree.
 
+Again, do have a look at [Vaidehi Joshi's](https://medium.com/basecs/grammatically-rooting-oneself-with-parse-trees-ec9daeda7dad) fantastic post on parse trees.
+
 ```mermaid
 sequenceDiagram
 participant T as Lexical Analyser   
@@ -107,7 +109,7 @@ more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MDUzMjk5OCwxNTU4NDUzMzkyLDc0MD
+eyJoaXN0b3J5IjpbMTI4NjM2MzQ0NywxNTU4NDUzMzkyLDc0MD
 c3NDY5OSw3NDY5MDU2ODIsLTE2NzUxNTY3MzUsLTEwODM5OTI2
 NzIsMTg2NDkyMzQ1NSwtMzQwMjA3MzExLDQ2MzM2MDA2MSwtND
 E0NzQ2NzY1LC0xNjIzMjU0MzYxLDE1MTM3MjA3NTksMTU4NTI2
