@@ -55,7 +55,7 @@ T ->> SA : Tokenised
 ```
 
 **Syntax Analysis**
-At its very basic, a Syntax analyser converts tokens to a parse tree. This is a oversimplification so that we can understand the basic functionlity of this stage of a compiler, which is the point of this post.  
+At its very basic, a Syntax analyser converts tokens to a parse tree by looking at a set of rules. This is a oversimplification so that we can understand the basic functionlity of this stage of a compiler, which is the point of this post.  
 There are 2 stages to this:
 1. Getting a parse tree out.
 2. Optimising the parse tree.
@@ -109,9 +109,10 @@ more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5ODczMjgzMSwxMjg2MzYzNDQ3LDE1NT
-g0NTMzOTIsNzQwNzc0Njk5LDc0NjkwNTY4MiwtMTY3NTE1Njcz
-NSwtMTA4Mzk5MjY3MiwxODY0OTIzNDU1LC0zNDAyMDczMTEsND
-YzMzYwMDYxLC00MTQ3NDY3NjUsLTE2MjMyNTQzNjEsMTUxMzcy
-MDc1OSwxNTg1MjY3MTQ0LDgzMTc3MjMwXX0=
+eyJoaXN0b3J5IjpbMTc0NzY1MjQ4NywtMjk4NzMyODMxLDEyOD
+YzNjM0NDcsMTU1ODQ1MzM5Miw3NDA3NzQ2OTksNzQ2OTA1Njgy
+LC0xNjc1MTU2NzM1LC0xMDgzOTkyNjcyLDE4NjQ5MjM0NTUsLT
+M0MDIwNzMxMSw0NjMzNjAwNjEsLTQxNDc0Njc2NSwtMTYyMzI1
+NDM2MSwxNTEzNzIwNzU5LDE1ODUyNjcxNDQsODMxNzcyMzBdfQ
+==
 -->
