@@ -55,11 +55,10 @@ T ->> SA : Tokenised
 ```
 
 **Syntax Analysis**
-At its very basic, a Syntax analyser converts tokens to a parse tree. This is a oversimplification so that we can understand the basic functionlity of this stage of a compiler. An explanation f 
-
+At its very basic, a Syntax analyser converts tokens to a parse tree. This is a oversimplification so that we can understand the basic functionlity of this stage of a compiler, which is the point of this post.
 ```mermaid
 sequenceDiagram
-participant T as Output of Lexical Analysis   
+participant T as Lexical Analysr   
 participant SA1 as CST
 participant SA2 as AST 
 
@@ -67,7 +66,7 @@ T ->> SA1 : Tokenised
 Note over SA1: Create Parse Tree
 SA1  ->> SA2 : CST
 Note over SA2: Optimise Parse Tree
-SA2  ->> Next level of compiling: AST 
+SA2  ->> Synaptic Analyser: AST 
 ```  
 
 * CST : Concrete Syntax tree
@@ -103,9 +102,9 @@ more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNTY2MDMsMTU1ODQ1MzM5Miw3NDA3Nz
-Q2OTksNzQ2OTA1NjgyLC0xNjc1MTU2NzM1LC0xMDgzOTkyNjcy
-LDE4NjQ5MjM0NTUsLTM0MDIwNzMxMSw0NjMzNjAwNjEsLTQxND
-c0Njc2NSwtMTYyMzI1NDM2MSwxNTEzNzIwNzU5LDE1ODUyNjcx
-NDQsODMxNzcyMzBdfQ==
+eyJoaXN0b3J5IjpbNjk1Nzc4OTU4LDE1NTg0NTMzOTIsNzQwNz
+c0Njk5LDc0NjkwNTY4MiwtMTY3NTE1NjczNSwtMTA4Mzk5MjY3
+MiwxODY0OTIzNDU1LC0zNDAyMDczMTEsNDYzMzYwMDYxLC00MT
+Q3NDY3NjUsLTE2MjMyNTQzNjEsMTUxMzcyMDc1OSwxNTg1MjY3
+MTQ0LDgzMTc3MjMwXX0=
 -->
