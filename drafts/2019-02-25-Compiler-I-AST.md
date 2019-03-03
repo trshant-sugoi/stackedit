@@ -92,7 +92,7 @@ SA2  ->> Synaptic Analyser: AST
 	```
 	We can see that the expression we started out with was divided into parts and further into more parts. This above tree tells us how it was divided.
 	
-* **AST : Abstract Syntax tree** As we can see, the parse tree is fabulous and true to the rules of the language. But its too verbose (too many nodes!). We try and solve that problem with Abstract Syntax tree where we throw out what is not needed and keep the core of the program. The main aim of this part is to reduce the 
+* **AST : Abstract Syntax tree** As we can see, the parse tree is fabulous and true to the rules of the language. But its too verbose (too many nodes!). We try and solve that problem with Abstract Syntax tree where we throw out what is not needed and keep the core of the program. The main aim of this part is to reduce the cruft and keep the core of the code as below.
     ```mermaid
 	graph TD
 		B["+"]
@@ -101,6 +101,7 @@ SA2  ->> Synaptic Analyser: AST
 	        E-->D(1)
 	        E-->F(12)
     ```
+
 To understand and see these in action, Do try out <https://astexplorer.net/>. This site is amazing and will make you see in action building of an AST with code.  Read [this](https://blog.buildo.io/a-tour-of-abstract-syntax-trees-906c0574a067) to figure out the why's and what's.
 
 Many thanks to the creators of  <https://mermaidjs.github.io> for the sequence diagram. It is truly a pleasure to work with.  
@@ -111,10 +112,10 @@ more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMjI0MzQyMywtNzkyMDUzNzU4LDE0MT
-Q5Mjg2NjcsLTI5ODczMjgzMSwxMjg2MzYzNDQ3LDE1NTg0NTMz
-OTIsNzQwNzc0Njk5LDc0NjkwNTY4MiwtMTY3NTE1NjczNSwtMT
-A4Mzk5MjY3MiwxODY0OTIzNDU1LC0zNDAyMDczMTEsNDYzMzYw
-MDYxLC00MTQ3NDY3NjUsLTE2MjMyNTQzNjEsMTUxMzcyMDc1OS
-wxNTg1MjY3MTQ0LDgzMTc3MjMwXX0=
+eyJoaXN0b3J5IjpbMTQ0MTAxNzMzOSwxNjAyMjQzNDIzLC03OT
+IwNTM3NTgsMTQxNDkyODY2NywtMjk4NzMyODMxLDEyODYzNjM0
+NDcsMTU1ODQ1MzM5Miw3NDA3NzQ2OTksNzQ2OTA1NjgyLC0xNj
+c1MTU2NzM1LC0xMDgzOTkyNjcyLDE4NjQ5MjM0NTUsLTM0MDIw
+NzMxMSw0NjMzNjAwNjEsLTQxNDc0Njc2NSwtMTYyMzI1NDM2MS
+wxNTEzNzIwNzU5LDE1ODUyNjcxNDQsODMxNzcyMzBdfQ==
 -->
