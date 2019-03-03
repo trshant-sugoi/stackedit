@@ -104,18 +104,17 @@ SA2  ->> Synaptic Analyser: AST
 
 To understand and see these in action, Do try out <https://astexplorer.net/>. This site is amazing and will make you see in action building of an AST with code.  Read [this](https://blog.buildo.io/a-tour-of-abstract-syntax-trees-906c0574a067) to figure out the why's and what's.
 
+
 Many thanks to the creators of  <https://mermaidjs.github.io> for the sequence diagram. It is truly a pleasure to work with.  
 
-more reading:
-<https://medium.com/basecs/grammatically-rooting-oneself-with-parse-trees-ec9daeda7dad>
-
+The next post in this series will be the implementation of this in Typescript.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MTAxNzMzOSwxNjAyMjQzNDIzLC03OT
-IwNTM3NTgsMTQxNDkyODY2NywtMjk4NzMyODMxLDEyODYzNjM0
-NDcsMTU1ODQ1MzM5Miw3NDA3NzQ2OTksNzQ2OTA1NjgyLC0xNj
-c1MTU2NzM1LC0xMDgzOTkyNjcyLDE4NjQ5MjM0NTUsLTM0MDIw
-NzMxMSw0NjMzNjAwNjEsLTQxNDc0Njc2NSwtMTYyMzI1NDM2MS
-wxNTEzNzIwNzU5LDE1ODUyNjcxNDQsODMxNzcyMzBdfQ==
+eyJoaXN0b3J5IjpbLTE1MDgxMTYwODAsMTYwMjI0MzQyMywtNz
+kyMDUzNzU4LDE0MTQ5Mjg2NjcsLTI5ODczMjgzMSwxMjg2MzYz
+NDQ3LDE1NTg0NTMzOTIsNzQwNzc0Njk5LDc0NjkwNTY4MiwtMT
+Y3NTE1NjczNSwtMTA4Mzk5MjY3MiwxODY0OTIzNDU1LC0zNDAy
+MDczMTEsNDYzMzYwMDYxLC00MTQ3NDY3NjUsLTE2MjMyNTQzNj
+EsMTUxMzcyMDc1OSwxNTg1MjY3MTQ0LDgzMTc3MjMwXX0=
 -->
