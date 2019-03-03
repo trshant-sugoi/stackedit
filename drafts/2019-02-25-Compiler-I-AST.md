@@ -90,8 +90,9 @@ SA2  ->> Synaptic Analyser: AST
 		A3-->E["*"]
 		A3-->F[12]
 	```
-	We can see that the expression 
-* AST : Abstract Syntax tree
+	We can see that the expression we started out with was divided into parts and further into more parts. This above tree tells us how it was divided.
+	
+* AST : **Abstract Syntax tree**
     ```mermaid
 	graph TD
 		B["+"]
@@ -110,10 +111,10 @@ more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDIyMTIxOSwtNzkyMDUzNzU4LDE0MT
-Q5Mjg2NjcsLTI5ODczMjgzMSwxMjg2MzYzNDQ3LDE1NTg0NTMz
-OTIsNzQwNzc0Njk5LDc0NjkwNTY4MiwtMTY3NTE1NjczNSwtMT
-A4Mzk5MjY3MiwxODY0OTIzNDU1LC0zNDAyMDczMTEsNDYzMzYw
-MDYxLC00MTQ3NDY3NjUsLTE2MjMyNTQzNjEsMTUxMzcyMDc1OS
-wxNTg1MjY3MTQ0LDgzMTc3MjMwXX0=
+eyJoaXN0b3J5IjpbNTg3NzkxMjkyLC03OTIwNTM3NTgsMTQxND
+kyODY2NywtMjk4NzMyODMxLDEyODYzNjM0NDcsMTU1ODQ1MzM5
+Miw3NDA3NzQ2OTksNzQ2OTA1NjgyLC0xNjc1MTU2NzM1LC0xMD
+gzOTkyNjcyLDE4NjQ5MjM0NTUsLTM0MDIwNzMxMSw0NjMzNjAw
+NjEsLTQxNDc0Njc2NSwtMTYyMzI1NDM2MSwxNTEzNzIwNzU5LD
+E1ODUyNjcxNDQsODMxNzcyMzBdfQ==
 -->
