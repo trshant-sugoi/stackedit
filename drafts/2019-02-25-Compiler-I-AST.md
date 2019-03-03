@@ -30,6 +30,8 @@ F-->G["Optimization"]
 end
 G-->O["Executable"]
 ```
+
+
 Below diagram is based on [Vaidehi Joshi's](https://medium.com/basecs/leveling-up-ones-parsing-game-with-asts-d7a6fc2400ff) awesome post on ASTs:
 As she has, we will be using the same example for our input `" 5+(1*12) "`. This will form a  continuity if you decide to visit her blogpost.
 
@@ -57,25 +59,15 @@ T ->> SA : Tokenised
 
 ```mermaid
 sequenceDiagram
-participant T as Output of    
+participant T as Output of Lexical Analysis   
 participant SA1 as CST
 participant SA2 as AST 
 
-Note over S,T: Lexical Analysis
-Note over SA1,SA2: Syntax Analysis
-U ->> C  : File  
-Note over C: " 5+(1*12) "
-C ->> S  : String
-Note over S: Strip text <br/>"5+(1*12)"
-S ->> T  : lexemes  
-Note over T: Convert to Tokens<br/>["5","+","(","1","*","12",")"]
 T ->> SA1 : Tokenised   
 Note over SA1: Create Parse Tree
 SA1  ->> SA2 : CST
 Note over SA2: Optimise Parse Tree
 SA2  ->> Next level of compiling: AST 
-Note over C: Post Compilation
-C ->> U: Executable  
 ```  
 
 * CST : Concrete Syntax tree
@@ -111,7 +103,7 @@ more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTgxMjY1NzEsMTU1ODQ1MzM5Miw3ND
+eyJoaXN0b3J5IjpbLTIwNTgyNDc5OTcsMTU1ODQ1MzM5Miw3ND
 A3NzQ2OTksNzQ2OTA1NjgyLC0xNjc1MTU2NzM1LC0xMDgzOTky
 NjcyLDE4NjQ5MjM0NTUsLTM0MDIwNzMxMSw0NjMzNjAwNjEsLT
 QxNDc0Njc2NSwtMTYyMzI1NDM2MSwxNTEzNzIwNzU5LDE1ODUy
