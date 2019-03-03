@@ -76,7 +76,7 @@ Note over SA2: Optimise Parse Tree<br/>See AST figure below.
 SA2  ->> Synaptic Analyser: AST 
 ```  
 
-* **CST : Concrete Syntax tree** - So This stage comes up with a parse tree. How does it do that? It looks at the expression and sees which rule it will agree with.
+* **CST : Concrete Syntax tree** - So This stage comes up with a parse tree. How does it do that? It looks at the expression and sees which rule it will agree with. This "see which rule it will agree with" bit is to  see which kind of token parsing is being used.  
 	```mermaid
 	graph TD
 		A1["Exp"]
@@ -109,10 +109,10 @@ more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTk4Nzg1NjgsLTI5ODczMjgzMSwxMj
-g2MzYzNDQ3LDE1NTg0NTMzOTIsNzQwNzc0Njk5LDc0NjkwNTY4
-MiwtMTY3NTE1NjczNSwtMTA4Mzk5MjY3MiwxODY0OTIzNDU1LC
-0zNDAyMDczMTEsNDYzMzYwMDYxLC00MTQ3NDY3NjUsLTE2MjMy
-NTQzNjEsMTUxMzcyMDc1OSwxNTg1MjY3MTQ0LDgzMTc3MjMwXX
-0=
+eyJoaXN0b3J5IjpbMTQxNDkyODY2NywtMjk4NzMyODMxLDEyOD
+YzNjM0NDcsMTU1ODQ1MzM5Miw3NDA3NzQ2OTksNzQ2OTA1Njgy
+LC0xNjc1MTU2NzM1LC0xMDgzOTkyNjcyLDE4NjQ5MjM0NTUsLT
+M0MDIwNzMxMSw0NjMzNjAwNjEsLTQxNDc0Njc2NSwtMTYyMzI1
+NDM2MSwxNTEzNzIwNzU5LDE1ODUyNjcxNDQsODMxNzcyMzBdfQ
+==
 -->
